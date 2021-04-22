@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5601C4CA-F339-4B2B-B5BE-ACC46C6E6A66</title>
+    <g id="A:-Landing-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="G-02-MyAssignments" transform="translate(-430.000000, -130.000000)" fill="#0073C1">
+            <g id="Main-Column/BlankContent" transform="translate(18.000000, 110.000000)">
+                <g id="Filter" transform="translate(412.000000, 20.000000)">
+                    <circle id="Oval" fill-opacity="0.06" cx="20" cy="20" r="16"></circle>
+                    <g id="Group" transform="translate(11.000000, 12.000000)">
+                        <rect id="Rectangle" x="0" y="8" width="11" height="1"></rect>
+                        <rect id="Rectangle" x="0" y="2" width="5" height="1"></rect>
+                        <rect id="Rectangle" x="8" y="2" width="11" height="1"></rect>
+                        <rect id="Rectangle" x="8" y="14" width="11" height="1"></rect>
+                        <rect id="Rectangle" x="14" y="8" width="5" height="1"></rect>
+                        <rect id="Rectangle" x="0" y="14" width="5" height="1"></rect>
+                        <path d="M6.5,0 C7.88071187,0 9,1.11928813 9,2.5 C9,3.88071187 7.88071187,5 6.5,5 C5.11928813,5 4,3.88071187 4,2.5 C4,1.11928813 5.11928813,0 6.5,0 Z M6.5,1 C5.67157288,1 5,1.67157288 5,2.5 C5,3.32842712 5.67157288,4 6.5,4 C7.32842712,4 8,3.32842712 8,2.5 C8,1.67157288 7.32842712,1 6.5,1 Z" id="Oval" fill-rule="nonzero"></path>
+                        <path d="M6.5,12 C7.88071187,12 9,13.1192881 9,14.5 C9,15.8807119 7.88071187,17 6.5,17 C5.11928813,17 4,15.8807119 4,14.5 C4,13.1192881 5.11928813,12 6.5,12 Z M6.5,13 C5.67157288,13 5,13.6715729 5,14.5 C5,15.3284271 5.67157288,16 6.5,16 C7.32842712,16 8,15.3284271 8,14.5 C8,13.6715729 7.32842712,13 6.5,13 Z" id="Oval" fill-rule="nonzero"></path>
+                        <path d="M12.5,6 C13.8807119,6 15,7.11928813 15,8.5 C15,9.88071187 13.8807119,11 12.5,11 C11.1192881,11 10,9.88071187 10,8.5 C10,7.11928813 11.1192881,6 12.5,6 Z M12.5,7 C11.6715729,7 11,7.67157288 11,8.5 C11,9.32842712 11.6715729,10 12.5,10 C13.3284271,10 14,9.32842712 14,8.5 C14,7.67157288 13.3284271,7 12.5,7 Z" id="Oval" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

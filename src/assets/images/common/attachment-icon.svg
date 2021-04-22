@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>42751A25-2FCE-4403-8371-81D5430B1DDA</title>
+    <defs>
+        <filter x="-1.5%" y="-20.0%" width="103.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="A:-Create-Quiz" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="I-01-SC-MyAssignments" transform="translate(-99.000000, -235.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Templates/Assignment/Default">
+                <g id="Primary-Record-1" filter="url(#filter-1)" transform="translate(36.000000, 202.000000)">
+                    <g id="Elements/Graphics/Style3/Oral/Black-Copy" transform="translate(63.000000, 33.000000)">
+                        <g id="Attachment/Black">
+                            <g id="attach" transform="translate(2.000000, 2.000000)">
+                                <path d="M16.6476181,8.14844164 C16.5386156,8.04363152 16.3624274,8.04363152 16.2534248,8.14844164 L8.64443517,15.4647778 C8.08353214,16.0041077 7.33501096,16.3008463 6.5360308,16.3008463 C5.73677187,16.3008463 4.98797191,16.0041077 4.42734766,15.4647778 C3.86672341,14.925448 3.55783646,14.2057161 3.55783646,13.4371979 C3.55783646,12.6689478 3.86644463,11.9489478 4.42734766,11.409886 L12.0360585,4.09328175 C12.8436808,3.3169899 14.111567,3.36443592 14.9852599,4.20398911 C15.858674,5.04381037 15.9082966,6.26319974 15.1006743,7.03975964 L7.95278487,13.9129983 C7.55329479,14.2971234 6.90262498,14.2973915 6.50229857,13.9129983 C6.10252971,13.5283371 6.10252971,12.9026931 6.50229857,12.5183 L11.3444082,7.86242527 C11.4534108,7.75761515 11.4534108,7.5882034 11.3444082,7.48339328 C11.2354057,7.37858315 11.0592175,7.37858315 10.950215,7.48339328 L6.10810529,12.1389999 C5.49088893,12.7324772 5.49088893,13.698017 6.10810529,14.2917623 C6.72587919,14.8857756 7.73031935,14.8847034 8.34697815,14.2917623 L15.4951464,7.41852358 C16.5274644,6.42564202 16.4778418,4.88056391 15.3797319,3.82468906 C14.2819009,2.76908226 12.6747409,2.72110013 11.642144,3.71398169 L4.0328756,11.030586 C3.36659417,11.6709731 3,12.5255375 3,13.4371979 C3,14.3488583 3.36659417,15.2036907 4.0328756,15.8440779 C4.69887825,16.4847331 5.58762519,16.8372275 6.5360308,16.8372275 C7.48387886,16.8372275 8.37290458,16.4847331 9.03890723,15.8440779 L16.6476181,8.52747364 C16.7566206,8.42266352 16.7566206,8.25298371 16.6476181,8.14844164 Z" id="Path" transform="translate(9.864685, 9.918614) rotate(-45.000000) translate(-9.864685, -9.918614) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

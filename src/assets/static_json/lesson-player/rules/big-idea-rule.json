@@ -1,0 +1,186 @@
+{
+    "event": {
+      "onOptClick": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "optHide"
+          }
+        ]
+      },
+      "qInit": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showthemeAnimation"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          }
+        ]
+      },
+      "nextQuest": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "right-to-left"
+          }
+        ]
+      },
+      "resetQuestion": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showthemeAnimation"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "disable"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol_C"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol_W"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQFb_W"
+          }
+        ]
+      },
+      "USER_ATTEMPT_UPDATED": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol_C"
+          }
+        ]
+      },
+      "loadQuestion": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "disable"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol_C"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQSol_W"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "showQFb_W"
+          }
+        ]
+      },
+      "attemptFb": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQFb_W"
+          }
+        ]
+      },
+      "qValidation": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "disable"
+          }
+        ]
+      },
+      "maxAttemptFb": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol_W"
+          }
+        ]
+      },
+      "correctAttemptFb": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol_C"
+          }
+        ]
+      }
+    },
+    "parameters": {
+      "maxAttempt": 2,
+      "allOption": 1,
+      "qCompletion": "Q_Fb"
+    },
+    "msgRule" : [ 
+      ]
+  }

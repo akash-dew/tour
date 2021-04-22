@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="195px" viewBox="0 0 195 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-815.000000, -190.000000)">
+            <g transform="translate(815.000000, 190.000000)">
+                <g transform="translate(7.000000, 30.500000)">
+                    <ellipse id="Oval" fill="#2B63A5" fill-rule="nonzero" opacity="0.2" cx="65.75" cy="140.3" rx="43.95" ry="8.95"></ellipse>
+                    <g id="Group">
+                        <polyline id="Path" fill="#66E9FF" fill-rule="nonzero" points="0.3 54.45 35.95 71.25 37.1 73.5 84 49.9 9 52.55 0.3 54.45 0.3 54.45 0.3 54.45 0.3 54.45"></polyline>
+                        <polygon id="Path" fill="#4C86E0" fill-rule="nonzero" points="79.05 49.55 35.95 71.25 36.8 72.25 45.95 111.9 91.65 74.5"></polygon>
+                        <polygon id="Path" fill="#66D7FF" fill-rule="nonzero" points="0.35 54.45 76.55 50.95 79.6 50.8 180.9 0.05 0.15 53.8"></polygon>
+                        <polygon id="Path" fill="#4C86E0" fill-rule="nonzero" points="76.5 50.95 80.7 68.75 180.85 0.05"></polygon>
+                        <path d="M76.25,50.75 C76.65,50.75 77,50.7 77.1,51.3 C77.45,52.75 80.2,64.9 80.2,64.9 L79.45,65.35 C79.45,65.35 76.5,52 76.5,51.7 C76.35,51.35 76.4,51.25 75.6,51.25 C74.8,51.25 1.3,54.7 1.3,54.7 L0.1,53.8" id="Path" fill="#3EADF2" fill-rule="nonzero"></path>
+                        <polyline id="Path" fill="#1E4BAF" fill-rule="nonzero" points="52.2 82.4 45.95 112.85 45.95 113.55 74.5 90.15 57.7 79.55 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4 52.2 82.4"></polyline>
+                        <polyline id="Path" fill="#7DDAFF" fill-rule="nonzero" points="102 120.6 52.1 81.3 92.3 55.85"></polyline>
+                        <polygon id="Path" fill="#5BC1F4" fill-rule="nonzero" points="90.05 55.95 102.7 120.9 180.85 0.05"></polygon>
+                        <path d="M180.85,0.05 L89.75,55.45 C89.35,55.7 89.05,56.1 88.95,56.55 L88.5,58.25 L89.9,57.4 L101.95,120.9 L102.45,120.85 L90.95,57 C90.85,56.55 91.1,56.05 91.5,55.8 L180.4,0.7 L180.85,0.05 Z" id="Path" fill="#73EBFF" fill-rule="nonzero"></path>
+                        <path d="M102.2,120.35 C102.2,120.35 54.9,83.1 54.15,82.45 C52.65,81.25 51.9,81.75 51.55,83.3 C51.35,84.2 45.85,112.95 45.85,112.95 C45.85,112.95 37.3,73.4 37.1,72.75 C36.9,72.1 36.05,71.05 35.1,70.55 C34.15,70 0.35,54.5 0.35,54.5" id="Path" stroke="#3EADF2" stroke-width="2.9325" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

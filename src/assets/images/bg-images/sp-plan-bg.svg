@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="600px" viewBox="0 0 404 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <defs>
+        <rect id="path-1" x="-2.47268872e-12" y="0" width="404.002469" height="600" rx="0"></rect>
+    </defs>
+    <g id="Full-Schedule---Jira" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AFS-2209-Full-Schedule---02" transform="translate(-18.000000, -90.000000)">
+            <g id="Group-6" transform="translate(18.000000, 90.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="" xlink:href="#path-1"></use>
+                <g id="187" opacity="0.466761077" mask="url(#mask-2)">
+                    <g transform="translate(224.597785, 323.210312) scale(-1, 1) translate(-224.597785, -323.210312) translate(-5.985185, -28.289688)">
+                        <g id="Dark" transform="translate(48.821226, 275.658919)">
+                            <polygon id="Fill-47" fill-opacity="0.29" fill="#FFFFFF" points="16.3066425 358.50475 92.5060005 284.956066 58.7133772 263.798388"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" points="57.387958 183.196966 92.5060005 141.888528 36.8473003 74.3851265"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" points="4.62021536 174.341542 46.9721895 142.311674 4.62021536 59.7889947"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" transform="translate(72.832479, 92.524123) rotate(-27.000000) translate(-72.832479, -92.524123) " points="67.8660699 148.032961 101.269249 107.069894 44.3957087 37.0152858"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" transform="translate(54.831874, 50.847077) rotate(-47.000000) translate(-54.831874, -50.847077) " points="26.5528198 7.85577259 28.7507097 30.7288748 50.4220063 93.8383819 83.1109281 62.2834979"></polygon>
+                            <polygon id="Fill-49" fill-opacity="0.2" fill="#FFFFFF" points="16.3066425 358.50475 105.095627 355.48184 92.5060005 284.956066"></polygon>
+                            <polygon id="Fill-55" fill-opacity="0.04" fill="#FFFFFF" points="57.387958 183.196966 110.396191 221.482493 92.5060005 141.888528"></polygon>
+                            <polygon id="Fill-56" fill-opacity="0.09" fill="#FFFFFF" points="92.5060005 284.956066 110.396191 221.482493 58.7133772 263.798388"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.15" fill="#FFFFFF" points="58.7133772 263.798388 110.396191 221.482493 57.387958 183.196966"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.17" fill="#FFFFFF" points="4.62021536 258.561012 59.4116611 263.798388 4.62021536 176.755922"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.12" fill="#FFFFFF" transform="translate(31.717862, 203.043634) scale(-1, 1) rotate(2.000000) translate(-31.717862, -203.043634) " points="6.57090084 263.869634 58.4789559 173.699109 12.7891342 142.217635 4.95676723 182.700598"></polygon>
+                            <polygon id="Fill-61" fill-opacity="0.1" fill="#FFFFFF" points="110.396191 221.482493 158.766199 303.091373 151.477878 220.475036"></polygon>
+                            <polygon id="Fill-66" fill-opacity="0.11" fill="#FFFFFF" points="105.095627 355.482378 158.766199 303.091373 92.5060005 284.956066"></polygon>
+                            <polygon id="Fill-67" fill-opacity="0.14" fill="#FFFFFF" points="92.5060005 284.956066 158.766199 303.091373 110.396191 221.482493"></polygon>
+                            <polygon id="Fill-67" fill-opacity="0.06" fill="#FFFFFF" points="4.62021536 59.7889947 46.9721895 141.594085 36.9617229 74.140765 21.561005 56.2010522 4.62021536 42.5668705"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.11" fill="#FFFFFF" points="200.929043 368.363784 215.506427 292.800187 156.53455 299.852925"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" transform="translate(152.983154, 322.593904) scale(1, -1) translate(-152.983154, -322.593904) " points="158.785441 342.02459 184.226238 303.163219 121.74007 306.401666"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" transform="translate(16.554371, 307.573704) scale(-1, 1) rotate(88.000000) translate(-16.554371, -307.573704) " points="38.8163317 321.836353 64.8303413 296.547604 -31.7211055 293.311056"></polygon>
+                            <path d="M15.5595497,359.639663 L39.9964442,358.952008 C37.8209305,352.711995 34.1215346,348.987118 28.8982563,347.777377 C23.674978,346.567636 18.1768175,346.375636 12.4037746,347.201377 L-9.89010872,368.76751 L15.5595497,359.639663 Z" id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" transform="translate(15.053168, 357.733208) scale(-1, 1) rotate(88.000000) translate(-15.053168, -357.733208) "></path>
+                            <polygon id="Fill-42" fill-opacity="0.1" fill="#FFFFFF" transform="translate(31.253964, 293.559669) scale(-1, 1) translate(-31.253964, -293.559669) " points="32.9251312 328.289461 58.5227279 258.829877 3.98519994 263.584132"></polygon>
+                            <polygon id="Fill-47" fill-opacity="0.04" fill="#FFFFFF" transform="translate(226.091094, 307.476923) scale(-1, 1) translate(-226.091094, -307.476923) " points="178.676847 332.753846 273.505342 303.851056 215.091712 282.2"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.06" fill="#FFFFFF" transform="translate(121.123649, 203.686615) scale(-1, 1) rotate(-47.000000) translate(-121.123649, -203.686615) " points="117.335999 180.784156 92.9860073 199.606415 118.147744 226.589074 149.26129 207.883918"></polygon>
+                            <polygon id="Fill-49" fill-opacity="0.08" fill="#FFFFFF" transform="translate(223.096510, 327.507692) scale(-1, 1) translate(-223.096510, -327.507692) " points="178.676847 330.085372 182.947969 349.277573 267.516173 350.876923 267.496477 304.138462"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.1" fill="#FFFFFF" transform="translate(165.114740, 260.939932) scale(-1, 1) translate(-165.114740, -260.939932) " points="151.552633 297.083894 171.463281 300.397371 178.676847 221.482493"></polygon>
+                            <polygon id="Fill-61" fill-opacity="0.07" fill="#FFFFFF" transform="translate(163.411120, 385.641908) rotate(-120.000000) translate(-163.411120, -385.641908) " points="140.853312 344.850295 185.968929 428.265066 180.584864 343.018749"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" points="178.676847 339.222078 178.676847 298.415385 155.695044 304.138462"></polygon>
+                        </g>
+                        <g id="Dark" transform="translate(107.714712, 185.158919) scale(1, -1) translate(-107.714712, -185.158919) translate(0.907882, 0.658919)">
+                            <polygon id="Fill-47" fill-opacity="0.07" fill="#FFFFFF" points="14.3102531 358.50475 90.5096111 284.956066 56.7169879 263.798388"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" points="55.3915687 183.196966 90.5096111 141.888528 34.8509109 74.3851265"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" transform="translate(70.836090, 92.524123) rotate(-27.000000) translate(-70.836090, -92.524123) " points="65.8696806 148.032961 99.2728598 107.069894 42.3993193 37.0152858"></polygon>
+                            <polygon id="Fill-48" fill-opacity="0.04" fill="#FFFFFF" transform="translate(52.835485, 50.847077) rotate(-47.000000) translate(-52.835485, -50.847077) " points="24.5564304 7.85577259 26.7543204 30.7288748 48.425617 93.8383819 81.1145387 62.2834979"></polygon>
+                            <polygon id="Fill-49" fill-opacity="0.13" fill="#FFFFFF" points="14.3102531 358.50475 103.099238 355.48184 90.5096111 284.956066"></polygon>
+                            <polygon id="Fill-55" fill-opacity="0.04" fill="#FFFFFF" points="55.3915687 183.196966 108.399802 221.482493 90.5096111 141.888528"></polygon>
+                            <polygon id="Fill-56" fill-opacity="0.08" fill="#FFFFFF" points="90.5096111 284.956066 108.399802 221.482493 56.7169879 263.798388"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.11" fill="#FFFFFF" points="56.7169879 263.798388 108.399802 221.482493 55.3915687 183.196966"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.17" fill="#FFFFFF" points="2.62382601 258.561012 57.4152717 263.798388 2.62382601 176.755922"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.12" fill="#FFFFFF" transform="translate(29.721472, 203.043634) scale(-1, 1) rotate(2.000000) translate(-29.721472, -203.043634) " points="4.57451149 263.869634 56.4825665 173.699109 10.7927448 142.217635 2.96037788 182.700598"></polygon>
+                            <polygon id="Fill-61" fill-opacity="0.07" fill="#FFFFFF" points="108.399802 221.482493 156.76981 303.091373 149.481488 220.475036"></polygon>
+                            <polygon id="Fill-66" fill-opacity="0.09" fill="#FFFFFF" points="103.099238 355.482378 156.76981 303.091373 90.5096111 284.956066"></polygon>
+                            <polygon id="Fill-67" fill-opacity="0.14" fill="#FFFFFF" points="90.5096111 284.956066 156.76981 303.091373 108.399802 221.482493"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" points="198.932653 368.363784 213.510038 292.800187 154.538161 299.852925"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.06" fill="#FFFFFF" transform="translate(150.986765, 322.593904) scale(1, -1) translate(-150.986765, -322.593904) " points="156.789052 342.02459 182.229848 303.163219 119.743681 306.401666"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.1" fill="#FFFFFF" transform="translate(29.257575, 293.559669) scale(-1, 1) translate(-29.257575, -293.559669) " points="30.9287418 328.289461 56.5263386 258.829877 1.98881058 263.584132"></polygon>
+                        </g>
+                        <g id="Small" transform="translate(405.665941, 577.622793) scale(-1, 1) translate(-405.665941, -577.622793) translate(350.165941, 525.122793)">
+                            <polyline id="Fill-47" fill-opacity="0.22" fill="#FFFFFF" points="6 83.273597 6.27218896 96.1668959 34 83.2954274 12 76.1668959"></polyline>
+                            <polygon id="Fill-48" fill-opacity="0.06" fill="#FFFFFF" points="6 51.1668959 34 38.1168959 6 22.1668959"></polygon>
+                            <polygon id="Fill-49" fill-opacity="0.24" fill="#FFFFFF" points="6 96.0161939 6 103.166896 40 103.166896 33.8028171 83.1668959"></polygon>
+                            <polygon id="Fill-55" fill-opacity="0.11" fill="#FFFFFF" points="6 51.1668959 46 64.1668959 34 38.1668959"></polygon>
+                            <polygon id="Fill-56" fill-opacity="0.22" fill="#FFFFFF" points="33.8028171 83.1668959 46 64.1668959 12 75.8454058"></polygon>
+                            <polygon id="Fill-57" fill-opacity="0.17" fill="#FFFFFF" points="6 51.1668959 12 76.1668959 46 64.40219"></polygon>
+                            <polygon id="Fill-61" fill-opacity="0.04" fill="#FFFFFF" points="46 64.1668959 74 89.1668959 70 64.1668959"></polygon>
+                            <polyline id="Fill-66" fill-opacity="0.14" fill="#FFFFFF" points="34 83.1888373 40.1667833 103.166896 74 88.8811816 34.1962156 83.1668959"></polyline>
+                            <polygon id="Fill-67" fill-opacity="0.08" fill="#FFFFFF" points="34 83.2845429 74 89.1668959 46 64.1668959"></polygon>
+                            <polygon id="Fill-42" fill-opacity="0.16" fill="#FFFFFF" transform="translate(67.000000, 96.166896) scale(1, -1) translate(-67.000000, -96.166896) " points="73.8421053 104.166896 92 88.1668959 42 89.6050981"></polygon>
+                            <polygon id="Fill-22" fill-opacity="0.06" fill="#FFFFFF" points="34 38.1668959 45.9047619 64.1668959 59 38.1668959"></polygon>
+                            <polyline id="Fill-23" fill-opacity="0.01" fill="#FFFFFF" points="89 29.1668959 90.2224123 51.1430115 111 55.1668959 89 29.1668959"></polyline>
+                            <polygon id="Fill-43" fill-opacity="0.03" fill="#FFFFFF" points="68 91.1668959 111 87.4831369 96.188793 75.1668959"></polygon>
+                            <polyline id="Fill-45" fill-opacity="0.03" fill="#FFFFFF" points="0 18.1668959 33.9574757 39.1668959 38 20.6743861 0 18.1668959"></polyline>
+                            <polyline id="Fill-46" fill-opacity="0.01" fill="#FFFFFF" points="38.0908813 21.1668959 34 40.1668959 61 37.5906159 38.0908813 21.1668959"></polyline>
+                            <polyline id="Fill-50" fill-opacity="0.02" fill="#FFFFFF" points="38 21.1753065 61.0137239 37.1668959 68 0.166895869 38 21.1753065"></polyline>
+                            <polyline id="Fill-51" fill-opacity="0.01" fill="#FFFFFF" points="18.1914725 8.16689587 0 18.6303064 38 21.1668959 18.1914725 8.16689587"></polyline>
+                            <polyline id="Fill-58" fill-opacity="0.01" fill="#FFFFFF" points="31 0.166895869 37.7999801 21.1668959 67 0.166895869 31 0.166895869"></polyline>
+                            <polyline id="Fill-62" fill-opacity="0.05" fill="#FFFFFF" points="70.1582573 64.4797969 74 89.1668959 96 75.9316018 70 64.1668959"></polyline>
+                            <polygon id="Fill-63" fill-opacity="0.1" fill="#FFFFFF" points="46 64.1668959 70 64.1668959 60 36.1668959"></polygon>
+                            <polyline id="Fill-71" fill-opacity="0.02" fill="#FFFFFF" points="67.8985343 0.166895869 61 37.1668959 89 29.0143308 67.8985343 0.166895869"></polyline>
+                            <polygon id="Fill-73" fill-opacity="0.07" fill="#FFFFFF" points="60 36.1668959 70 64.1668959 90 50.903738"></polygon>
+                            <polygon id="Fill-74" fill-opacity="0.04" fill="#FFFFFF" points="60 36.5002292 90 51.1668959 88 29.1668959"></polygon>
+                            <polyline id="Fill-1" fill-opacity="0.02" fill="#FFFFFF" points="89 28.7668287 111 55.1668959 111 22.1668959 89 28.7668287"></polyline>
+                            <polygon id="Fill-7" fill-opacity="0.04" fill="#FFFFFF" points="110 87.1668959 110 55.1668959 96 75.5305322"></polygon>
+                            <polygon id="Fill-75" fill-opacity="0.04" fill="#FFFFFF" points="70 64.40219 96 76.1668959 90 51.1668959"></polygon>
+                            <polyline id="Fill-44" fill-opacity="0.04" fill="#FFFFFF" points="31.0612571 0.166895869 18 8.3161321 38 21.1668959 31.0612571 0.166895869"></polyline>
+                            <polyline id="Fill-70" fill-opacity="0.04" fill="#FFFFFF" points="68 0.166895869 89.2727203 29.1668959 95 9.30817458 68 0.166895869"></polyline>
+                            <polyline id="Fill-6" fill-opacity="0.06" fill="#FFFFFF" points="94.7036784 9.16689587 89 29.1668959 111 22.5002858 94.7036784 9.16689587"></polyline>
+                            <polyline id="Fill-5" fill-opacity="0.02" fill="#FFFFFF" points="97 10.1668959 81 19.152767 97 32.1668959 97 10.1668959"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

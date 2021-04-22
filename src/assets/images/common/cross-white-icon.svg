@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>57146803-EB09-4F4A-945C-98CF63E0165E</title>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <filter x="-33.3%" y="-27.8%" width="177.8%" height="177.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-633.000000, -3711.000000)">
+            <g id="Group-10" transform="translate(40.000000, 1260.000000)">
+                <g id="Group-5" transform="translate(0.000000, 2412.000000)">
+                    <g id="NotCompleted" transform="translate(593.000000, 39.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <circle stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="square" fill="#FF0CBD" fill-rule="evenodd" cx="9" cy="9" r="8.3"></circle>
+                        </g>
+                        <g id="Group" transform="translate(5.250000, 5.250000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="1.4">
+                            <line x1="0.412689399" y1="7.1626894" x2="7.1626894" y2="0.412689399" id="Path-5" fill="#FFFFFF"></line>
+                            <line x1="0.412689399" y1="7.1626894" x2="7.1626894" y2="0.412689399" id="Path-5" transform="translate(3.787689, 3.787689) scale(-1, 1) translate(-3.787689, -3.787689) "></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

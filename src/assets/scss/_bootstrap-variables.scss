@@ -1,0 +1,68 @@
+@import 'variables-base';
+
+// Grid Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Grid containers
+$container-max-widths: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px
+);
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-size-base: 1rem;
+$grid-gutter-width: size(16);
+
+$modal-xl: 1140px !default;
+$modal-lg: 40.93333333333333rem !default;
+$modal-md: size(500) !default;
+$modal-sm: size(330) !default;
+
+$modal-header-padding-y:1.2rem;
+$modal-header-padding-x:1.2rem;
+$modal-inner-padding:0 1.2rem;
+$modal-footer-margin-between:1rem;
+$btn-border-radius: 1rem;
+// $btn-border-radius-lg:        $border-radius-lg !default;
+// $btn-border-radius-sm:        $border-radius-sm !default;
+$btn-disabled-opacity:  0.4;
+
+$spacer: 0.6666666666666666rem;
+
+$primary: #64c6fd;
+$secondaryColor: #1268B3;
+$forms-border-color:#CBCBCB;
+
+$custom-checkbox-indicator-border-radius:0;
+$custom-control-indicator-checked-disabled-bg:'none';
+$custom-control-indicator-active-border-color:$forms-border-color;
+$modal-backdrop-opacity:0.7;
+
+$danger: #FF45BB;
+$custom-control-indicator-size: 1.2rem; 
+$custom-control-indicator-border-color: #c7c7c7;
+
+$form-feedback-icon-valid: 'none';
+$form-feedback-icon-invalid: 'none';
+
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+
+
+
+
+
+
+
+
+

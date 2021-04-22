@@ -1,0 +1,66 @@
+{
+  "dynamicComponents": [
+    {
+      "componentId": "intro-screen-objective-test",
+      "panel": true
+    },
+    {
+      "componentId": "intro-screen-quiz-report-test",
+      "panel": true
+    },
+    {
+      "componentId": "intro-screen-controls",
+      "panel": false
+    }
+  ],
+  "controls": {
+    "1": {
+      "primary": {
+        "action": "start",
+        "text": "Begin Test"
+      },
+      "secondary": {
+        "action": "exit",
+        "text": "Return to Study Plan"
+      },
+      "tertiary": []
+    },
+    "2": {
+      "primary": {
+        "action": "start",
+        "text": "Redo Test"
+      },
+      "secondary": {
+        "action": "next",
+		    "text": "Continue Studying"
+      },
+      "tertiary": []
+    },
+    "3": {
+      "primary": {
+        "action": "start",
+        "text": "Test again"
+      },
+      "secondary": {
+        "action": "next",
+		    "text": "Continue Studying"
+      },
+      "tertiary": [{
+        "action": "exit",
+        "text": "Return to Study Plan"
+      }]
+    },
+    "4": {
+      "primary": {
+        "action": "start",
+        "text": "Begin Test"
+      },
+      "secondary": {
+        "action": "exit",
+        "text": "Return to Study Plan"
+      },
+      "tertiary": []
+    }
+  },
+  "progressive_disclosure": "True"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="195px" viewBox="0 0 195 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements/Graphics/Page/Practice" fill-rule="nonzero">
+            <g id="Layer_1" transform="translate(24.000000, 14.000000)">
+                <ellipse id="Oval" fill="#2B63A5" opacity="0.2" cx="41.05" cy="157.2" rx="40.65" ry="8.3"></ellipse>
+                <g id="Group" transform="translate(0.500000, 0.000000)">
+                    <polygon id="Path" fill="#7DDAFF" points="17.4 88.1 3.1 120.9 8.5 127.5 44.15 120.65"></polygon>
+                    <path d="M110.65,39.05 L110.65,39.05 C103.25,30.05 104.55,16.8 113.55,9.4 L118.6,4.85 C127.6,-2.55 140.85,-1.25 148.25,7.75 L148.25,7.75 C155.65,16.75 154.35,30 145.35,37.4 L140.3,41.95 C131.3,49.35 118.05,48.05 110.65,39.05 Z" id="Path" fill="#5BC1F4"></path>
+                    <polygon id="Path" fill="#5BC1F4" points="44.15 120.65 17.4 88.1 22.35 84 117.7 5.65 144.55 38.3"></polygon>
+                    <rect id="Rectangle" fill="#66E9FF" transform="translate(67.735518, 62.616192) rotate(-39.396233) translate(-67.735518, -62.616192) " x="12.6587571" y="57.9410431" width="110.153521" height="9.35029887"></rect>
+                    <polygon id="Rectangle" fill="#64D2F9" transform="translate(78.845183, 76.168962) rotate(-39.396233) translate(-78.845183, -76.168962) " points="23.7684221 71.4938131 133.921943 71.4938131 133.921943 80.8441119 23.7684221 80.8441119"></polygon>
+                    <polygon id="Path" fill="#46515A" points="6.6 112.85 0.3 128.95 17.2 125.8"></polygon>
+                    <polygon id="Path" fill="#1E4BAF" points="6.6 112.85 0.3 128.95 17.2 125.8"></polygon>
+                    <polygon id="Rectangle" fill="#4C86E0" transform="translate(123.498355, 28.255467) rotate(-39.396233) translate(-123.498355, -28.255467) " points="113.623039 7.15479305 133.373671 7.15479305 133.373671 49.356142 113.623039 49.356142"></polygon>
+                    <polygon id="Rectangle" fill="#2D6DC9" transform="translate(123.498355, 28.255467) rotate(-39.396233) translate(-123.498355, -28.255467) " points="119.423225 7.15479305 127.573485 7.15479305 127.573485 49.356142 119.423225 49.356142"></polygon>
+                    <g transform="translate(107.000000, 2.500000)">
+                        <ellipse id="Oval" fill="#80CFFF" transform="translate(27.600930, 4.348206) rotate(-5.249021) translate(-27.600930, -4.348206) " cx="27.6009296" cy="4.34820599" rx="5.29996545" ry="3.79997523"></ellipse>
+                        <polygon id="Path" fill="#66FFF7" opacity="0.28" points="15.55 9.05 21.6 16.4 6.25 28.75 0.3 21.55"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

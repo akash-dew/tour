@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B1B50FEC-0E7D-48EE-9297-17543EF96960</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-03-SC-VideoPlayer" transform="translate(-430.000000, -594.000000)" fill="#FFFFFF">
+            <g id="Templates/Revise/VideoView/Desktop" transform="translate(0.000000, 64.000000)">
+                <g id="VideoPlayer" transform="translate(18.000000, 72.000000)">
+                    <g id="Interface" transform="translate(0.000000, 28.000000)">
+                        <g id="PlaybackControls" transform="translate(412.500000, 430.000000)">
+                            <g id="Components/Players/Video/Elements/Interface/Elements/Enter-Full-Screen">
+                                <g id="Elements/Graphics/Style3/Photos/Black">
+                                    <g id="Group">
+                                        <path d="M5,7 C5.20842298,7 5.41163744,7.06512313 5.58123819,7.18626653 L11.7028784,11.5588667 C12.152291,11.8798757 12.2563827,12.5044258 11.9353737,12.9538383 C11.871234,13.0436339 11.7926739,13.122194 11.7028784,13.1863336 L5.58123819,17.5589338 C5.13182561,17.8799428 4.50727552,17.7758511 4.18626653,17.3264385 C4.06512313,17.1568377 4,16.9536233 4,16.7452003 L4,8 C4,7.44771525 4.44771525,7 5,7 Z M13.2105263,7 C13.4189493,7 13.6221638,7.06512313 13.7917645,7.18626653 L19.9134047,11.5588667 C20.3628173,11.8798757 20.466909,12.5044258 20.1459,12.9538383 C20.0817603,13.0436339 20.0032002,13.122194 19.9134047,13.1863336 L13.7917645,17.5589338 C13.3423519,17.8799428 12.7178018,17.7758511 12.3967928,17.3264385 C12.2756495,17.1568377 12.2105263,16.9536233 12.2105263,16.7452003 L12.2105263,8 C12.2105263,7.44771525 12.6582416,7 13.2105263,7 Z" id="Combined-Shape" transform="translate(12.166122, 12.372639) scale(-1, 1) translate(-12.166122, -12.372639) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

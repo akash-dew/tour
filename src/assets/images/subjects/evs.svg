@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SubjectGraphics/EVS/Hero</title>
+    <defs>
+        <radialGradient cx="52.0271434%" cy="41.3216753%" fx="52.0271434%" fy="41.3216753%" r="55.5830463%" gradientTransform="translate(0.520271,0.413217),scale(0.999639,1.000000),rotate(9.997359),translate(-0.520271,-0.413217)" id="radialGradient-1">
+            <stop stop-color="#35FF00" offset="0%"></stop>
+            <stop stop-color="#07A600" offset="75.29%"></stop>
+            <stop stop-color="#34C20E" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="28.5087579%" y1="43.6541643%" x2="71.7849695%" y2="56.3161401%" id="linearGradient-2">
+            <stop stop-color="#177200" offset="0%"></stop>
+            <stop stop-color="#055801" offset="75.29%"></stop>
+            <stop stop-color="#197900" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.263673%" y1="42.9201667%" x2="89.6056331%" y2="57.2827201%" id="linearGradient-3">
+            <stop stop-color="#177200" offset="0%"></stop>
+            <stop stop-color="#055801" offset="75.29%"></stop>
+            <stop stop-color="#197900" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48.5684514%" y1="49.047874%" x2="51.4419244%" y2="50.9498345%" id="linearGradient-4">
+            <stop stop-color="#177200" offset="0%"></stop>
+            <stop stop-color="#055801" offset="75.29%"></stop>
+            <stop stop-color="#197900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(72.000000, 0.000000)">
+            <g id="Group" transform="translate(21.000000, 0.000000)">
+                <rect id="Rectangle" x="0.7" y="0" width="335.3" height="479"></rect>
+                <g transform="translate(52.000000, 410.000000)" fill="#000000" fill-opacity="0.2471" fill-rule="nonzero" id="Layer1_2_FILL">
+                    <g>
+                        <path d="M146.7,32.3 C163,27.1 170.9,21.7 170.6,16 C170.2,10.3 161.5,6.1 144.6,3.4 C127.7,0.6 107.6,0.1 84.2,1.9 C60.8,3.7 40.8,7.2 24.5,12.3 C8.2,17.6 0.4,23 0.7,28.7 C1.1,34.4 9.8,38.6 26.7,41.3 C43.6,44.1 63.8,44.6 87.2,42.8 C110.6,41 130.4,37.6 146.7,32.3 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Group">
+                <rect id="Rectangle" x="21.7" y="0" width="335.3" height="479"></rect>
+                <g transform="translate(0.000000, 9.000000)" fill-rule="nonzero">
+                    <g transform="translate(0.000000, 0.400000)" fill="#34C20E" id="Layer1_3_MEMBER_0_FILL">
+                        <path d="M305.5,71.9 C279,34 242.9,11 197.4,2.9 C151.8,-5.1 110.1,4.1 72.2,30.7 C34.3,57.3 11.3,93.3 3.2,138.9 C-4.9,184.5 4.4,226.3 31,264.1 C57.6,301.9 93.6,325 139.1,333 C184.7,341 226.5,331.8 264.3,305.2 C302.2,278.7 325.2,242.6 333.3,197.1 C341.2,151.6 332,109.8 305.5,71.9 Z" id="Path"></path>
+                    </g>
+                    <g transform="translate(11.000000, 11.000000)" fill="url(#radialGradient-1)" id="Layer1_3_MEMBER_1_FILL">
+                        <path d="M287,67.5 C262.1,32 228.3,10.4 185.5,2.8 C142.7,-4.7 103.6,4 68,28.9 C32.5,53.8 10.9,87.6 3.3,130.3 C-4.3,173 4.4,212.2 29.4,247.7 C54.4,283.2 88.1,304.8 130.8,312.4 C173.5,320 212.7,311.3 248.3,286.3 C283.8,261.4 305.4,227.6 313,184.9 C320.5,142.2 311.9,103 287,67.5 Z" id="Path"></path>
+                    </g>
+                    <g transform="translate(97.000000, 162.000000)" fill="url(#linearGradient-2)" id="Layer1_3_MEMBER_2_FILL">
+                        <path d="M12.9,0.9 C10,0.6 7.5,1.4 5.3,3.2 C3.1,5 1.9,7.4 1.6,10.2 C-3.4,63.8 14.1,97.8 54.1,112.1 C56.8,113.2 59.5,113.1 62.1,111.8 C64.7,110.7 66.5,108.7 67.5,106.1 C68.6,103.4 68.5,100.7 67.2,98.1 C66.1,95.5 64.1,93.7 61.5,92.7 C31.5,80.9 18.5,54.1 22.4,12.2 C22.7,9.3 21.9,6.8 20,4.6 C18,2.4 15.6,1.2 12.9,0.9 Z" id="Path"></path>
+                    </g>
+                    <g transform="translate(149.000000, 153.000000)" fill="url(#linearGradient-3)" id="Layer1_3_MEMBER_3_FILL">
+                        <path d="M90.1,13.9 C91,11.2 90.7,8.5 89.2,6 C87.9,3.5 85.8,1.9 83,1 C80.3,0.2 77.6,0.5 75.1,1.9 C72.6,3.2 71,5.3 70.1,8 C60.3,41.4 39.4,63.1 7.5,72.9 C4.8,73.8 2.8,75.4 1.5,78 C0.2,80.6 -0.1,83.2 0.7,86 C1.6,88.8 3.2,90.8 5.8,92.1 C8.4,93.4 11,93.7 13.8,92.9 C52.5,80.8 78,54.5 90.1,13.9 Z" id="Path"></path>
+                    </g>
+                    <g transform="translate(117.000000, 142.000000)" fill="url(#linearGradient-4)" id="Layer1_3_MEMBER_4_FILL">
+                        <path d="M48.1,3.2 C44.8,5.5 42.8,8.7 42.2,12.6 L0.4,249.7 C-0.3,253.6 0.5,257.3 2.8,260.5 C5.1,263.9 8.3,265.9 12.2,266.5 C16.1,267.2 19.8,266.4 23,264 C26.4,261.7 28.4,258.6 29,254.6 L70.8,17.6 C71.5,13.7 70.7,10 68.3,6.7 C66,3.4 62.8,1.4 58.9,0.8 C55.1,0.1 51.5,1 48.1,3.2 Z" id="Path"></path>
+                    </g>
+                    <g transform="translate(45.000000, 78.000000)" id="Layer1_3_MEMBER_5_FILL">
+                        <path d="M49.3,112.9 C49.6,90.2 33.3,78.3 0.5,77.2 C12.1,111.1 28.4,123 49.3,112.9 M131.3,193.4 C152.1,202.5 169.4,192.1 183.1,162.3 C147.4,159.7 130.1,170.1 131.3,193.4 M32,75.2 C42.2,55.7 33.1,39.4 4.5,26.5 C-0.1,60 9,76.3 32,75.2 M201.3,102.3 C217.2,119.2 235.1,114.9 255.1,89.6 C224.4,74 206.4,78.2 201.3,102.3 Z" id="Shape" fill="#38D900"></path>
+                        <path d="M120.1,58.2 C134.3,40.4 128.7,21 103.4,0.2 C91.8,33.9 97.3,53.3 120.1,58.2 M202.3,74.8 C225,73.9 236,57.2 235.5,24.3 C202.2,37.5 191.2,54.2 202.3,74.8 Z" id="Shape" fill="#9FFF00"></path>
+                        <path d="M61.6,79.6 C79.9,66.1 79.5,46 60.5,19.2 C40.4,48.9 40.8,69 61.6,79.6 M183.7,65.3 C197.9,47.5 192.3,28.1 167,7.3 C155.3,41 160.8,60.4 183.7,65.3 Z" id="Shape" fill="#41FF00"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

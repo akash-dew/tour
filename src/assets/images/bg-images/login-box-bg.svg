@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="565px" height="284px" viewBox="0 0 565 284" version="1.1">
+    
+    <defs>
+        <rect id="path-1" x="1.13086379e-13" y="1.71219268e-13" width="508" height="284" rx=""/>
+    </defs>
+    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Opening-Page---New-User" transform="translate(-648.000000, -318.000000)">
+            <g id="Card-Background" transform="translate(648.000000, 318.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"/>
+                </mask>
+                <use id="Mask" fill="" xlink:href="#path-1"/>
+                <g id="Small" mask="url(#mask-2)">
+                    <g transform="translate(-13.000000, 209.833104)">
+                        <polyline id="Fill-47" fill-opacity="0.08" fill="#1AAFFA" points="4.35395538 60.04 4.55008085 69.5950251 24.5293262 60.0561782 8.70791075 54.7733333"/>
+                        <polygon id="Fill-48" fill-opacity="0.03" fill="#1AAFFA" points="4.35395538 36.8666667 24.6724138 27.3866667 4.35395538 15.8"/>
+                        <polygon id="Fill-49" fill-opacity="0.02" fill="#1AAFFA" points="4.35395538 69.52 4.35395538 74.7866667 29.0263692 74.7866667 24.5293262 60.0561782"/>
+                        <polygon id="Fill-55" fill-opacity="0.02" fill="#1AAFFA" points="4.35395538 36.8666667 33.3803245 46.3466667 24.6724138 27.3866667"/>
+                        <polygon id="Fill-56" fill-opacity="0.06" fill="#1AAFFA" points="24.5293262 60.0561782 33.3803245 46.3466667 8.70791075 54.7733333"/>
+                        <polygon id="Fill-57" fill-opacity="0.03" fill="#1AAFFA" points="4.35395538 36.8666667 8.70791075 54.7733333 33.3803245 46.3466667"/>
+                        <polygon id="Fill-61" fill-opacity="0.02" fill="#1AAFFA" points="33.3803245 46.3466667 53.698783 64.2533333 50.796146 46.3466667"/>
+                        <polyline id="Fill-66" fill-opacity="0.04" fill="#1AAFFA" points="24.5293262 60.0561782 29.0263692 74.7866667 53.698783 64.2533333 24.6724138 60.04"/>
+                        <polygon id="Fill-67" fill-opacity="0.01" fill="#1AAFFA" points="24.6724138 60.04 53.698783 64.2533333 33.3803245 46.3466667"/>
+                        <polyline id="Fill-42" fill-opacity="0.02" fill="#1AAFFA" points="53.6773131 63.4106397 73.8872053 78.8378544 80.5233297 61.8225102 53.6773131 63.4106397"/>
+                        <polygon id="Fill-42" fill-opacity="0.05" fill="#1AAFFA" transform="translate(50.215619, 68.940667) scale(1, -1) translate(-50.215619, -68.940667) " points="53.698783 73.628 66.7606491 64.2533333 33.6705882 65.096"/>
+                        <polygon id="Fill-42" fill-opacity="0.16" fill="#FFFFFF" transform="translate(48.670866, 73.684691) scale(-1, 1) translate(-48.670866, -73.684691) " points="68.3153628 74.7866667 72.5659229 72.5827153 24.775809 73.7333333 29.1297644 74.7866667"/>
+                        <polygon id="Fill-21" fill-opacity="0.03" fill="#1AAFFA" points="69.663286 54.7733333 81.2738337 41.08 65.3308419 37.2109261"/>
+                        <polygon id="Fill-22" fill-opacity="0.04" fill="#1AAFFA" points="24.6724138 27.3866667 33.3803245 46.3466667 42.9590264 27.3866667"/>
+                        <polyline id="Fill-23" fill-opacity="0.02" fill="#1AAFFA" points="64.4478523 21.0024664 65.3308419 37.2109261 80.3391916 40.1787375 64.4478523 21.0024664"/>
+                        <polygon id="Fill-43" fill-opacity="0.02" fill="#1AAFFA" points="49.3448276 66.36 80.3391916 63.6923446 69.663286 54.7733333"/>
+                        <polyline id="Fill-45" fill-opacity="0.02" fill="#1AAFFA" points="-1.05700438e-13 13.4690447 24.7197513 28.7642846 27.6625553 15.295362 -1.05700438e-13 13.4690447"/>
+                        <polyline id="Fill-46" fill-opacity="0.03" fill="#1AAFFA" points="27.6625553 15.29524 24.7197513 28.7642846 44.1423895 26.9379673 27.6625553 15.29524"/>
+                        <polyline id="Fill-50" fill-opacity="0.03" fill="#1AAFFA" points="27.6625553 15.29524 44.1423895 26.9379673 49.1451727 -3.92930133e-14 27.6625553 15.29524"/>
+                        <polyline id="Fill-51" fill-opacity="0.04" fill="#1AAFFA" points="13.2427004 5.93550086 -1.05700438e-13 13.4690447 27.6625553 15.295362 13.2427004 5.93550086"/>
+                        <polyline id="Fill-58" fill-opacity="0.02" fill="#1AAFFA" points="22.659772 -1.21621232e-14 27.6625553 15.29524 49.1451727 -1.21621232e-14 22.659772 -1.21621232e-14"/>
+                        <polyline id="Fill-62" fill-opacity="0.04" fill="#1AAFFA" points="50.9109869 46.5707872 53.698783 64.2533333 69.663286 54.7733333 50.796146 46.3466667"/>
+                        <polygon id="Fill-63" fill-opacity="0.05" fill="#1AAFFA" points="33.3803245 46.3466667 50.796146 46.3466667 43.5395538 26.3333333"/>
+                        <polyline id="Fill-71" fill-opacity="0.04" fill="#1AAFFA" points="49.1451727 -3.92930133e-14 44.1423895 26.9379673 64.4478523 21.0024664 49.1451727 -3.92930133e-14"/>
+                        <polygon id="Fill-73" fill-opacity="0.08" fill="#1AAFFA" points="43.5395538 26.3333333 50.796146 46.3466667 65.3093306 36.8666667"/>
+                        <polygon id="Fill-74" fill-opacity="0.03" fill="#1AAFFA" points="43.5395538 26.3333333 65.3093306 36.8666667 63.8580122 21.0666667"/>
+                        <polyline id="Fill-1" fill-opacity="0.03" fill="#1AAFFA" points="64.4478523 21.0024664 80.3391916 40.1787375 80.3391916 16.2084597 64.4478523 21.0024664"/>
+                        <polygon id="Fill-7" fill-opacity="0.04" fill="#1AAFFA" points="79.8225152 63.2 79.8225152 40.0266667 69.663286 54.7733333"/>
+                        <polygon id="Fill-75" fill-opacity="0.07" fill="#1AAFFA" points="50.796146 46.3466667 69.663286 54.7733333 65.3093306 36.8666667"/>
+                        <polyline id="Fill-44" fill-opacity="0.04" fill="#1AAFFA" points="22.659772 5.61328761e-15 13.2427004 5.93550086 27.6625553 15.295362 22.659772 5.61328761e-15"/>
+                        <polyline id="Fill-70" fill-opacity="0.04" fill="#FFFFFF" points="49.1451727 1.4968767e-14 64.4478523 21.0024664 68.5678109 6.62032412 49.1451727 1.4968767e-14"/>
+                        <polyline id="Fill-6" fill-opacity="0.1" fill="#FFFFFF" points="68.5678109 6.62032412 64.4478523 21.0024664 80.3391916 16.2084597 68.5678109 6.62032412"/>
+                        <polyline id="Fill-5" fill-opacity="0.03" fill="#1AAFFA" points="70.4277485 7.33782772 58.6563678 13.9581518 70.4277485 23.5462874 70.4277485 7.33782772"/>
+                    </g>
+                </g>
+                <g id="Big" mask="url(#mask-2)" fill="#1AAFFA">
+                    <g transform="translate(430.017631, 221.356655) scale(-1, -1) rotate(90.000000) translate(-430.017631, -221.356655) translate(300.517631, 47.356655)">
+                        <polygon id="Fill-48" fill-opacity="0.07" points="56.4818313 222.005705 166.232616 187.473588 56.4818313 151.12399"/>
+                        <polygon id="Fill-48" fill-opacity="0.03" transform="translate(145.147146, 125.577817) rotate(-27.000000) translate(-145.147146, -125.577817) " points="76.3158465 69.1082771 55.7234379 109.523154 137.167823 191.746928 234.570854 161.960967 81.2580246 59.4087065"/>
+                        <polygon id="Fill-48" fill-opacity="0.05" transform="translate(90.446782, 71.490763) rotate(-47.000000) translate(-90.446782, -71.490763) " points="83.8852082 28.0138209 48.0581128 61.4231279 87.3217699 114.967705 132.83545 72.5255108"/>
+                        <polygon id="Fill-48" fill-opacity="0.04" transform="translate(61.265912, 42.769618) rotate(3.000000) translate(-61.265912, -42.769618) " points="5.24043526 82.3621427 120.178741 40.0777394 2.35308261 3.1770935"/>
+                        <polygon id="Fill-55" fill-opacity="0.03" points="161.666066 189.158081 52.4752339 223.595106 52.4752339 259.844606 256.29812 301.531531"/>
+                        <polygon id="Fill-57" fill-opacity="0.05" points="55.1920707 347.345323 258.998161 302.323908 55.1752743 260.904207"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

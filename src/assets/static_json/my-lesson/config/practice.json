@@ -1,0 +1,69 @@
+{
+  "dynamicComponents": [
+    {
+      "componentId": "intro-screen-objective",
+      "panel": true
+    },
+    {
+      "componentId": "intro-screen-quiz-report",
+      "panel": true
+    },
+    {
+      "componentId": "intro-screen-controls",
+      "panel": false
+    }
+  ],
+  "controls": {
+    "1": {
+      "primary": {
+        "action": "start",
+        "text": "Begin Practice"
+      },
+      "secondary": {
+        "action": "exit",
+        "text": "Return to Study Plan"
+      },
+      "tertiary": []
+    },
+    "2": {
+      "primary": {
+        "action": "start",
+        "text": "Practice Again"
+      },
+      "secondary": {
+        "action": "next",
+		    "text": "Continue Studying"
+      },
+      "tertiary": [{
+        "action": "exit",
+        "text": "Return to Study Plan"
+      }]
+    },
+    "3": {
+      "secondary": {
+        "action": "start",
+        "text": "Practice Again"
+      },
+      "primary": {
+        "action": "next",
+		    "text": "Continue Studying"
+      },
+      "tertiary": [{
+        "action": "exit",
+        "text": "Return to Study Plan"
+      }]
+    },
+    "4": {
+      "primary": {
+        "action": "start",
+        "text": "Begin Practice"
+      },
+      "secondary": {
+        "action": "exit",
+        "text": "Return to Study Plan"
+      },
+      "tertiary": []
+    }
+  },
+  "progressive_disclosure": "True"
+}

@@ -1,0 +1,398 @@
+.progressBox {
+    height: size(300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .progressText {
+        font-size: size(10);
+        font-weight: 500;
+        line-height: size(13);
+        text-align: center;
+        width: size(60);
+        letter-spacing: 0.5px;
+    }
+
+    .progressText p span {
+        font-size: size(14);
+        line-height: size(26);
+    }
+
+
+    .flex-wrapper {
+        display: flex;
+        width: 97%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .single-chart {
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+    }
+
+    .circular-chart {
+        display: block;
+        margin: auto;
+        overflow: visible;
+    }
+
+    .circle-bg {
+        fill: none;
+        stroke: rgba(0, 0, 0, 0.21);
+        stroke-width: 2.8px;
+    }
+
+    .x-bg {
+        fill: none;
+        stroke: #1b4757;
+    }
+
+    .circle {
+        fill: none;
+        stroke-width: 2.5;
+        // transition: stroke-dasharray 5s ease-out forwards;
+        animation: progress 700ms ease-out forwards;
+        stroke: $colorBlue;
+        stroke-linecap: round;
+    }
+
+    .percentage {
+        fill: #666;
+        font-family: sans-serif;
+        font-size: 0.5em;
+        text-anchor: middle;
+        display: none;
+    }
+
+    .single-chart:nth-child(1) svg {
+        max-width: size(100);
+    }
+
+    .single-chart:nth-child(1)>p {
+        color: #a4a4a4;
+        background-color: #1b4757;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-left: size(10);
+        border-radius: size(4) size(0) size(0) size(4);
+        margin-bottom: 0;
+        padding-left: 0px;
+        height: size(18);
+        margin-top: size(10);
+        position: absolute;
+        font-size: size(10);
+        width: calc(100% - 150px);
+        right: size(149);
+        overflow: hidden;
+    }
+
+    .single-chart:nth-child(1)>div {
+        width: size(32);
+    height: size(120);
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 9;
+        transition: all 700ms;
+    }
+
+    .single-chart:nth-child(1) .overflowShadow{ 
+		&::after{
+		        content: "";
+    position: absolute;
+    width: size(34);
+    height: size(27);
+    left: size(20);
+    top: size(8);
+    background: linear-gradient(99.24deg, rgba(2, 2, 2, 0.62) 0%, rgba(0, 0, 0, 0.02) 90%);
+    z-index: -1;
+    transform: rotate(21deg);
+    border-radius:size(0) size(13) size(13)size(0);
+		}
+	}
+
+.single-chart:nth-child(1)>div>div>span {
+	width: size(32);
+    height: size(32);
+    display: block;
+}
+    // .single-chart:nth-child(1)>div>div {
+    //     width: 18px;
+    //     height: 17px;
+    //     background-color: #fe307a;
+    //     border-radius: 50%;
+    //     box-shadow: 5px 0px 3px #313131;
+    //     margin: 1px 0px 0px 4px;
+    // }
+    .single-chart>div>div>p {
+        width: size(70);
+        color: #FFFFFF;
+        font-size: size(12);
+        letter-spacing: 0;
+        line-height: size(16);
+        margin: 0 0 0 -19px;
+        position: absolute;
+        text-align: center;
+    }
+
+    .single-chart:nth-child(1) .circular-chart path {
+        stroke-width: 10px;
+        transition: all 700ms;
+    }
+
+    // .single-chart:nth-child(1) .circular-chart {
+    //     margin-right: 75px;
+    // }
+
+    // .single-chart:nth-child(2) {
+    //     z-index: 3;
+    // }
+
+    .single-chart:nth-child(2) svg {
+        max-width:size(200);
+    }
+
+    .single-chart:nth-child(2)>p {
+        color: #a4a4a4;
+        background-color: #1b4757;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-left: size(10);
+        border-radius: size(4) size(0) size(0) size(4);
+        margin-bottom: 0;
+        padding-left: size(0);
+        height: size(19);
+        margin-top: size(14);
+        position: absolute;
+        font-size: size(10);
+        width: calc(100% - 150px);
+        right: size(149);
+        overflow: hidden;
+    }
+
+    .single-chart:nth-child(2)>div {
+            width: size(32);
+    height: size(209);
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 9;
+        transition: all 700ms;
+		
+    }
+    .single-chart:nth-child(2) .overflowShadow{ 
+		&::after{
+                content: "";
+    position: absolute;
+    width: size(40);
+    height: size(27);
+    left: size(21);
+    top: size(6);
+    background: linear-gradient(99.24deg, rgba(2, 2, 2, 0.62) 0%, rgba(0, 0, 0, 0.02) 90%);
+    z-index: -1;
+    transform: rotate(15deg);
+        }
+	}
+
+	.single-chart:nth-child(2)>div>div>span {
+	width: size(32);
+    height: size(32);
+    display: block;
+}
+
+    // .single-chart:nth-child(2)>div>div {
+    //     width: 18px;
+    //     height: 17px;
+    //     background-color: #fe307a;
+    //     border-radius: 50%;
+    //     box-shadow: 5px 0px 3px #313131;
+    //     margin: 1px 0px 0px 4px;
+    // }
+
+    .single-chart:nth-child(2) .circular-chart path {
+        stroke-width: 5.2px;
+        transition: all 700ms;
+    }
+
+    // .single-chart:nth-child(2) .circular-chart {
+    //     margin-right: 36px;
+    // }
+
+    // .single-chart:nth-child(3) {
+    //     z-index: 4;
+    // }
+
+    .single-chart:nth-child(3) svg {
+        max-width: size(300);
+    }
+
+    .single-chart:nth-child(3)>p {
+        color: #a4a4a4;
+        background-color: #1b4757;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-left: size(10);
+        border-radius: size(4) size(0) size(0) size(4);
+        margin-bottom: 0;
+        padding-left: size(0);
+        height: size(18);
+        margin-top: size(18);
+        position: absolute;
+        font-size: size(10);
+        width: calc(100% - 150px);
+        right: size(149);
+        overflow: hidden;
+    }
+
+    .single-chart:nth-child(3)>div {
+            width: size(32);
+    height: size(298);
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 9;
+        transition: all 700ms;
+		
+    }
+	.single-chart:nth-child(3) .overflowShadow{ 
+		&::after{
+		content: "";
+    position: absolute;
+    width: size(40);
+    height: size(28);
+    left: size(25);
+    top: size(6);
+    background: linear-gradient(99.24deg, rgba(2, 2, 2, 0.62) 0%, rgba(0, 0, 0, 0.02) 90%);
+    z-index: -1;
+    transform: rotate(11deg);
+	}
+		}
+	.single-chart:nth-child(3)>div>div>span {
+	width: size(32);
+    height: size(32);
+    display: block;
+}
+
+    .single-chart:nth-child(3) .circular-chart path {
+        stroke-width: 3.5px;
+        transition: all 700ms;
+    }
+
+    .goalSpanText {
+        font-size: size(12);
+        color: $whiteColor;
+        font-weight: 400;
+        z-index: 9;
+        margin-left: size(10);
+        text-shadow: 0px 0px 2px #000000;
+    }
+
+    .timeSpanText {
+        font-size: size(12);
+        color: white;
+        font-weight: 400;
+        z-index: 9;
+        margin-left: 10px;
+        text-shadow: 0px 0px 2px #000000;
+    }
+
+    .lessonSpanText {
+        font-size: size(12);
+        color: white;
+        font-weight: 400;
+        z-index: 9;
+        margin-left: size(10);
+        text-shadow: 0px 0px 2px #000000;
+    }
+
+    span.timeSpan {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #fe307a;
+    }
+
+    span.lessonSpan {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #05d7f9;
+    }
+
+    span.goalSpan {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #fff464;
+    }
+
+    // .circular-chart.orange .circle {
+    //     stroke: #fe307b;
+    // }
+
+    // .circular-chart.green .circle {
+    //     stroke: #06d8f9;
+    // }
+
+    // .circular-chart.blue .circle {
+    //     stroke: #fff464;
+    // }
+
+    .filter {
+        filter: drop-shadow(0 2px 1px black);
+    }
+
+    .shareBt {
+        position: absolute;
+        left: 10px;
+        border: 1px solid rgba(195, 195, 195, 0.57);
+        background-color: transparent;
+        color: rgba(195, 195, 195, 0.57);
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 2px 9px;
+    }
+
+    #download {
+        display: none;
+    }
+
+    .tool {
+        left: 0 !important;
+        top: size(250) !important;
+    }
+
+    .progress-graph-bg {
+        max-width: 285px;
+        height: 285px;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        box-shadow: 0 4px 4px 0 rgba(32, 32, 32, 0.3);
+        width: 100%;
+		display: none;
+    }
+	.icon-sp-completed{
+		height: size(76);
+		width: size(86);
+		z-index: 10;
+		margin-left: size(40);
+		margin-bottom: size(40);
+	}
+
+}

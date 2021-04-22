@@ -1,0 +1,50 @@
+"feedback_attempts": "",
+"multiple_responses": false,
+
+"stimulus_audio": null, replace by "stimulus_media": null,
+
+"feedback": {
+            "correct": {
+              "text": "<p><span style=\"background-color: rgb(255, 255, 255);\">The Municipal Commissioner works at the Municipal Corporation.</span></p>",
+              "media": null
+            },
+            "incorrect": {
+              "text": "<p><span style=\"background-color: rgb(255, 255, 255);\">The Municipal Commissioner works at the Municipal Corporation.</span></p>",
+              "media": null
+            }
+          }
+
+		  "penalty_score": -1,
+        "response_id": "",
+        "type": "MCQ",
+        "ui_style": {
+          "type": "block"
+        },
+        "validation": {
+          "scoring_type": "exactMatch",
+          "valid_response": {
+            "value": ["<p>Priya, the Municipal Commissioner</p>", "<p>Rajeev, a Ward Councillor</p>"]
+          },
+          "penalty": -1
+        },
+
+		 "metadata": {
+          "distractor_rationale": {
+            "label": "Incorrect feedback",
+            "audio": ""
+          },
+          "acknowledgements": {
+            "label": "Correct feedback",
+            "audio": ""
+          }
+        }
+
+		 "metadata": {
+        "name": "",
+        "template_reference": ""
+      },
+      "type": "",
+      "widget_type": "response"
+    }],
+    "features": []
+  }

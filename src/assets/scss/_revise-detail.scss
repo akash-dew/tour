@@ -1,0 +1,222 @@
+@import 'variables';
+.revise-detail{ 
+  .section{
+    &.text{
+      padding: 0;
+      position: relative;
+      height: 100%;
+      overflow: auto;
+
+      .section-text-inner{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        padding: size(16) size(16) size(16) 0;
+      }
+      .heading2{ padding: 0 0 size(12); line-height: size(24);}
+        
+
+      tce-web-overview-description,
+      .ql-editor{ padding: 0;}
+      ul,ol{ padding-left:size(20) }
+    }
+    // &.mid{
+    //   .container{ padding: 32px 8px 20px; }
+    //   @media (max-width:900px){
+    //     .container{ padding: 0px; }
+    //   }
+    // }
+    // @media (max-width:900px){
+      // .video-outer{padding: 0; margin: 0 0 20px;}
+
+    //   &.text{
+    //     padding:0 8px 30px;
+    //   }
+    // }
+  }
+
+  .video-col-pad{
+    padding: 0;
+    padding-right:size(8);
+    
+  }
+  .overview-col-pad{
+    padding: size(12) 0;
+    padding-left:size(8);
+  }
+
+}
+@include media-breakpoint-down(md) {
+  
+  // .revise-container{
+  //   > .row{ margin:0!important;
+  //     .col-lg-9{ padding:0!important }
+  //     .col-lg-3{ padding:size(20) size(16)!important }
+  //   }
+  // }
+  .revise-container{ padding: 0; }
+  .revise-detail{ 
+    .section.text{
+      height: auto;
+      .section-text-inner{
+        position: static;
+        padding: 0;
+      }
+    }
+    .video-col-pad{
+      padding: 0;      
+      
+    }
+    .overview-col-pad{
+      padding:size(20) size(16);
+    }
+
+  }
+
+}
+
+// .rotate-devise-screen{ 
+//   display: none;
+//   position: fixed;
+//   background-color:#00A4FF;
+//   width: 100vw;
+//   height: 100vh;
+//   align-items: center;
+//   justify-content: center;
+//   z-index: 999999;
+//   text-align: center;
+
+//   .img{
+//     background-image: url(https://img1a.flixcart.com/batman-returns/batman-returns/p/images/landscape-e85e99.png);
+//     background-position: 50%;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     width: 30%;
+//     padding-bottom: 25.5%;
+//     margin: 0 auto 25px;
+//   }
+
+//   *{ color: #fff!important; }
+
+// }
+
+@include media-breakpoint-down(sm) {  
+// @media (max-width:900px) and (max-height: 414px) {
+     
+  @media (orientation: portrait) {
+     
+  }
+
+  @media (orientation: landscape) {
+    // .header.revise-header.small{ display: none; }
+      .navigator{ position: fixed; width: calc(100% - 80px); left: 0; top: size(10); background: none; z-index: 99; 
+        h4{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      }
+      .video-player .vjs-notes-btn{ top: size(20); }
+
+    .portraitView{
+      // .header.revise-header.small{ display: none; }
+      .navigator{ position: fixed; width: calc(100% - 80px); left: 0; top: size(10); background: none; z-index: 9; 
+        h4{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      }
+      .video-player .vjs-notes-btn{ top: size(20); }
+
+      
+    }
+
+  //   .revise-detail-video-page{
+  //     .navigator-inner{ position: fixed;
+  //       top: size(20);
+  //       left: 0;
+  //       width: 100%;
+  //       background: rgba(0,0,0,0.4);
+  //       .heading4{
+  //         color: $whiteColor;
+  //       }
+      
+  //     }
+  //     .video-player .vjs-notes-btn{
+  //       top: size(50);
+  //     }
+  //   }
+
+
+  //   .header {
+  //     &.small-revise-header {
+  //         height: size(20);
+
+  //         .container-fluid {
+  //             height: size(20);
+  //             min-height: auto;
+  //         }
+
+  //         .heading2,
+  //         .progress-chart-icon,
+  //         h1,
+  //         h2 {
+  //             opacity: 0;
+  //             font-size: 0;
+  //         }
+
+  //         .btn-icon {
+  //             transform: scale(0.7);
+  //             margin: 0 0 0 -0.5333333333333333rem;
+
+  //             svg circle {
+  //                 opacity: 0;
+  //             }
+  //         }
+  //     }
+  // }
+
+
+  // .rotate-devise-screen{ 
+  //   display: flex;
+
+  // }
+
+  }
+
+}
+
+
+.top-actions-sec{
+  text-align: right;
+  padding: 0 0 size(10);
+  @include media-breakpoint-down(md) {
+    padding: size(10) size(10);
+  }
+}
+
+.revise-container-inner{
+  background: $whiteColor;
+  border-radius: 0 size(20) size(20) 0;
+
+}
+
+
+.nav-actions{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  .container {
+    align-items: center;
+    max-width:size(838)
+  }
+}
+@media (max-width: 1050px){
+  .nav-actions{    
+    .container {
+      max-width:size(788)
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  .nav-actions{    
+    .container {
+      max-width:100%
+    }
+  }
+}

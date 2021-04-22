@@ -1,0 +1,80 @@
+{
+  "event": {
+    "onOptClick": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        }
+      ]
+    },
+    "USER_ATTEMPT_UPDATED": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        }
+      ]
+    },
+    "resetQuestion": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "instantFeedback"
+        }
+      ]
+    },
+    "maxAttemptFb": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol_W"
+        }
+      ]
+    },
+    "correctAttemptFb": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol_C"
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "maxAttempt": 0,
+    "allOption": 0,
+    "qCompletion": "Q_Fb"
+  },
+  "msgRule" : [
+    {"rule" : "1_1_0" , "value":["c_1"], "label":"correct" },
+    {"rule" : "1_1_1" , "value":["c_1"], "label":"correct" },
+    {"rule" : "1_1_2" , "value":["c_1"], "label":"correct" },
+    {"rule" : "1_0_0" , "value":["m_1"], "label":"missed" },    
+    {"rule" : "1_0_1" , "value":["m_1"], "label":"missed" },
+    {"rule" : "1_0_2" , "value":["m_1"], "label":"missed" },
+    {"rule" : "0_1_0" , "value":["w_1"], "label":"incorrect" },    
+    {"rule" : "0_1_1" , "value":["w_1"], "label":"incorrect" },
+    {"rule" : "0_1_2" , "value":["w_1"], "label":"incorrect" }   
+    ]
+}

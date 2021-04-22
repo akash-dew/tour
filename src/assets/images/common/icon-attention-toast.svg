@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements" transform="translate(-61.000000, -1838.000000)">
+            <g id="Compounds/Notifications/Toast/PersistentFlat" transform="translate(45.000000, 1695.000000)">
+                <g id="Elements/Graphics/Style3/Answered" transform="translate(16.000000, 143.000000)">
+                    <g id="Alert/Colour" transform="translate(3.000000, 3.000000)">
+                        <path d="M9,0 C4.03753846,0 0,4.03719231 0,9 C0,13.9628077 4.03753846,18 9,18 C13.9624615,18 18,13.9628077 18,9 C18,4.03719231 13.9624615,0 9,0 Z" id="Shape" fill="#FF3EB9"/>
+                        <g id="Group" transform="translate(7.500000, 4.000000)" fill="#FFFFFF">
+                            <path d="M1.5,0 C1.13568,0 0.84,0.445666667 0.84,0.63 L0.84,7.37 C0.84,7.55433333 1.13568,8 1.5,8 C1.86432,8 2.16,7.55433333 2.16,7.37 L2.16,0.63 C2.16,0.445666667 1.86432,0 1.5,0 Z" id="Path" fill-rule="nonzero"/>
+                            <circle id="Oval" cx="1.5" cy="9.66" r="1"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

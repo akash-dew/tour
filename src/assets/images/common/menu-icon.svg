@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>46680CC7-BC2D-456F-AB36-9962F7A61EB1</title>
+    <g id="B:-Manage-Study-Plans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C:02-SC-MyStudyPlans" transform="translate(-16.000000, -8.000000)" fill="#FFFFFF">
+            <g id="Templates/Assignment/Default">
+                <g id="Templates/Global/Generic/Default">
+                    <g id="DefaultNavigation">
+                        <g id="Elements/CTAs/IconBased" transform="translate(16.000000, 8.000000)">
+                            <g id="Elements/Graphics/Style3/Photos/Black">
+                                <g id="Group-2">
+                                    <g id="Group">
+                                        <circle id="Oval" fill-opacity="0.3" cx="12" cy="12" r="12"></circle>
+                                        <g id="Group-3" transform="translate(5.500000, 5.500000)">
+                                            <rect id="Rectangle" x="0" y="0" width="6" height="6" rx="1"></rect>
+                                            <rect id="Rectangle" x="7" y="0" width="6" height="6" rx="1"></rect>
+                                            <rect id="Rectangle" x="0" y="7" width="6" height="6" rx="1"></rect>
+                                            <rect id="Rectangle" x="7" y="7" width="6" height="6" rx="1"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

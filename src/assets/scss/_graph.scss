@@ -1,0 +1,116 @@
+
+.graph-legend {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 12px;
+
+	> div{
+		> p{
+			margin: 10px 0;
+    		font-weight: 300;
+		}
+	}
+  
+    // .filter-w {
+    //   filter: invert(1);
+    // }
+  
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+	  border: 1px solid rgba(32,32,32,0.3);
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.22);
+    margin-top: 15px;
+  
+      li {
+        margin-right: 15px;
+        cursor: pointer;
+  
+        div {
+          	display: flex;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 10px;
+
+			p{
+				margin: 6px auto;
+    			font-size: 10px;
+				font-style: italic;
+
+			}
+  
+          span {
+            width: 100px;
+            height: 1px;
+            display: block;
+            margin: 4px;
+            position: relative;
+  
+            // &::after {
+            //   content: "";
+            //   position: absolute;
+            //   width: 13px;
+            //   height: 13px;
+            //   margin-top: -4px;
+            //   margin-left: -4px;
+            // }
+          }
+        }
+      }
+    }
+  
+    .Planned {
+		color: #0089FE;
+		span{
+      	border-top: 1px solid #0089FE;
+	  }
+  
+    //   &::after {
+    //     border: 2px solid #0b6cf6;
+    //   }
+    }
+  
+    .Current{ 
+		color: #92D7FD;
+		span {
+     	 border-top: 1px solid #92D7FD;
+  		}
+    //   &::after {
+    //     border: 2px solid #EC49B4;
+    //   }
+    }
+  
+    .Required {
+		color: #02B55C;
+	 span {
+      border-top: 2px dashed #02B55C;
+  }
+    //   &::after {
+    //     border: 2px solid #58C060;
+    //   }
+    }
+  
+  
+  }
+  
+@include media-breakpoint-down(md) {
+    .graph-legend {
+        padding: 0;
+    }
+	.graph-legend ul li div span{
+		width: 80px;
+	}
+} 
+
+
+// .filter-modal-body{
+//   .icons{ width: size(40); height: size(40); }
+// }

@@ -1,0 +1,173 @@
+@import 'variables';
+
+.header {
+    color: inherit;
+    width: 100%;
+    height: size(64);
+
+    .header-inner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:100;
+        width: 100%;
+        > .container-fluid{
+            background:url(../images/common/header-bg.svg) no-repeat 50% 100%;
+            background-size: 100% auto;
+        }
+    }
+
+    * {
+        transition: opacity 0.5s;
+    }
+
+    .container-fluid,
+    .container {
+        justify-content: space-between;
+        align-items: center;
+        min-height: size(64);
+    }
+
+    .col {
+        justify-content: flex-start;
+        align-items: center;
+
+        .btn {
+            margin: 0 size(16) 0 0;
+        }
+    }
+
+    .heading2 {
+        display: block;
+    }
+
+    .d-flex {
+        min-width: 0;
+    }
+
+    .progress-chart-icon {
+        margin-left: size(16);
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .header {
+        height: size(50);
+
+        .container-fluid {
+            min-height: size(50);
+        }
+
+        .progress-chart-icon {
+            img {
+                width: size(28);
+                height: size(28);
+            }
+        }
+    }
+
+    .header {
+        &.small {
+            height: size(20);
+
+            .container-fluid {
+                height: size(20);
+                min-height: auto;
+            }
+
+            .heading2,
+            .progress-chart-icon,
+            h1,
+            h2 {
+                opacity: 0;
+                font-size: 0;
+            }
+
+            .btn-icon {
+                transform: scale(0.7);
+                margin: 0 0 0 -0.5333333333333333rem;
+
+                svg circle {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    .header-collapse {
+        .header {
+            height: size(20);
+
+            .container-fluid {
+                height: size(20);
+                min-height: auto;
+            }
+
+            .heading2,
+            .progress-chart-icon,
+            h1,
+            h2 {
+                opacity: 0;
+                font-size: 0;
+            }
+
+            .btn-icon {
+                transform: scale(0.7);
+                margin: 0 0 0 -0.5333333333333333rem;
+
+                svg circle {
+                    opacity: 0;
+                }
+            }
+        }
+
+        .test-top-head .test-top-head-inner,
+        .navigator .navigator-inner {
+            top: size(20);
+        }
+    }
+
+}
+
+.bigIdea.header {
+	position: fixed;
+    width: 100%;
+    z-index: 1;
+	height: size(20);
+	.container-fluid {
+                height: size(20);
+                min-height: auto;
+            }
+
+            .heading2,
+            .progress-chart-icon,
+            h1,
+            h2 {
+                opacity: 0;
+                font-size: 0;
+            }
+
+            .btn-icon {
+                transform: scale(0.7);
+                margin: 0 0 0 -0.5333333333333333rem;
+
+                svg circle {
+                    opacity: 0;
+                }
+            }	
+}
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+.bigIdea.header {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+}
+
+// .header-collapse{
+//   .header{ height: size(40);
+// }

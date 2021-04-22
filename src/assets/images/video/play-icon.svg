@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9B0A0365-2659-46BE-990B-2B3E569C5787</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-03-SC-VideoPlayer" transform="translate(-470.000000, -594.000000)">
+            <g id="Templates/Revise/VideoView/Desktop" transform="translate(0.000000, 64.000000)">
+                <g id="VideoPlayer" transform="translate(18.000000, 72.000000)">
+                    <g id="Interface" transform="translate(0.000000, 28.000000)">
+                        <g id="PlaybackControls" transform="translate(412.500000, 430.000000)">
+                            <g id="Components/Players/Video/Elements/Interface/Elements/Enter-Full-Screen" transform="translate(40.000000, 0.000000)">
+                                <g id="Elements/Graphics/Style3/Photos/Black">
+                                    <g id="Group-2">
+                                        <g id="Group" transform="translate(2.000000, 2.000000)">
+                                            <circle id="Oval" stroke="#FFFFFF" cx="10.5" cy="10.5" r="10"></circle>
+                                            <path d="M14.7028784,11.1863336 L8.58123819,15.5589338 C8.13182561,15.8799428 7.50727552,15.7758511 7.18626653,15.3264385 C7.06512313,15.1568377 7,14.9536233 7,14.7452003 L7,6 C7,5.44771525 7.44771525,5 8,5 C8.20842298,5 8.41163744,5.06512313 8.58123819,5.18626653 L14.7028784,9.55886668 C15.152291,9.87987567 15.2563827,10.5044258 14.9353737,10.9538383 C14.871234,11.0436339 14.7926739,11.122194 14.7028784,11.1863336 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

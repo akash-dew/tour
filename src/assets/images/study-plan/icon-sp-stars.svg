@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8C8EDE57-93FB-49D0-9386-A710FC79F744</title>
+    <defs>
+        <rect id="path-1" x="0.696666667" y="0.696666667" width="40.4066667" height="40.4066667" rx="50"></rect>
+    </defs>
+    <g id="A:-My-Lessons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C:01-BL-MyLessons" transform="translate(-100.000000, -156.000000)">
+            <g id="Templates/BaseLayer/Generic/MyLessons/Default" transform="translate(0.000000, -509.000000)">
+                <g id="Templates/Global/Generic/Default" transform="translate(0.000000, 509.000000)">
+                    <g id="GSN/Graphs/StudyRings" transform="translate(40.000000, 65.000000)">
+                        <g id="Group-3" transform="translate(0.000000, 93.000000)">
+                            <g id="Elements/Graphics/Style1/Bonus/Colour" transform="translate(62.000000, 0.000000)">
+                                <g transform="translate(-1.900000, -1.900000)" id="Bonus/Colour">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Rectangle" fill="#FF6107" xlink:href="#path-1"></use>
+                                    <polygon id="Path-2" fill-opacity="0.4" fill="#FFC107" mask="url(#mask-2)" points="0 34.6788965 29.3028613 0 41.8 0 41.8 16.4451432 0 41.8"></polygon>
+                                    <path d="M33.3746284,17.466544 C33.2104499,16.9587008 32.7600118,16.5980058 32.2271016,16.5499769 L24.9883262,15.8926892 L22.1259196,9.1929471 C21.9148605,8.70194269 21.434189,8.38411014 20.9001307,8.38411014 C20.3660725,8.38411014 19.885401,8.70194269 19.6743418,9.19409523 L16.8119352,15.8926892 L9.57201174,16.5499769 C9.04005834,16.5991538 8.59076828,16.9587008 8.42563311,17.466544 C8.26049793,17.9743872 8.41300397,18.5314075 8.81541331,18.882535 L14.2870703,23.6812135 L12.673606,30.7885314 C12.555543,31.3111086 12.758374,31.85129 13.1919735,32.1647215 C13.4250379,32.3331096 13.6977119,32.4188345 13.972682,32.4188345 C14.2097648,32.4188345 14.4449341,32.3549236 14.6559933,32.2286324 L20.9001307,28.4967309 L27.141972,32.2286324 C27.5987247,32.5034113 28.1744973,32.4783444 28.6071399,32.1647215 C29.0409306,31.8503332 29.2435704,31.3099605 29.1255074,30.7885314 L27.5120431,23.6812135 L32.9837001,18.8834917 C33.3861094,18.5314075 33.5397636,17.975344 33.3746284,17.466544 Z" id="Path" fill="#FFC107" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                                    <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="39.8" height="39.8" rx="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+{
+  "dynamicComponents": [
+    {
+      "componentId": "intro-screen-overview-description",
+      "panel": true
+    },
+    {
+      "componentId": "intro-screen-controls",
+      "panel": false
+    }
+  ],
+  "controls": {
+    "1": {
+      "primary": {
+        "action": "start",
+        "text": "Begin Revision"
+      },
+      "secondary": {
+        "action": "exit",
+        "text": "Return to Subject"
+      },
+      "tertiary": []
+    },
+    "2": {
+      "primary": {
+        "action": "start",
+        "text": "Revise again"
+      },
+      "secondary": {
+        "action": "next",
+        "text": "Skip to Practice"
+      },
+      "tertiary": [{
+        "action": "exit",
+        "text": "Return to Subject"
+      }]
+    },
+    "3": {
+      "secondary": {
+        "action": "start",
+        "text": "Revise again"
+      },
+      "primary": {
+        "action": "next",
+        "text": "Continue Studying"
+      },
+      "tertiary": [{
+        "action": "exit",
+        "text": "Return to Subject"
+      }]
+    }
+  },
+  "progressive_disclosure": true
+}

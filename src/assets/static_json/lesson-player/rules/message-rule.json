@@ -1,0 +1,24 @@
+{
+  "messages":[
+    {"msg":"That’s right.","key":"c_1"},
+    {"msg":"You’ve got it!","key":"c_2"},
+    {"msg":"Perfect!","key":"c_3"},
+    {"msg":"Oops! You missed this.","key":"m_1"},
+    {"msg":"Not quite right.","key":"w_1"},
+    {"msg":"Are you sure?","key":"w_2"},
+    {"msg":"Uh-oh! Give it another shot!","key":"q_w_retry1"},
+    {"msg":"Are you sure? Read the options carefully.","key":"q_w_retry2"},
+    {"msg":"Not quite. Let's continue.","key":"q_w1" }   ,
+    {"msg":"Uh-oh, wrong again! Let's continue.","key":"q_w_multi"},
+    {"msg":"You're close! Try again.","key":"q_partial_retry1"},
+    {"msg":"Almost right! Take another look (at the question).","key":"q_partial_retry2"},
+    {"msg":"Great job! Let's continue.","key":"q_c1"},
+    {"msg":"Good going.","key":"q_c2"},
+    {"msg":"Spot on!","key":"q_c3"},
+    {"msg":"Incorrect","key":"q_w_test"},
+    {"msg":"Partially Correct","key":"q_partial_test"},
+    {"msg":"Correct","key":"q_c_test"},
+    {"msg":"Missed","key":"Q_missed_test"},
+    {"msg":"Here you go. Now let's continue.","key":"i_dont_know"}
+    ]
+  }

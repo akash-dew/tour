@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01BDD5C1-16C2-4D59-8B8F-3FB803F58B69</title>
+    <g id="A:-My-Lessons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C:02A-BL-MyLessons-Alert" transform="translate(-944.000000, -1163.000000)">
+            <g id="Group" transform="translate(934.000000, 1149.000000)">
+                <g id="Elements/Graphics/Style3/Answered" transform="translate(10.000000, 14.000000)">
+                    <g id="warning" transform="translate(3.000000, 3.000000)">
+                        <path d="M9,0 C4.03753846,0 0,4.03719231 0,9 C0,13.9628077 4.03753846,18 9,18 C13.9624615,18 18,13.9628077 18,9 C18,4.03719231 13.9624615,0 9,0 Z" id="Shape" fill="#FF3EB9"></path>
+                        <path d="M9,3.46153846 C8.80892308,3.46153846 8.65384615,3.61626923 8.65384615,3.80769231 L8.65384615,11.4230769 C8.65384615,11.6145 8.80892308,11.7692308 9,11.7692308 C9.19107692,11.7692308 9.34615385,11.6145 9.34615385,11.4230769 L9.34615385,3.80769231 C9.34615385,3.61626923 9.19107692,3.46153846 9,3.46153846 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M9,12.8076923 C8.80892308,12.8076923 8.65384615,12.9624231 8.65384615,13.1538462 L8.65384615,13.8461538 C8.65384615,14.0375769 8.80892308,14.1923077 9,14.1923077 C9.19107692,14.1923077 9.34615385,14.0375769 9.34615385,13.8461538 L9.34615385,13.1538462 C9.34615385,12.9624231 9.19107692,12.8076923 9,12.8076923 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,49 @@
+// All Colors
+$whiteColor:#fff;
+$blackColor:#000;
+$pinkColor:#D03B63;
+
+// Font Families
+$familyPrimary: 'Lato', sans-serif;
+$familySecondary: 'Raleway', sans-serif;
+
+// Font Weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+// Responsive Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+
+// themes1 color
+$theme1:#7C243B;
+$theme1-header:#D03B63;
+$theme1-child1:#D03B63;
+$theme1-child2:#A62F50;
+
+// themes2 color
+$theme2:#fff;
+$theme2-header:#eee;
+$theme2-child1:#eee;
+$theme2-child2:#ccc;
+
+// themes3 color
+$theme3:#7C243B;
+$theme3-header:#D03B63;
+$theme3-child1:#D03B63;
+$theme3-child2:#A62F50;
+
+// themes4 color
+$theme4:#fff;
+$theme4-header:#eee;
+$theme4-child1:#eee;
+$theme4-child2:#ccc;

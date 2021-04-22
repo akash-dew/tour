@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A49B478C-4BF3-43F5-848D-236A0E6B9833</title>
+    <defs>
+        <filter x="-2.5%" y="-14.0%" width="105.0%" height="127.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Lessons-D" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lessons-D-01" transform="translate(-588.000000, -273.000000)" fill="#FFFFFF">
+            <g id="NewCards/Lesson-Copy" filter="url(#filter-1)" transform="translate(454.000000, 215.000000)">
+                <g id="StarSmall/Empty" transform="translate(134.000000, 58.000000)">
+                    <path d="M16.9739124,10.77888 C16.9084506,10.5675843 16.7288505,10.4175119 16.5163668,10.3975288 L13.6300988,10.1240546 L12.4887908,7.33652849 C12.4046366,7.1322389 12.2129817,7 12.0000403,7 C11.7870989,7 11.595444,7.1322389 11.5112897,7.33700619 L10.3699817,10.1240546 L7.48325598,10.3975288 C7.2711538,10.4179896 7.09201141,10.5675843 7.02616818,10.77888 C6.96032495,10.9901756 7.02113265,11.2219321 7.1815826,11.3680238 L9.3632594,13.3645845 L8.71993369,16.3216885 C8.67285922,16.5391144 8.75373269,16.7638648 8.92661885,16.8942726 C9.01954708,16.9643329 9.12826851,17 9.23790548,17 C9.33243591,17 9.42620338,16.9734089 9.51035759,16.9208636 L12.0000403,15.3681512 L14.4888074,16.9208636 C14.6709254,17.0351894 14.9004993,17.02476 15.073004,16.8942726 C15.2459664,16.7634667 15.3267636,16.5386367 15.2796891,16.3216885 L14.6363634,13.3645845 L16.8180402,11.3684219 C16.9784902,11.2219321 17.0397556,10.9905737 16.9739124,10.77888 Z" id="Star"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

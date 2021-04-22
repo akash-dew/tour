@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DEDFA918-553D-4D64-9086-4B8D5BE94385</title>
+    <g id="SETTINGS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="F-04-Notification" transform="translate(-750.000000, -643.000000)">
+            <g id="PrimaryButton-Style1" transform="translate(738.500000, 635.000000)">
+                <g id="Floating-Button" transform="translate(12.000000, 8.000000)">
+                    <rect id="Rectangle" fill="#64C6FD" x="0" y="0" width="24" height="24" rx="12"></rect>
+                    <g id="Multiple-Actions" transform="translate(3.000000, 3.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <g id="Combined-Shape" transform="translate(0.750000, 0.750000)">
+                            <path d="M8.7125,0.1125 C8.8816372,0.1125 9.02275305,0.202480272 9.05538924,0.322097094 L9.0625,0.375 L9.062,8.0495 L16.7375,8.05 C16.8824747,8.05 17,8.20670034 17,8.4 C17,8.5691372 16.9100197,8.71025305 16.7904029,8.74288924 L16.7375,8.75 L9.062,8.7495 L9.0625,16.125 C9.0625,16.2699747 8.90579966,16.3875 8.7125,16.3875 C8.5433628,16.3875 8.40224695,16.2975197 8.36961076,16.1779029 L8.3625,16.125 L8.362,8.7495 L0.9875,8.75 C0.842525253,8.75 0.725,8.59329966 0.725,8.4 C0.725,8.2308628 0.814980272,8.08974695 0.934597094,8.05711076 L0.9875,8.05 L8.362,8.0495 L8.3625,0.375 C8.3625,0.230025253 8.51920034,0.1125 8.7125,0.1125 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

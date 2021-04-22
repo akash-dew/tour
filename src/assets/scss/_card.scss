@@ -1,0 +1,187 @@
+.com-card {
+  display: flex;
+  border-radius: 0;
+  border: 0;
+  padding: size(8) size(16) size(6) size(2);
+  position: relative;
+  background: none;
+  margin-bottom: size(10);
+  width: 100%;
+
+  .img {
+    width: size(68);
+	  min-width: size(58);
+    margin: 0;
+    position: relative;
+
+    p {
+      text-align: center;
+      margin: size(4) size(0) size(2);
+      font-size: size(12);
+      max-width: 100%;
+      font-weight: $medium;
+      letter-spacing: 0.4px;
+      line-height: size(16);
+    }
+  }
+
+  .star-box {
+    height: size(16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon-star {
+      margin: size(-3) size(-4);
+    }
+
+    .completed {
+      filter: invert(0.2) sepia(1) saturate(20) hue-rotate(360deg) brightness(0.97);
+    }
+  }
+
+  .info {
+    padding: size(0);
+    line-height: 1.4;
+    flex-grow: 1;
+    word-break: break-word;
+      width: calc(100% - 68px);
+    
+      .school-tag{
+        border-radius: size(8);
+        background-color: $colorBlueLight2;
+        color: $whiteColor;
+        font-size: size(12);
+        letter-spacing: 0;
+        line-height: size(16);
+        padding: 0 size(8);
+        position: absolute;
+        right: size(16);
+        top: size(8);
+    }
+
+    .info-detail {
+      width: calc(100% - 40px);
+      
+	  .meta{
+	  	.left{ width: 100%; line-height: size(16);}
+		  }
+
+
+      .item {
+        font-size: size(12);
+        letter-spacing: 0;
+        line-height: size(16);
+        margin-bottom: size(2);
+        color: $secondaryGrayColor;
+		&.lesson-type{
+			font-weight: $bold;
+			word-break: normal;
+			white-space: nowrap;
+		}
+      }
+
+      .title {
+       @include heading4;
+        margin: size(3) 0;
+      color: $primaryGrayColor;
+      }
+
+      .detail {
+        color: $secondaryGrayColor;
+        font-size: size(12);
+        letter-spacing: 0;
+        line-height: size(16);
+        margin-bottom: size(5);
+        display: flex;
+        justify-content: space-between;
+		align-items: center;
+		margin: 0;
+      }
+    }
+    .right { padding: 0 0 size(3); 
+      .status-icon {
+        display: flex;
+        justify-content: flex-end;
+
+        svg.redo-svg path{
+          fill: #989898;
+        }
+
+      }
+
+      .dropdown {
+        z-index: 9;
+
+        .dropdown-menu {
+          box-shadow: 1px 3px 1px #e4e4e4;
+        }
+
+        .dropdown-item {
+          font-size: 12px;
+          color: $lightGraytext;
+        }
+      }
+
+      .dropdown-toggle::after {
+        display: none;
+      }
+    }
+	.icon-more-option {
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 50%;
+}
+  }
+
+//   &::before {
+//     content: "";
+//     width: 0.5333333333rem;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     height: 100%;
+
+//   }
+
+  .small-text {
+    color: $dateColor;
+    font-family: $familyPrimary;
+    font-size: size(12);
+    letter-spacing: 0;
+    line-height: size(16);
+  }
+  .small-text-total {
+    color: $dateColor;
+    font-family: $familyPrimary;
+    font-size: size(15);
+    letter-spacing: 0;
+    line-height: size(16);
+  }
+  .medium-text {
+    @include heading5;
+	color: $primaryGrayColor;
+    
+  }
+}
+
+.other-cards{
+  .com-card .info .info-detail .title{  @include heading5;  }
+}
+
+ 
+.com-card {
+  .img {
+    svg{
+      transform: scale(0.8);
+      transform-origin: center;
+   }
+  }
+  .img {
+    .circle-progress{
+      svg{
+        transform: scale(1);
+        transform-origin: center;
+    }
+    }
+  }
+}

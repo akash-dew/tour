@@ -1,0 +1,82 @@
+{
+    "event": {
+      "onOptClick": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          }
+        ]
+      },
+      "USER_ATTEMPT_UPDATED": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          }
+        ]
+      },
+      "resetQuestion": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "removeClass",
+            "data": "instantFeedback"
+          }
+        ]
+      },
+      "correctQuestion": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          }
+        ]
+      },
+      "maxAttemptFb": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol_W"
+          }
+        ]
+      },
+      "correctAttemptFb": {
+        "actions": [
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "instantFeedback"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol"
+          },
+          {
+            "value": "styleAttempt",
+            "type": "applyClass",
+            "data": "showQSol_C"
+          }
+        ]
+      }
+    },
+    "parameters": {
+      "maxAttempt": 0,
+      "allOption": 0,
+      "qCompletion": "Q_Fb"
+    },
+
+    "msgRule" : [ 
+      ]
+  }
+  

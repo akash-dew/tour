@@ -1,0 +1,307 @@
+{
+  "errors": {
+    "500error": "Page not loaded \n We were not able to fetch all the details for this page. Please refresh this page to try again.",
+    "signin": {
+      "badCred": "Account not found \n We're unable to locate your account. Please recheck account name and try once again."
+    },
+    "forgotPassword": {
+      "accountNotFound": "Account not found \n We're unable to locate your account. Please recheck account name and try once again.",
+      "resendOtp": "OTP limit reached \n You've used up all OTPs available for today. Please contact call center for help signing in without OTP.",
+      "verifyPin": "Invalid PIN \n The PIN you have entered is invalid. Please recheck PIN message and try once again."
+    },
+    "registration": {
+      "requestOtp": "OTP limit reached \n You've used up all OTPs available for today. Please contact call center for help signing in without OTP.",
+      "userExsits": "User already exists!",
+      "resendOtp": "OTP limit reached \n You've used up all OTPs available for today. Please contact call center for help signing in without OTP.",
+      "verifyPin": "Invalid PIN \n The PIN you have entered is invalid. Please recheck PIN message and try once again."
+    },
+    "registerChild":{
+      "userExsits": "User already exists!"
+    }
+  },
+  "menu" : {
+    "menuTitle":"What would you like to do next?",
+    "assignmentTitle":"Assignments",
+    "logOut":"Log out",
+    "planTitle":"Plan: {{ activeplanLabel }}",
+    "syllabusTitle":"Syllabus",
+    "syllabusSubTitle":"Available",
+    "studyPlanSubTitle":"Completing on {{date}}",
+    "noStudyPlanLabel":"Create Study Plan",
+    "report":"Report an issue",
+    "version":" Version: {{ver}} ",
+    "studyPlanEmptytoastHead":"Create Study Plan!",
+    "studyPlanEmptytoastBody":"Tell us the portion you wish to complete, and we will help you plan what to study and for how long, every day.",
+    "studyPlanEmptytoastButton":"Create Study Plan",
+    "newFeaturetoastHead":"Feature Update ({{date}})",
+    "newFeaturetoastBody":"We have made some critical updates to STUDI. Some of these updates will come into effect only after you refresh this page.",
+    "newFeaturetoastPrimaryButton":"Refresh Page",
+    "newFeaturetoastSecondaryButton":"Dismiss",
+    "assign_gt_ten" : "You have more than 10 Assignments Pending",
+    "no_assign" : "{{activeAssignments}} assignments left",
+    "assign_lt_two" : "{{activeAssignments}} assignment left",
+    "assign_gt_one_lt_ten_active_gt_one" : "{{activeAssignments}} assignments left"
+  },
+  "notes": {
+    "noteListMenuLabel":"Notes",
+    "noteListnoteLocationButton":"Go to Note Location",
+    "createNoteLabel":"Create Note",
+    "editNoteLabel":"Edit Note",
+    "uploadAttachmentLabel":"Upload Attachments",
+    "uploadImageTooltip":"Upload Image",
+    "saveNoteButton":"Save Note",
+    "discardText":"Discard Changes",
+    "notefieldPlaceholder":"Insert text here ... ",
+    "deleteModalPrimaryLabel":"Are you sure you want to delete this note?",
+    "deleteModalSecondaryLabel":"You will lose this note permanently",
+    "deleteModalPrimaryButton":"Delete note",
+    "deleteModalSecondaryButton":"Return to note",
+    "discardModalPrimaryLabel":"Are you sure you want to discard?",
+    "discardModalSecondaryLabel":" You will lose what you were working on. ",
+    "discardModalPrimaryButton":"Yes, Please Discard",
+    "discardModalSecondaryButton":"Take me back"
+  },
+  "assignment":{
+    "today":"Today",
+    "upcoming":"Upcoming",
+    "activeListHeader":"My Assignments",
+    "completedListHeader":"Completed Assignments",
+    "assignTaskHeader":"Assign Task",
+    "assignTaskLabel":"Enter Task Settings",
+    "last7days":"Last 7 days",
+    "older":"Older",
+    "showMore":"Show more",
+    "backtoListButton":"Back to Today's Assignment",
+    "completedListButton":"View Completed Assignments",
+    "help":"Help",
+    "assignTaskFormInstructionLabel":"Instructions",
+    "assignTaskFormInstructionHelpLabel":"Include clear instructions for the task",
+    "assignTaskFormAttachmentsLabel":"Attachments",
+    "assignTaskFormAttachmentsHelpLabel":"Add appropriate attachments to support the task",
+    "assignTaskFormCompletionLabel":"Completion Criteria",
+    "assignTaskFormCompletionHelpLabel":"Select criteria for completion of task",
+    "assignTaskFormDurationLabel":"Tentative Duration",
+    "assignTaskFormDurationHelpLabel":"Define time required to complete this task",
+    "assignTaskFormDueByLabel":"Due by",
+    "assignTaskFormDueByHelpLabel":"Set a date for completing the task",
+    "assignTaskFormTitleLabel":"Title",
+    "assignTaskFormTitleHelpLabel":"Add a title that is easy to scan",
+    "assignNowButton":"Assign",
+    "discardModalPrimaryLabel":"Are you sure you want to discard?",
+    "discardModalSecondaryLabel":" You will lose what you were working on. ",
+    "discardModalPrimaryButton":"Yes, Please Discard",
+    "discardModalSecondaryButton":"Take me back",
+    "close":"Close"
+  },
+  "browsebook": {
+    "chapters": {
+      "normalLabel":"All Chapters",
+      "createLabelDesktop":"Select Topics from {{subject}}",
+      "createLabelMobile":"{{subject}}",
+      "highlightLabel":"Highlight",
+      "bigIdeaLabel":"The Big Idea",
+      "lowConf":"Low Confidence",
+      "lowConfTooltip":"We are not so confident on this topic just yet. We require a lot more practise.",
+      "mediumConf":"Medium Confidence",
+      "mediumConfTooltip":"We are confident that we will do moderately well on this topic. Some more practise will help.",
+      "highConf":"High Confidence",
+      "highConfTooltip":"We are confident that we’ll do exceptionally well on this topic.",
+      "completedConf":"Completed in School",
+      "completedConfTooltip":"You have completed in school",
+      "notAssessedConf":"Not Assessed",
+      "notAssessedConfTooltip":"We have not completed a single practise or test on this topic yet.",
+      "excludConf":"Exclude from Syllabus",
+      "excludedConf":"Excluded from Syllabus",
+      "studyStatus":"Study Status",
+      "planning":"Planning"
+    },
+    "subjects": {
+      "normalLabel":"All Subjects",
+      "createLabel":"Select Subject",
+      "header":"Syllabus",
+      "create":"Create {{type}}",
+      "assign":"Assign {{type}}"
+    },
+    "form": {
+      "createTitle":"Enter Test Settings",
+      "help":"Help"
+    }
+  },
+  "lessonplayer":{
+    "continue":"Continue",
+    "skip":"Skip",
+    "noteSavedSuccessMsg":"Your note is saved here.",
+    "noteCreateSuccessMsg":"Note has been created successfully",
+    "noteUpdateSuccessMsg":"Note has been updated successfully",
+    "overview":"Overview",
+    "overviewMenuLabel":"Your Progress",
+    "overviewMenuNotePresentLabel":"Notes",
+    "overviewMenuNoteNotPresentLabel":"No Notes",
+    "showAnswerButton":"Show Answer",
+    "hideAnswerButton":"Hide Answer",
+    "didyouGetItRightMessage":"Did you get it right?",
+    "correctButton":"Correct",
+    "incorrectButton":"Incorrect",
+    "partiallycorrectButton":"Partially correct",
+    "submitTest":"Submit Test",
+    "abandon":"Abandon",
+    "returntoSummary":"Return to Summary"
+  },
+  "studyplan":{
+    "mylesson": {
+      "toastHeader": "Your Plan Needs Attention",
+      "toastButton": "Review Study Plan",
+      "studyRingHeader":"Our plan for today!",
+      "viewFullScheduleButton":"View Full Schedule",
+      "today": "Today",
+      "upcoming": "Upcoming"
+    },
+    "mylessonredirect":{
+      "heading":"Paused Plan",
+      "info":"You have paused this plan on {{planPauseDate}}. All your previous progress will be modified with a new end date.",
+      "primaryButton":"Resume Plan",
+      "secondaryButton":"Select another plan"
+    },
+    "planComplete":{
+      "heading":"Congratulations!",
+      "info":"We have successfully completed our plan.",
+      "primaryButton":"Review Plan",
+      "secondaryButton":"Select another plan"
+    },
+    "deadlinemissed": {
+      "heading":"Deadline Passed",
+      "info":"This plan has overshot its deadline. We need a new deadline to finish the rest of the portion.",
+      "primaryButton":"Modify Deadline",
+      "secondaryButton":"Select another plan"
+    },
+    "schedule": {
+      "filterHeadLabel":"Filter",
+      "filterPrimaryButton":"Apply",
+      "ringHeadLabel":"Our plan for today!",
+      "ringText":"Let's target to fill our study rings well before time today as well. "
+    },
+    "myplan": {
+      "activeLabel":"Active Plan",
+      "activeText":"Your tasks are assigned as per this plan",
+      "inactiveLabel":"Other Plans",
+      "inactiveText":"{{no}} plans available",
+      "showMore":"Show more"
+    },
+    "planprogress":{
+      "heading":"You are almost there",
+      "info":"Let's target a daily study pace that will keep us above the planned rate of study, so that we'll be done with this portion well before time.",
+      "planCompleteMessage":"We have completed the portion for this plan. Let’s add a few more topics to continue studying from this plan.",
+      "pauseAlertHeading":"Are you sure you want to pause {{label}} ?",
+      "pauseAlertInfo":"You will be unable to access the lessons you were working on.",
+      "pauseAlertPrimaryButton":"Proceed",
+      "pauseAlertSecondaryButton":"Cancel",
+      "planAbandonedMessage":"This plan was abandoned on {{date}} . ",
+      "planCompletedMessage":"This plan was completed on {{date}} . ",
+      "planPausedMessage":"This plan is paused on {{date}} . ",
+      "planTitle":"Plan: {{label}}"
+    },
+    "subjectcontainer":{
+      "tooltipHeading":"You have priorotized this subject for extra study."
+    }
+  },
+  "settings":{
+    "menu":{
+      "switchProfileButton":"Switch Profile",
+      "addNewProfileButton":"Add new profile",
+      "modifySettingsButton":"Modify Settings",
+      "modifySettingFirstLine":"You can now make changes to the Setting sections.",
+      "modifySettingSecondLine":"Please get in touch with us to make changes to locked",
+      "finishCloseButton":"Finish & Close",
+      "profileLabel":"Profile",
+      "syllabusLabel":"Syllabus",
+      "accountLabel":"Account",
+      "notificationLabel":"Notifications"
+    },
+    "otp":{
+      "validateHeader":"Let's verify your mobile",
+      "generateHeaderFirstLine":"OTP verification required for administrative",
+      "generateHeaderSecondLine":"access.",
+      "enterOTP":"Enter your OTP",
+      "validateTime":"OTP will be valid for 60 seconds",
+      "resendOTPButton":"Resend OTP",
+      "generateOTPButton":"Generate OTP",
+      "verifyButton":"Verify"
+    },
+    "preview":{
+      "account":{
+        "headerText":"Account",
+        "primaryContactHeaderLabel":"Primary contact details",
+        "mobileNo":"Mobile number",
+        "email":"Email ID",
+        "invoicingHeaderLabel":"Invoicing details",
+        "firstName":"First name",
+        "lastName":"Last name",
+        "gst":"GST number",
+        "state":"State of residency",
+        "pinCode":"Pincode"
+      },
+      "notifications":{
+        "headerText":"Notifications"
+      },
+      "profile":{
+        "headerText":"Profile",
+        "name":"Name",
+        "profile":"Profile",
+        "subscription":"Subscription"
+      },
+      "syllabus":{
+        "headerText":"Syllabus",
+        "board":"Board",
+        "grade":"Grade",
+        "subjectsIncluded":"Subjects included"
+      }
+    },
+    "modify":{
+      "account":{
+        "headerText":"Account",
+        "primaryContactHeaderLabel":"Primary contact details",
+        "mobileNo":"Mobile number",
+        "email":"Email ID",
+        "invoicingHeaderLabel":"Invoicing details",
+        "firstName":"First name",
+        "lastName":"Last name",
+        "gst":"GST number",
+        "state":"State of residency",
+        "pinCode":"Pincode"
+      },
+      "notifications":{
+        "headerText":"Notifications",
+        "addNewRecipient":"Add new recipient",
+        "name":"Name",
+        "mobile":"Mobile number",
+        "email":"Email ID",
+        "role":"Role",
+        "sendAcademicNotifications":"Send Academic Notifications",
+        "parent":"Parent",
+        "external":"External",
+        "viaSms":"via SMS",
+        "viaEmail":"via Email",
+        "sendPromotionalNotifications":"Send Promotional Notifications"
+      },
+      "profile":{
+        "headerText":"Profile",
+        "name":"Name",
+        "profile":"Profile",
+        "subscription":"Subscription"
+      },
+      "syllabus":{
+        "confirmModalHeader":"Do you wish to continue?",
+        "confirmModalInfo":"You can change the selected syllabus once within your existing subscription.",
+        "confirmModalContinueButton":"Yes, please continue",
+        "previewModifyHeader":"Syllabus",
+        "update":"Update",
+        "academicYear":"Academic year",
+        "year":"AY 2020-21",
+        "board":"Board",
+        "grade":"Grade",
+        "curriculum":"Curriculum",
+        "subjectsIncluded":"Subjects included"
+      }
+    }
+  }
+}

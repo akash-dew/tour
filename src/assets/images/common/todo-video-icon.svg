@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E6EAB42A-A94C-46E8-B984-EFB8474BA3D4</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-01-SC-Opening-Page" transform="translate(-16.000000, -244.000000)">
+            <g id="Objectives" transform="translate(16.000000, 126.000000)">
+                <g id="TeachingQuestion1" transform="translate(0.000000, 118.000000)">
+                    <g id="Group" transform="translate(2.000000, 6.000000)">
+                        <g id="layers" transform="translate(8.000000, 5.000000)" filter="url(#filter-1)">
+                            <g transform="translate(2.666667, 0.000000)">
+                                <polygon id="Path" fill="#FFFFFF" points="27.333334 7.78582613 13.666667 15.619048 0 7.78582613 13.666667 0"></polygon>
+                                <polygon id="Path" fill="#FFFFFF" points="13.3333333 17.9122945 5.05761576 13.3333333 0 16.1145945 13.3333333 23.4920633 26.6666667 16.1145945 21.6090509 13.3333333"></polygon>
+                                <polygon id="Path" fill="#FFFFFF" points="13.3333333 25.9122945 5.05761576 21.3333333 0 24.1145945 13.3333333 31.4920633 26.6666667 24.1145945 21.6090509 21.3333333"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

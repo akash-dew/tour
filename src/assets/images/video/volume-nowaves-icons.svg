@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Volume/Withoutwaves</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compounds/Players/Video/Elements/Interface/Elements/Volume/Withoutwaves" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M11.9275444,16.816214 C11.9275444,17.0601447 11.7866033,17.2817512 11.5660387,17.3851873 C11.4807597,17.42552 11.3893786,17.4450166 11.2985929,17.4450166 C11.1548241,17.4450166 11.0123947,17.3956054 10.8973499,17.3002059 L7.45969721,14.4516185 L5.62880261,14.4516185 C5.28158451,14.4519162 5,14.1701828 5,13.8229647 L5,11.3177258 C5,10.9703589 5.28158451,10.6887744 5.62880261,10.6887744 L7.45984604,10.6887744 L10.8974987,7.84018697 C11.085321,7.68451182 11.3457717,7.65132294 11.5661875,7.75550326 C11.7866033,7.85893943 11.9276932,8.08069467 11.9276932,8.3244766 L11.9275444,16.816214 L11.9275444,16.816214 Z" id="volume-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

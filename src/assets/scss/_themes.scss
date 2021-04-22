@@ -1,0 +1,985 @@
+// themes
+@mixin generateTheme(
+  $themeName,
+  $themeColor,
+  $iconImg,
+  // $cardBgImg,
+  $themeColorCard : $themeColor,
+  $themeColorCardBor: $themeColor,
+  $text-color: $whiteColor,
+) {
+  .#{$themeName}-theme {
+
+    .stepbar-wrapper{
+      .step.current{
+        background-color: $themeColor;
+      }
+    }
+
+    .intent-title-mobile{
+      color: $themeColor;
+    }
+
+    .card-header{
+      .icon-completed-inschool,
+      .icon-notstudied,
+      .icon-conf-low,
+      .icon-conf-mid,
+      .icon-conf-high{
+        .icon-strk{ stroke:$themeColor; }
+        .icon-fill{ fill:$themeColor; }
+      }
+    }    
+
+    .header-inner,
+    .header-inner .heading2,
+    .theme-section,
+    .theme-section .action-section
+     {
+      color: $text-color;
+    }
+    .header-inner,
+    .header {
+      background-color: $themeColor;
+    }
+    // .theme-section {
+    //   background-color: darken($themeColor, 17);
+    // }
+
+    // Intro Screens
+    .overview{
+		.col-left{
+		 background-color: $themeColor;
+		 }
+	}
+      .panel {
+        // &:nth-child(1) {
+        //   background-color: $themeColor;
+        // }
+
+        // &:nth-child(2) {
+        //   background-color: darken($themeColor, 09.5);
+        // }
+
+        // &:nth-child(3) {
+        //   background-color: darken($themeColor, 13);
+        // }
+      }
+
+    // Other Pages (browsebook and assignment)
+    .overview-note-created:before, 
+    .preview-title-task,
+    // .wrapper-page,
+    // .study-plan-ring-outer,
+    // .wrapper,
+    .subject-icon-theme {
+      background: $themeColor;
+    }
+
+    .chap-accordion .bg-expanded::before{
+      background-color:$themeColor
+    }
+    .chap-accordion .accordion{
+      .card{
+        &.card-sub-expanded,
+        &.card-expanded {
+          border-left-color: $themeColor;
+        }
+      }
+    }
+
+    .bg-expanded {
+      .heading5 {
+        color: $themeColor !important;
+      }
+    }
+
+    
+    .add-portion-items {
+      .head .heading2 {
+        color: $themeColor;
+      }
+    }
+    .theme-color{
+      color: $themeColor;
+    }
+  }
+  
+  // Filter themes
+  .highlight-modal.#{$themeName}-theme{
+    .icon-completed-inschool,
+    .icon-notstudied,
+    .icon-conf-low,
+    .icon-conf-mid,
+    .icon-conf-high{
+      .icon-strk{ stroke:$themeColor; }
+      .icon-fill{ fill:$themeColor; }
+    }
+  }
+
+
+  .color-#{$themeName}-theme {
+    color: $themeColor;
+  }
+  .cover-#{$themeName}-theme {
+    background: $themeColor;
+    .icon {
+      background-image: url(../images/subjects/#{$iconImg});
+      background-size: 100% auto;
+    }
+    
+  }
+  .portion-#{$themeName}-theme {
+    .head .heading2 {
+      color: $themeColor;
+    }
+  }
+  .slider-card,
+  .cmn-today-cards,
+  .today-cards,
+  .schedule-listing-section .todays-schedule {
+    .com-card,
+    .card {
+      &.card-#{$themeName}-theme {
+        // background: $themeColor;
+		  border-left-color:$themeColorCardBor;
+		.img{
+		  span{
+			  svg{
+				//   g{
+				// 	  fill:$themeColorCardBor; 
+				//   }
+				  path{
+					  fill:$themeColorCardBor; 
+				  }
+				  circle{
+					  fill:$themeColorCardBor; 
+				  }
+				  
+			  }
+		  }
+		  .digital{
+			  svg{
+				  g{
+					  path{
+							stroke: $themeColorCardBor;
+    						fill: transparent;
+					  }
+				  }
+			  }
+		  }
+		  .oral{
+				svg{
+					polygon{
+							stroke:$themeColorCardBor;
+					}
+				}
+			}
+		  .task{
+			  svg{
+				  g{
+					  stroke:$themeColorCardBor;
+				  }
+				  circle{
+					  fill:$whiteColor; 
+				  }
+			  }
+		  }
+		  .revise{
+			  circle{
+					  fill:transparent;
+					  stroke:$themeColorCardBor;
+				  }
+				  ellipse{
+					  stroke:$themeColorCardBor; 
+				  }
+		  }
+		  .subjec-name{
+			  color:$themeColorCardBor; 
+		  }
+	  }
+	  .info{
+		  .lesson-type{
+				  color:$themeColor;
+			  }
+		  .chapter-title{
+			  span{
+				  color:$themeColorCardBor;
+			  }
+		  }
+		  .title{
+			 color:$themeColorCardBor; 
+		  }
+		  .right{
+			  .status-icon{
+				  svg:not(.check-svg){
+            g{
+              fill:$themeColorCardBor; 
+            }
+            path{
+              fill:$themeColorCardBor; 
+            }
+            circle{
+              fill:$themeColorCardBor; 
+            }
+          }
+
+			  }
+			  .item{
+			   color:$themeColorCardBor; 
+			   .duedate{color:$themeColorCardBor;}
+			  }
+		  }
+	  }
+      }
+    }
+  }
+
+  .card-#{$themeName}-theme {
+    &:before {
+      background: $themeColor;
+    }
+  }
+ 
+  .subject-#{$themeName}-theme{
+    .card-title {
+      color: $themeColor;
+	  svg{
+		  g{
+			  fill:$themeColor;
+		  }
+	  }
+    }
+	
+
+    .icon-completed-inschool,
+    .icon-notstudied,
+    .icon-conf-low,
+    .icon-conf-mid,
+    .icon-conf-high{
+      .icon-strk{ stroke:$themeColor; }
+      .icon-fill{ fill:$themeColor; }
+    }
+
+    .icon-flag-svg{
+      &.active{
+        path,
+        circle{
+          stroke:$themeColor;
+          fill:$themeColor; 
+        }
+                
+      }
+    }
+    
+  }
+
+ 
+
+  // .card-#{$themeName}-theme{
+  //   .cardBgImg{ background: $themeColor url(); }
+  // }
+  .cmn-today-cards,
+  .primary-card,
+  .today-cards{
+    .com-card,
+    .card {
+      &.card-#{$themeName}-theme.primary{
+    background:$themeColorCard;
+    .img,.info .right .status-icon {
+		  span{
+			  svg{
+				  g,
+				  path,
+				  circle{
+            fill:$whiteColor; 
+            opacity: 1;
+				  }
+			  }
+		  }
+		  .digital{
+			  svg{
+				  g{
+					  path{
+							stroke:$whiteColor;
+    						fill: transparent;
+					  }
+				  }
+			  }
+		  }
+		  .oral{
+				svg{
+					polygon{
+							stroke:$whiteColor;
+					}
+				}
+			}
+
+		  .task{
+			  svg{
+				  g{
+            stroke:$whiteColor;
+            opacity: 1;
+				  }
+			  }
+		  }
+
+		  .revise{
+			  circle{
+					  fill:transparent;
+            stroke:$whiteColor;
+            opacity: 1;
+				  }
+				  ellipse{
+					  fill:transparent;
+            stroke:$whiteColor;
+				  }
+		  }
+		  .subjec-name{
+			  color:$whiteColor; 
+      }
+      
+      .redo-svg{
+        fill:transparent;
+        stroke:$whiteColor;
+      }
+
+    }
+    .item{
+      // color:$themeColorCardBor; 
+      .duedate{color:$themeColorCardBor;}
+     }
+  }
+  }
+}
+
+ 
+
+  @include media-breakpoint-down(md) {
+    .#{$themeName}-theme {
+      .slider-wrapper {
+        background: $themeColor;
+      }
+    }
+  }
+  .#{$themeName}-theme{
+	   .chapter-info-flag{
+	svg{
+		  g{
+			  fill:$themeColor;
+		  }
+	  }
+	}
+		.flag-active{
+			svg{
+				circle{
+					stroke:$themeColorCardBor;
+				}
+				path{
+					fill:$themeColorCardBor;
+				}
+			}
+		}
+	}
+
+  .quiz-#{$themeName}-theme{
+    .vertical .qsn-main-container .questionWrapper .questBox {
+     color: $themeColor;
+    }
+  }
+  
+}
+
+
+
+
+
+
+$bluePageTheme:#2E82EE;
+$greenPageTheme:#86BB27;
+$orangePageTheme:#FF9435;
+$pinkPageTheme:#FF55AA;
+$purplePageTheme:#A658A5;
+$yellowPageTheme:#F3BF22;
+
+$englishLiterature:#54D9D2;
+$hindiLiterature:#B48EFF;
+$sanskritLiterature:#FE7F9C;
+
+
+// @mixin generateTheme($themeName,$themeColor,$iconImg,$themeColorCard : $themeColor, $themeColorCardBor: $themeColor,$text-color: $whiteColor,)
+// @include generateTheme('default', $defaultTheme, 'geography.svg', 'card-bg.svg' );
+@include generateTheme('default', $defaultTheme, 'geography.svg', #64c6fd, #64c6fd );
+@include generateTheme('blue', $bluePageTheme, 'geography.svg'); //Geography 
+@include generateTheme('orange', $orangePageTheme, 'history.svg');//History 
+@include generateTheme('pink', $pinkPageTheme, 'mathematics.svg'); //Mathematics
+@include generateTheme('purple', $purplePageTheme, 'political-science.svg'); //Political Science
+@include generateTheme('yellow', $yellowPageTheme, 'science.svg'); //Science
+@include generateTheme('green', $greenPageTheme, 'evs.svg'); //Environmental Science
+
+@include generateTheme('turquoise-blue', $englishLiterature, 'english-literature.svg'); //English Literature	
+@include generateTheme('turquoise-blue1', $englishLiterature, 'english-reader.svg'); //English Reader	
+@include generateTheme('turquoise-blue2', $englishLiterature, 'english-language.svg'); //English Language	
+@include generateTheme('orchid-purple', $hindiLiterature, 'hindi-literature.svg'); //Hindi Literature	
+@include generateTheme('orchid-purple1', $hindiLiterature, 'hindi-language.svg'); //Hindi  Language	
+@include generateTheme('watermelon-pink', $sanskritLiterature, 'sanskrit-language.svg'); //Sanskrit  Language	
+@include generateTheme('watermelon-pink1', $sanskritLiterature, 'sanskrit-language.svg'); //Sanskrit  Grammar	
+
+ 
+
+// .blue-theme,
+// .default-theme {
+//   .theme-section {
+//     background-color: $defaultThemeBg;
+//     color: $defaultTheme-text-color;
+//   }
+//   .header {
+//     background-color: $defaultTheme;
+//   }
+//   .header-inner {
+//     background-color: $defaultTheme;
+//     color: $defaultTheme-header-text-color;
+//     .heading2 {
+//       color: $defaultTheme-header-text-color;
+//     }
+//   }
+
+//   // Intro Screens
+//   .spwipe-panels {
+//     .panel {
+//       &:nth-child(1) {
+//         background-color: $defaultTheme-first-panel;
+//       }
+//       &:nth-child(2) {
+//         background-color: $defaultTheme-second-panel;
+//       }
+//       &:nth-child(3) {
+//         background-color: $defaultTheme-third-panel;
+//       }
+//     }
+//   }
+//   // Intro Screens bottom actions
+//   .theme-section {
+//     .action-section {
+//       color: $defaultTheme-actions-color;
+//     }
+//   }
+//   // Other Pages (browsebook and assignment)
+//   .preview-title-task,
+//   .wrapper-page,
+//   .study-plan-ring-outer,
+//   .subject-icon-theme {
+//     background: $defaultTheme;
+//   }
+
+//   @include media-breakpoint-down(md) {
+//     .slider-wrapper {
+//       background: $defaultTheme;
+//     }
+//   }
+
+//   .wrapper {
+//     background-color: $defaultTheme;
+//   }
+//   .card:nth-child(1) {
+//     border-left-color: $defaultTheme !important;
+//   }
+
+//   .bg-expanded {
+//     h5 {
+//       color: $defaultTheme !important;
+//     }
+//   }
+
+//   .today-cards {
+//     .card .card-green-theme {
+//       background-color: $defaultTheme;
+//     }
+//   }
+
+//   .add-portion-items {
+//     .head .heading2 {
+//       color: $themeBlueGradient;
+//     }
+//   }
+// }
+
+// Green themes
+// .green-theme {
+//   .theme-section {
+//     background-color: $greenThemeBg;
+//     color: $greenTheme-text-color;
+//   }
+//   .header {
+//     background-color: $greenTheme;
+//   }
+//   .header-inner {
+//     background-color: $greenTheme;
+//     color: $greenTheme-header-text-color;
+
+//     .heading2 {
+//       color: $defaultTheme-header-text-color;
+//     }
+//   }
+
+//   // Intro Screens
+//   .spwipe-panels {
+//     .panel {
+//       &:nth-child(1) {
+//         background-color: $greenTheme-first-panel;
+//       }
+
+//       &:nth-child(2) {
+//         background-color: $greenTheme-second-panel;
+//       }
+
+//       &:nth-child(3) {
+//         background-color: $greenTheme-third-panel;
+//       }
+//     }
+//   }
+
+//   // Intro Screens bottom actions
+//   .theme-section {
+//     .action-section {
+//       color: $greenTheme-actions-color;
+//     }
+//   }
+
+//   // Other Pages (browsebook and assignment)
+//   .preview-title-task,
+//   .wrapper-page,
+//   .study-plan-ring-outer,
+//   .subject-icon-theme {
+//     background: $greenTheme;
+//   }
+
+//   .wrapper {
+//     background-color: $themeGreen;
+//   }
+
+//   .card:nth-child(1) {
+//     border-left-color: $themeGreen !important;
+//   }
+
+//   .bg-expanded {
+//     h5 {
+//       color: $themeGreen !important;
+//     }
+//   }
+
+//   .add-portion-items {
+//     .head .heading2 {
+//       color: $themeGreen;
+//     }
+//   }
+// }
+
+// // Orange themes
+// .orange-theme {
+//   .theme-section {
+//     background-color: $orangeThemeBg;
+//     color: $orangeTheme-text-color;
+//   }
+//   .header {
+//     background-color: $orangeTheme;
+//   }
+//   .header-inner {
+//     background-color: $orangeTheme;
+//     color: $orangeTheme-header-text-color;
+
+//     .heading2 {
+//       color: $defaultTheme-header-text-color;
+//     }
+//   }
+
+//   // Intro Screens
+//   .spwipe-panels {
+//     .panel {
+//       &:nth-child(1) {
+//         background-color: $orangeTheme-first-panel;
+//       }
+
+//       &:nth-child(2) {
+//         background-color: $orangeTheme-second-panel;
+//       }
+
+//       &:nth-child(3) {
+//         background-color: $orangeTheme-third-panel;
+//       }
+//     }
+//   }
+
+//   // Intro Screens bottom actions
+//   .theme-section {
+//     .action-section {
+//       color: $orangeTheme-actions-color;
+//     }
+//   }
+
+//   // Other Pages (browsebook and assignment)
+//   .preview-title-task,
+//   .wrapper-page,
+//   .study-plan-ring-outer,
+//   .subject-icon-theme {
+//     background: $orangeTheme;
+//   }
+
+//   .wrapper {
+//     background-color: $orangeTheme;
+//   }
+
+//   .card:nth-child(1) {
+//     border-left-color: $orangeTheme !important;
+//   }
+
+//   .bg-expanded {
+//     h5 {
+//       color: $orangeTheme !important;
+//     }
+//   }
+//   .add-portion-items {
+//     .head .heading2 {
+//       color: $themeOrange;
+//     }
+//   }
+// }
+
+// // Yellow themes
+// .yellow-theme {
+//   .theme-section {
+//     background-color: $yellowThemeBg;
+//     color: $yellowTheme-text-color;
+//   }
+//   .header {
+//     background-color: $yellowTheme;
+//   }
+
+//   .header-inner {
+//     background-color: $yellowTheme;
+//     color: $yellowTheme-header-text-color;
+
+//     .heading2 {
+//       color: $yellowTheme-header-text-color;
+//     }
+//   }
+
+//   // Intro Screens
+//   .spwipe-panels {
+//     .panel {
+//       &:nth-child(1) {
+//         background-color: $yellowTheme-first-panel;
+//       }
+
+//       &:nth-child(2) {
+//         background-color: $yellowTheme-second-panel;
+//       }
+
+//       &:nth-child(3) {
+//         background-color: $yellowTheme-third-panel;
+//       }
+//     }
+//   }
+
+//   // Intro Screens bottom actions
+//   .theme-section {
+//     .action-section {
+//       color: $yellowTheme-actions-color;
+//     }
+//   }
+
+//   // Other Pages (browsebook and assignment)
+//   .preview-title-task,
+//   .wrapper-page,
+//   .study-plan-ring-outer,
+//   .subject-icon-theme {
+//     background: $yellowTheme;
+//   }
+
+//   .wrapper {
+//     background-color: $yellowTheme;
+//   }
+
+//   .card:nth-child(1) {
+//     border-left-color: $yellowTheme !important;
+//   }
+
+//   .bg-expanded {
+//     h5 {
+//       color: $yellowTheme !important;
+//     }
+//   }
+
+//   .add-portion-items {
+//     .head .heading2 {
+//       color: $yellowTheme;
+//     }
+//   }
+// }
+
+// // Pink themes
+// .purple-theme,
+// .pink-theme {
+//   .theme-section {
+//     background-color: $pinkThemeBg;
+//     color: $pinkTheme-text-color;
+//   }
+//   .header {
+//     background-color: $pinkTheme;
+//   }
+//   .header-inner {
+//     background-color: $pinkTheme;
+//     color: $pinkTheme-header-text-color;
+
+//     .heading2 {
+//       color: $pinkTheme-header-text-color;
+//     }
+//   }
+
+//   // Intro Screens
+//   .spwipe-panels {
+//     .panel {
+//       &:nth-child(1) {
+//         background-color: $pinkTheme-first-panel;
+//       }
+
+//       &:nth-child(2) {
+//         background-color: $pinkTheme-second-panel;
+//       }
+
+//       &:nth-child(3) {
+//         background-color: $pinkTheme-third-panel;
+//       }
+//     }
+//   }
+
+//   // Intro Screens bottom actions
+//   .theme-section {
+//     .action-section {
+//       color: $pinkTheme-actions-color;
+//     }
+//   }
+
+//   // Other Pages (browsebook and assignment)
+//   .preview-title-task,
+//   .wrapper-page,
+//   .study-plan-ring-outer,
+//   .subject-icon-theme {
+//     background: $pinkTheme;
+//   }
+
+//   .wrapper {
+//     background-color: $pinkTheme;
+//   }
+
+//   .card:nth-child(1) {
+//     border-left-color: $pinkTheme !important;
+//   }
+
+//   .bg-expanded {
+//     h5 {
+//       color: $pinkTheme !important;
+//     }
+//   }
+
+//   .add-portion-items {
+//     .head .heading2 {
+//       color: $pinkTheme;
+//     }
+//   }
+// }
+
+// // Cards Theme
+// .cmn-today-cards,
+// .today-cards,
+// .primary-card {
+//   .com-card,
+//   .card {
+//     &.card-default-theme {
+//       background: $themeBlueGradient;
+//     }
+
+//     &.card-blue-theme {
+//       background: $themeBlueGradient;
+//     }
+
+//     &.card-orange-theme {
+//       background: $themeOrange;
+//     }
+
+//     &.card-purple-theme {
+//       background: $themePurple;
+//     }
+
+//     &.card-green-theme {
+//       background: $themeGreen;
+//     }
+
+//     &.card-yellow-theme {
+//       background: $yellowTheme;
+//     }
+//   }
+// }
+
+// .card-default-theme {
+//   &:before {
+//     background: $themeBlue;
+//   }
+// }
+
+// .card-blue-theme {
+//   &:before {
+//     background: $themeBlue;
+//   }
+// }
+
+// .card-orange-theme {
+//   &:before {
+//     background: $themeOrange;
+//   }
+// }
+
+// .card-purple-theme {
+//   &:before {
+//     background: $themePurple;
+//   }
+// }
+
+// .card-green-theme {
+//   &:before {
+//     background: $themeGreen;
+//   }
+// }
+
+// .card-yellow-theme {
+//   &:before {
+//     background: $yellowTheme;
+//   }
+// }
+
+// Subject cover icons and colors Starts=========================
+// .cover-blue-theme,
+// .cover-default-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+// .cover-orange-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+// .cover-default-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+// .cover-default-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+// .cover-default-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+// .cover-default-theme {
+//   .card-title {
+//     color: $defaultTheme-text-color;
+//   }
+// }
+
+// .cover-default-theme {
+//   background: $themeBlueGradient;
+
+//   .icon {
+//     background-image: url(../images/subjects/geography.svg);
+//   }
+// }
+
+// .cover-blue-theme {
+//   background: $themeBlueGradient;
+
+//   .icon {
+//     background-image: url(../images/subjects/mathematics.svg);
+//   }
+// }
+
+// .cover-orange-theme {
+//   background: $themeOrange;
+
+//   .icon {
+//     background-image: url(../images/subjects/mathematics.svg);
+//   }
+// }
+// .cover-green-theme {
+//   background: $themeGreen;
+
+//   .icon {
+//     background-image: url(../images/subjects/geography.svg);
+//   }
+// }
+
+// .cover-purple-theme {
+//   background: $themePurple;
+//   .icon {
+//     background-image: url(../images/subjects/biology.svg);
+//   }
+// }
+
+// .cover-yellow-theme {
+//   background: $yellowTheme;
+//   .icon {
+//     background-image: url(../images/subjects/geography.svg);
+//   }
+// }
+// Subject cover icons and colors Ends =========================
+
+// text color theme
+// .color-default-theme {
+//   color: $themeBlueGradient;
+// }
+// .color-blue-theme {
+//   color: $themeBlueGradient;
+// }
+// .color-orange-theme {
+//   color: $themeOrange;
+// }
+// .color-purple-theme {
+//   color: $themePurple;
+// }
+// .color-green-theme {
+//   color: $themeGreen;
+// }
+// .color-yellow-theme {
+//   color: $yellowTheme;
+// }
+
+// create studyplan portion color theme
+
+// .portion-blue-theme {
+//   .head .heading2 {
+//     color: $themeBlueGradient;
+//   }
+// }
+// .portion-orange-theme {
+//   .head .heading2 {
+//     color: $themeOrange;
+//   }
+// }
+// .portion-purple-theme {
+//   .head .heading2 {
+//     color: $themePurple;
+//   }
+// }
+// .portion-green-theme {
+//   .head .heading2 {
+//     color: $themeGreen;
+//   }
+// }
+// .portion-yellow-theme {
+//   .head .heading2 {
+//     color: $yellowTheme;
+//   }
+// }

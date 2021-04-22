@@ -1,0 +1,21 @@
+@import "bootstrap-variables";
+
+// Css Variables
+@import 'variables';
+
+@import 'common';
+// Modal css
+@import 'modal';
+
+//Graph Icons
+@import 'icons-graph';
+
+//Subjects Icons
+// @import 'icons-subjects';\
+
+//Graph
+@import 'graph';
+
+.study-plan-ring-outer .study-plan-progress-graph {
+    padding:15px 16px 0;
+}

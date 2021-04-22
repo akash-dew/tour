@@ -1,0 +1,58 @@
+.icon-check-border {
+  background-image: url(../images/sp-create-common/icon-check-border.svg);
+}
+
+.icon-attention {
+  background-image: url(../images/sp-create-common/icon-flag.svg);
+
+  // &:hover,
+  &.active {
+    background-image: url(../images/sp-create-common/icon-flag-active.svg);
+  }
+}
+
+.icon-search {
+  background-image: url(../images/sp-create-common/search-icon.svg);
+}
+
+.icon-high {
+  background-image: url(../images/sp-create-common/icon-confidence-high-dark.svg);
+}
+
+.icon-medium {
+  background-image: url(../images/sp-create-common/icon-confidence-medium-dark.svg);
+}
+
+.icon-low {
+  background-image: url(../images/sp-create-common/icon-confidence-low-dark.svg);
+}
+
+.icon-not-studied {
+  background-image: url(../images/sp-create-common/icon-not-studied.svg);
+}
+
+.icon-completed-in-school {
+  background-image: url(../images/sp-create-common/icon-completed-school.svg);
+}
+
+.highlight-modal {
+  .icon-exclude {
+    background-image: url(../images/sp-create-common/icon-excluded.svg);
+  }
+}
+
+.marker-icon {
+  background-image: url(../images/sp-create-common/marker-icon.svg);
+}
+
+.icon-discard {
+  background-image: url(../images/sp-create-common/delete-icon.svg);
+}
+
+.icon-close-black {
+  background-image: url(../images/sp-create-common/close-icon.svg);
+}
+
+.icon-sm-close-black {
+  background-image: url(../images/sp-create-common/close-icon-black.svg);
+}

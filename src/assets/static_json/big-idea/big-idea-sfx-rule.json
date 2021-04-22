@@ -1,0 +1,52 @@
+{
+    "beach": {
+        "bgSfx": "assets/static_json/big-idea/Beach.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "computergame": {
+        "bgSfx": "assets/static_json/big-idea/Computer.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "farm": {
+        "bgSfx": "assets/static_json/big-idea/Farm.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "garden": {
+        "bgSfx": "assets/static_json/big-idea/Garden.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "insidehomekitchen": {
+        "bgSfx": "assets/static_json/big-idea/Kitchen.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "insidehomelivingroom": {
+        "bgSfx": "assets/static_json/big-idea/In_house_LivingRoom.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "market": {
+        "bgSfx": "assets/static_json/big-idea/Market.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "quiztextured": {
+        "bgSfx": "assets/static_json/big-idea/Quiz.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "space": {
+        "bgSfx": "assets/static_json/big-idea/Space.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    },
+    "underwater": {
+        "bgSfx": "assets/static_json/big-idea/Under_Water.mp3",
+        "correctSfx": "assets/static_json/big-idea/correctMp3.mp3",
+        "incorrectSfx": "assets/static_json/big-idea/incorrectMp3.mp3"
+    }
+}

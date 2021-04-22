@@ -1,0 +1,629 @@
+// @import 'variables'; 
+.modal-backdrop.show{ animation: opacity 0.5s forwards; }
+.modal-backdrop.show{ opacity: 0.75; }
+.modal{
+  img{max-width: 100%;}
+  // position: fixed;top: 0;left: 0;z-index: 1050;display:none;width: 100%;height: 100%;overflow: auto;outline: 0;margin: 0; padding: 0;
+  .overlay {  animation: opacity 0.5s forwards; position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;background-color: $overlayColor; opacity: 1}
+  .close{
+    padding: 0;
+    margin: size(-12) 0;
+    justify-content: flex-end
+  }
+  .modal-title{
+   display: flex;
+    align-items: center;
+	@include heading4;
+  color: $lightblue;
+    min-height: size(10);
+  }
+
+
+  .modal-header{ align-items: center; border: 0; padding:size(30) size(18) size(14);
+     .close {
+      position: absolute;
+      right: size(16);
+      top: size(20);
+    }
+  }
+  .modal-footer{align-items: center; border: 0; padding:size(18); }
+
+  &.show:not(.side-nav){display:block; animation: showMe 0.3s forwards; }
+  &.side-nav.show{display:block; 
+    .modal-content {animation: slideShow 0.5s forwards;}
+  }
+
+  .modal-content{
+	 border: 0;
+     border-radius: size(25);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+	// border: size(2) solid $toast-border-color;
+    // border-radius: size(20);
+    // background-color: $whiteColor;
+    // box-shadow: 0 size(2) size(4) 0 rgba(0,0,0,0.5);
+  }
+
+  &.side-nav{ padding: 0;
+    .container{ padding: size(20) 0 size(20) size(16);}
+  
+      .modal-dialog{ display: block; justify-content: flex-start; height: 100%; padding: 0; margin: 0; }
+      .modal-content{background:$whiteColor; width: 82%; max-width: size(422); min-height: 100%; border-radius: 0 size(25) 0 0;}
+      &.left{
+        .modal-content{ height: 100%; }
+      }
+      .close{ right:-2.6666666666666665rem ; top: size(25) ; position: absolute;  }       
+    }
+ 
+    &.modal-no-bg{
+      .modal-content{ background: #000; position: static;  border-radius:0 ; position: relative;     
+          .close {
+            position: absolute;
+            top: size(-35);
+            right: 0;
+            svg{
+              circle{fill: $whiteColor; fill-opacity: 0.3; }
+              line{ stroke:$whiteColor ; }
+            }
+        }
+        .modal-header,
+        .modal-footer,
+        .modal-body{ padding: 0;}
+      }
+    }
+ 
+  @include media-breakpoint-down(sm) {  
+    @media (orientation: portrait) {  
+      .modal-dialog-scrollable { max-height: calc(100%);}
+      .modal-dialog-scrollable .modal-content,
+      .component-host-scrollable{ overflow: visible!important; }
+      .modal-dialog-scrollable .modal-body{ max-height: calc(100vh - 200px); 
+      .ql-editor{ height: auto; }
+    }    
+    &.show:not(.side-nav){ animation:none;
+        .modal-content{animation: showMeBottom 0.5s forwards; }
+      }
+      &.highlight-modal.show:not(.side-nav){
+        .modal-content{animation: showMe 0.3s forwards; }
+      }
+   
+      &:not(.mobile-center){
+        .modal-dialog{align-items: flex-end; justify-content: flex-end; margin: 0; max-width: 100%; height: 100%; padding: 100px 0 0; }       
+        .close{position: absolute; top: size(-40);right: size(16);
+          svg{
+            circle{ fill:$whiteColor; fill-opacity: 0.3; }
+            line{ stroke:$whiteColor }
+          }
+        }
+
+        .actions .close{ top: size(-54);right: 0;}
+        .modal-content{ border-radius:size(25) size(25) 0 0; }
+
+      }
+    
+      &.side-nav{
+        .modal-dialog{ padding: 0; }       
+        .close{right:-2.6666666666666665rem ; top: size(23) ; position: absolute;
+          svg{
+            circle{ fill:$primaryGrayColor }
+            line{ stroke:$primaryGrayColor }
+          }
+        }
+
+        .modal-content{ border-radius:0 size(25) 0 0; }
+      }
+
+    &.show.modal-no-bg{ animation:none;
+      .modal-dialog{ align-items: center;  justify-content: center; padding: 0; animation:none; transform: none;}
+      .modal-content{animation: none;transform: none }
+      .modal-content .close {
+       
+        right: size(16);
+        
+     }
+    }
+
+    &.modal-no-bg{
+      .modal-content{ }
+    }
+    
+  }
+    @media (orientation: landscape) {
+
+      &:not(.mobile-center){
+        .modal-dialog{ max-width: 100%; margin: 0; max-height: 100%; min-height: 100%;
+          .modal-content{ border-radius: 0;min-height: 100vh; }
+          .modal-header.p-0{
+            .close{ margin: 0;
+              justify-content: center;
+              position: absolute;
+              right: 0;
+              top: 0; z-index: 1; }
+          }
+        }
+      }
+      
+      &:not(.mobile-center){
+       &.side-nav .modal-content{ max-width: 80%; border-radius:0 size(25) 0 0; }
+      }
+      &.modal.modal-no-bg .modal-content .close{ margin: 0; top: 0; z-index: 99; justify-content: center;
+        svg{
+          circle{fill: $primaryGrayColor}
+          line{ stroke:$primaryGrayColor}
+        }
+      }
+    }
+  }    
+}
+
+// This css is creating overflow issue on create note
+
+// .modal-open .modal {    
+//   overflow: hidden;
+// } 
+
+
+// Descard Modal
+.descard-modal {
+  .modal-content {
+    background: none;
+  }
+
+  .descard-body-outer {
+    background: #1268b3;
+   // padding: size(7) size(2);
+	 padding: 0;
+    border-radius: size(25);
+  }
+
+  .descard-body {
+    padding: size(40) size(16) size(23);
+    background: $whiteColor;
+    border-radius: size(25);
+    min-height: size(210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      .heading3 {
+        line-height: size(22);
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .descard-modal {
+    &.show:not(.side-nav) {
+      animation: showMe 0.3s forwards;
+      overflow: hidden;
+
+      .modal-content {
+        animation: none;
+      }
+    }
+  }
+}
+
+// Steps Modal + Inside content Css
+.step-modal {
+  &.show:not(.side-nav) {
+    animation: showMe 0.3s forwards;
+
+    .modal-content {
+      animation: none;
+    }
+  }
+
+  &.modal .modal-content {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  }
+
+  .modal-content {
+    background: none;
+  }
+
+  .modal-body {
+    padding: 0;
+    color: $whiteColor;
+  }
+
+  .modal-dialog {
+    max-width: size(614);
+  }
+}
+
+.step-info-page {
+  background: $whiteColor;
+  border-radius: size(25);
+
+  .step-modal-inner {
+    // background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(0,0,0,0.4) 100%);
+    // background: linear-gradient(118.24deg, rgba(0, 0, 0, 0.05) 0%, rgba(2, 2, 2, 0.5) 100%);
+    border-radius: size(25);
+  }
+
+  .wrapper-page {
+    padding: 0;
+  }
+
+  .step-container {
+    max-width: size(614);
+    margin: 0 auto;
+    height: calc(100vh - 60px);
+    max-height: size(588);
+    padding: size(20) 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .img-sec {
+      padding: 0 0 0;
+      text-align: center;
+      width: 100%;
+      flex-grow: 1;
+      max-height: size(300);
+      display: flex;
+      flex-direction: column;
+	  margin: 0 0 size(30);
+
+
+
+
+      .img{ height: 100%; max-height: size(300); width: 100%; display: block; background-size: auto 100%; background-repeat: no-repeat; background-position:50% 50%; flex-grow: 1; }
+      img,
+      svg {
+        max-height: 52vh;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    // @include media-breakpoint-down(sm) {
+    //   .img-sec {
+    //     max-height: size(360);
+    //     .img{ height: 100%; max-height: size(330);
+    //   }
+    // }
+
+    .text {
+      color: $whiteColor;
+	  max-width: size(400);
+
+      .text-inner {
+        color: $primaryGrayColor;
+        padding: size(13) 0 size(5);
+        font-size: size(15);
+
+        .condsn-text{ font-size: size(12); color: $whiteColor; font-weight: $regular; }
+      }
+    }
+	.available-text{
+		  font-size: size(12);
+		  margin: 10px 0 0;
+		  color: $guidlineToggleText;
+		  font-weight: $regular;
+	  }
+
+    .btn-start {
+      min-width: auto;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .step-modal {
+    .modal-dialog-scrollable .modal-body {
+      max-height: 100%;
+    }
+
+    .modal-dialog {
+      padding: 0;
+      height: 100vh;
+      max-width: 100%;
+      min-height: 100%;
+      margin: 0 auto;
+    }
+
+    .modal-content {
+      border-radius: 0;
+      padding: 0;
+
+      .step-modal-inner {
+        min-height: 100vh;
+        border-radius: 0;
+		padding: 16px;
+      }
+    }
+  }
+
+  .step-info-page {
+    border-radius: 0;
+    // .step-container{ padding: 0; }
+    .step-modal-inner {
+      border-radius: 0;
+    //   background: linear-gradient(
+    //     180deg,
+    //     rgba(0, 0, 0, 0) 0%,
+    //     rgba(2, 2, 2, 0.5) 100%
+    //   );
+      min-height: calc(100vh - 40px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+
+// Filter Modal
+
+.modal.highlight-modal {
+  .modal-dialog {
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    max-width: none;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    left: 16px;
+    top: 77px;
+    height: auto;
+
+    @include media-breakpoint-down(md) {
+      left: 0!important;
+      right: 0!important;
+      bottom: 0!important;
+      top: 0!important;
+    }
+    .modal-content {
+      max-height: calc(100vh - 200px);
+      min-height: 240px;
+      width: size(360);
+      border:none;
+      border-radius: 0;
+      background: #ffffff;
+      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+      max-width: 100%;
+      
+      @include media-breakpoint-down(md) {
+        min-height: 100vh;
+        width: 100%;
+      } 
+
+
+      .modal-header {
+        padding: size(25) size(16);
+        justify-content: flex-start;
+        h4 {
+          color: $tooltip-bor-color;
+          font-family: $familySecondary;
+          font-size: size(18);
+          font-weight: $semibold;
+          line-height: size(22);
+          position: relative;
+          padding: 0 size(24) 0 0;
+        }
+      }
+      .modal-body {
+        padding: 0  size(16);
+        max-height: size(460);
+        overflow: auto;
+        .head {
+          color: $primaryGrayColor;
+          font-family: $familySecondary;
+          font-size: size(16);
+          font-weight: $semibold;
+          letter-spacing: 0;
+          line-height: size(16);
+          padding: 0 size(0) size(16);
+        }
+
+        .custom-control + .head { padding-top: size(20); }
+
+
+        .custom-control {
+          padding: 0;
+          &.excluded {
+            text-decoration: line-through;
+          }
+          label {
+            color: $primaryGrayColor;
+            font-size: size(14);
+            letter-spacing: 0;
+            line-height: size(16);
+            padding: 0 0 0;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            cursor: pointer;
+            padding: 0 size(24) 0 size(0);
+            min-height: size(45);
+            border-bottom: size(1) solid rgba(238,238,238,0.5);
+            font-family: $familySecondary;
+            font-weight: $medium;
+
+            .icons {
+              margin: 0;             
+              width: size(40);
+              min-width: size(40);
+              height: size(40);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+  
+             
+              .icon-rev{
+                  background-image: url(../images/filter/icon-rev-filter.svg);
+              }
+              
+              .icon-practice{
+                  background-image: url(../images/filter/icon-practicex1-filter.svg);
+              }
+
+              .icon-practicex2{
+                  background-image: url(../images/filter/icon-practicex2-filter.svg);
+              }
+              .icon-practicex3{
+                  background-image: url(../images/filter/icon-practicex3-filter.svg);
+              }
+
+              // .icon-book{
+              //   background-image: url(../images/filter/icon-book-filter.svg);
+
+              // }
+
+              .icon-book,
+              .icon-others,
+              .icon-all-status,
+              .icon-history,
+              .icon-mathematics,
+              .icon-science,
+              .icon-geography,
+              .icon-chemistry,
+              .icon-politicalscience,
+              .icon-environmentalscience,
+              .icon-sanskritlanguage,
+              .icon-sanskritgrammar,
+              .icon-hindilanguage,
+              .icon-hindiliterature,
+              .icon-englishlanguage,
+              .icon-englishreader,
+              .icon-englishliterature {
+
+              background-size: size(24) size(24);
+
+              }
+
+
+            
+
+          }
+          .custom-control-label::before,
+          .custom-control-label::after {
+            top: size(14);
+          }
+        }
+      }
+      .modal-footer {
+        padding: size(20) size(18);
+        justify-content: flex-end;
+        @include media-breakpoint-down(md) {
+          min-height: size(120);
+        }    
+        .btn{ margin: 0; }
+      }
+    
+
+    //   .icon-all-types{
+    //     filter: invert(1);
+    //   }
+    }
+  }
+
+
+  @include media-breakpoint-down(md) {
+      .modal-dialog {   
+        left: 0!important;
+        right: 0!important;
+        bottom: 0!important;
+        top: 0!important;
+        .modal-header{
+          .close{ position: static;
+           
+            svg circle {fill: rgba(18,104,179,0.2);}
+            svg line{
+              stroke: #0069B9;
+            }
+          }
+        }
+
+        .modal-content {   
+          min-height: 100vh;
+          width: 100%;
+          .modal-body{
+            max-height: none;
+          }
+        }
+        } 
+    }
+}
+ 
+
+
+
+// guidance-modal 
+.guidance-modal {
+  background: $overlayColor;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99999;
+  color: $whiteColor;
+  display: none;
+
+  &.show {
+    display: block;
+  }
+
+  .container-fluid,
+  .container {
+    padding-top: size(200);
+    position: relative;
+  }
+
+  .section {
+    max-width: 540px;
+    padding: 0 0 0 16rem;
+  }
+
+  .text {
+    padding: 0 0 size(20);
+    font-size: size(18);
+    font-family: 'Bradley Hand';
+  }
+
+  .arrow {
+    background: url(../images/common/indicator-arrow-desk.svg) no-repeat 0 0;
+    width: 13.6rem;
+    height: size(140);
+    position: absolute;
+    left: size(29);
+    top: 6.8rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    @media (orientation: portrait) {
+      .section {
+        max-width: 16.4rem;
+        margin: 0 auto;
+        padding: 0 0 0 size(40);
+      }
+
+      .arrow {
+        background-image: url(../images/common/indicator-arrow-mob.svg);
+        top: 5rem;
+        left: size(20);
+      }
+    }
+
+    @media (orientation: landscape) {
+      .container-fluid,
+      .container {
+        padding-top: size(100);
+      }
+    }
+  }
+}
+
+.modal-sm { max-width: $modal-sm; margin: 0 auto; }

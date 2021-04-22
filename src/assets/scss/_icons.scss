@@ -1,0 +1,459 @@
+// study-plan Icons
+
+.icon{
+  transition: all 0.15s;
+}
+
+.icon-sp-time {
+  background-image: url(../images/study-plan/icon-sp-time.svg);
+}
+.icon-sp-stars {
+  background-image: url(../images/study-plan/icon-sp-stars.svg);
+}
+.icon-sp-lessons {
+  background-image: url(../images/study-plan/icon-sp-lessons.svg);
+}
+
+.icon-share {
+  background-image: url(../images/study-plan/icon-share.svg);
+}
+
+.icon-study-plan-time {
+  background-image: url(../images/study-plan/icon-change-time.svg);
+}
+
+.icon-study-plan-pause {
+  background-image: url(../images/study-plan/icon-pause-plan.svg);
+}
+
+.icon-study-plan-move {
+  background-image: url(../images/study-plan/icon-move-houre.svg);
+}
+
+.icon-study-plan-update {
+  background-image: url(../images/study-plan/icon-update-portion.svg);
+}
+
+.icon-reorder {
+  background-image: url(../images/common/icon-reorder.svg);
+}
+
+
+
+.icon-current {
+  background-image: url(../images/study-plan/current-plan.svg);
+}
+
+.icon-another {
+  background-image: url(../images/study-plan/another-plan.svg);
+}
+
+.icon-turtle-sp {
+  background-image: url(../images/study-plan/icon-turtle.svg);
+}
+
+.icon-rabbit-sp {
+  background-image: url(../images/study-plan/icon-rabbit.svg);
+}
+
+.icon-pause {
+  background-image: url(../images/study-plan/icon-pause.svg);
+}
+.btn:hover{
+  .icon-pause {
+    background-image: url(../images/study-plan/icon-pause-h.svg);
+  }
+}
+
+.icon-sp-completed {
+  background-image: url(../images/study-plan/icon-sp-completed.png);
+}
+
+.icon-swipe-down {
+  background-image: url(../images/study-plan/icon-arrow-down.svg);
+}
+
+
+// study-plan Icons
+
+.icon-expand {
+  background-image: url(../images/common/icon-expand.svg);
+}
+
+.icon-more-option {
+  background-image: url(../images/common/icon-more-option.svg);
+}
+
+.btn:hover{
+  .icon-more-option {
+    background-image: url(../images/common/icon-more-option-h.svg);
+  }
+}
+
+
+
+.icon-more-option-white {
+  background-image: url(../images/common/icon-more-option-white.svg);
+}
+
+
+.icon-oral {
+  background-image: url(../images/common/oral-icon.svg);
+}
+
+.icon-digital {
+  background-image: url(../images/common/digital-icon.svg);
+}
+
+.icon-printed {
+  background-image: url(../images/common/print-icon.svg);
+}
+
+.icon-task {
+  background-image: url(../images/common/task-icon.svg);
+}
+
+.icon-summary {
+  background-image: url(../images/common/task-icon.svg);
+}
+
+.icon-studyplan {
+  background-image: url(../images/common/study-icon.svg);
+}
+
+.revise-icon {
+  background-image: url(../images/common/begin-revison.svg);
+}
+
+.practice-icon {
+  background-image: url(../images/common/begin-practce.svg);
+}
+.bigIdea-icon,
+.bigidea-icon {
+  background-image: url(../images/common/icon-big-idea.svg);
+}
+
+.notes-icon {
+  background-image: url(../images/common/note-icon.svg);
+}
+
+.summary-icon {
+  background-image: url(../images/common/summary-icon.svg);
+}
+.test-icon {
+  background-image: url(../images/common/icon-test.svg);
+}
+
+.icon-back {
+  background-image: url(../images/common/back-icon.svg);
+}
+
+.icon-rev {
+  background-image: url(../images/common/icon-rev.svg);
+}
+
+.icon-test {
+  background-image: url(../images/common/icon-test.svg);
+}
+
+.icon-practice {
+  background-image: url(../images/common/icon-practice.svg);
+}
+.icon-practicex2 {
+  background-image: url(../images/common/icon-practicex2.svg);
+}
+.icon-practicex3 {
+  background-image: url(../images/common/icon-practicex3.svg);
+}
+
+.icon-bigidea {
+  background-image: url(../images/common/icon-bigidea.svg);
+}
+.icon-summary-sp {
+  background-image: url(../images/common/icon-summary-sp.svg);
+}
+
+.icon-check {
+  background-image: url(../images/common/icon-check.svg);
+}
+
+.icon-again {
+  background-image: url(../images/common/icon-again.svg);
+}
+
+.icon-locked {
+  background-image: url(../images/common/icon-locked.svg);
+}
+
+.arrow-white-icon {
+  background-image: url(../images/common/icon-arrow-white.svg);
+}
+
+.icon-edit {
+  background-image: url(../images/common/edit-icon-white.svg);
+}
+
+.icon-others {
+  background-image: url(../images/common/icon-others.svg);
+}
+.icon-all-status {
+  background-image: url(../images/common/icon-all-status.svg);
+}
+.icon-all-lessons,
+.icon-all-types {
+  background-image: url(../images/common/icon-all-lessons.svg);
+}
+
+.add-big-icon {
+  background-image: url(../images/common/add-big-icon.svg);
+}
+
+.success_icon {
+  background-image: url(../images/common/success_icon.svg);
+}
+.edit-small-icon {
+  background-image: url(../images/common/edit-small-icon.svg);
+}
+.icon-w-video {
+  background-image: url(../images/common/icon-w-video.svg);
+}
+
+
+//test
+.icon-hamburger-menu {
+  background-image: url(../images/common/hamburger-menu-icon.svg);
+}
+
+@include media-breakpoint-down(md) {
+  .header-collapse {
+    .icon-back {
+      background-image: url(../images/common/back-icon-small.svg);
+    }
+  }
+}
+
+.icon-menu {
+  background-image: url(../images/common/menu-icon.svg);
+}
+
+.icon-close {
+  background-image: url(../images/common/close-icon-white.svg);
+}
+.icon-close-blue{
+  background-image: url(../images/common/icon-close-blue.svg);
+}
+
+
+.icon-heart {
+  background-image: url(../images/common/icon-heart-active.svg);
+}
+
+.icon-target {
+  background-image: url(../images/common/todo-video-icon.svg);
+
+//   &.objective-failed {
+// 	  background-image: url(../images/common/todo-video-white-icon.svg);
+//  }
+}
+
+.icon-goals {
+  background-image: url(../images/common/todo-star-icon.svg);
+
+  // &.objective-failed {
+  //   background-image: url(../images/common/todo-star-white-icon.svg);
+  // }
+}
+
+.icon-duration {
+  background-image: url(../images/common/todo-time-icon.svg);
+
+  // &.objective-failed {
+  //   background-image: url(../images/common/todo-time-white-icon.svg);
+  // }
+}
+
+.objective-success {
+    background-image: url(../images/common/check-white-icon.svg);
+	  background-position: left top;
+}
+
+.objective-failed {
+
+    background-image: url(../images/common/cross-white-icon.svg);
+	  background-position: left top;
+
+}
+
+.icon-star {
+  background-image: url(../images/common/icon-star.svg);
+}
+.icon-star.completed{
+  background-image: url(../images/common/icon-star-completed.svg);
+
+}
+
+.icon-add-note-white {
+  background-image: url(../images/common/icon-add-note-white.svg);
+}
+
+.icon-screenshot {
+  background-image: url(../images/common/screenshot-icon.svg);
+}
+.icon-camera {
+  background-image: url(../images/common/camera-icon.svg);
+}
+.icon-img {
+  background-image: url(../images/common/img-icon.svg);
+}
+.icon-document {
+  background-image: url(../images/common/document-icon.svg);
+}
+.icon-audio {
+  background-image: url(../images/common/audio-icon.svg);
+}
+
+.icon-date-picker {
+  background-image: url(../images/common/icon-date-picker.svg);
+}
+
+.icon-preview {
+  background-image: url(../images/common/preview-icon.svg);
+}
+
+.icon-check-black {
+  background-image: url(../images/common/check-icon.svg);
+}
+
+.icon-overview-down {
+  background-image: url(../images/common/overview-down-icon.svg);
+}
+
+.icon-note {
+  background-image: url(../images/common/note-icon.svg);
+}
+
+.icon-edit-black {
+  background-image: url(../images/common/edit-icon-black.svg);
+}
+
+.icon-clock {
+  background-image: url(../images/common/icon-clock.png);
+}
+.icon-clock {
+  background-image: url(../images/common/icon-clock.png);
+}
+// .icon-correct {
+//   background-image: url(../images/quiz/correct-icon.svg);
+// }
+// .icon-incorrect {
+//   background-image: url(../images/quiz/incorrect-icon.svg);
+// }
+
+.icon-up-arrow {
+  background-image: url(../images/common/arrow-up-icon.svg);
+}
+
+.icon-back-black {
+  background-image: url(../images/common/back-black-icon.svg);
+}
+
+.icon-next {
+  background-image: url(../images/common/back-black-icon.svg);
+}
+
+.icon-progress {
+  background-image: url(../images/common/progress-icon.svg)
+}
+
+.icon-attachment {
+  background-image: url(../images/common/attachment-icon.svg)
+}
+
+ 
+
+.primary{
+  .icon-more-option{
+    background-image: url(../images/common/icon-more-option-white2.svg);
+  }
+  .btn:hover{
+    .icon-more-option{
+      background-image: url(../images/common/icon-more-option-white2-h.svg); 
+    }
+  }
+  
+  .icon-star {
+    background-image: url(../images/common/icon-star-white.svg);
+  }
+  .icon-star.completed {
+    background-image: url(../images/common/icon-star-completed-white.svg);
+  }
+}
+
+.icon-back-btn{
+    background-image: url(../images/onboarding/icon-back-btn.svg);
+  }
+  .icon-edit-blue{
+    background-image: url(../images/common/icon-edit-blue.svg);
+  }
+  .icon-back-blue{
+    background-image: url(../images/common/icon-back-blue.svg);
+  }
+  .icon-lock-blue{
+    background-image: url(../images/common/icon-lock-blue.svg);
+  }
+   .icon-delete-blue{
+    background-image: url(../images/common/icon-delete-blue.svg);
+  }
+.icon-edit-done-blue{
+    background-image: url(../images/common/icon-edit-done-blue.svg);
+  }
+
+  .icon-delete {
+    background-image: url(../images/common/icon-delete.svg);
+  }
+  
+  .icon-undo {
+    background-image: url(../images/common/icon-undo.svg);
+  }
+
+  .notification-notselected{
+    background-image: url(../images/common/notification-notselected.svg);
+  }
+  .notification-selected{
+    background-image: url(../images/common/notification-selected.svg);
+  }
+  .icon-add-blue{
+    background-image: url(../images/common/icon-add-blue.svg);
+  }
+  
+
+
+.icon-delete {
+  background-image: url(../images/common/icon-delete.svg);
+}
+
+.icon-undo {
+  background-image: url(../images/common/icon-undo.svg);
+}
+
+
+.icon-reportview {
+  background-image: url(../images/common/icon-reportview.svg);
+}
+
+
+.icon-attention-note{
+  background-image: url(../images/common/icon-attention-note.svg);
+}
+
+.icon-attention-note-white{
+  background-image: url(../images/common/icon-attention-note-white.svg);
+}
+
+.icon-download{
+    background-image: url(../images/common/download_icon.svg);
+}
+
+.icon-help{
+  background-image: url(../images/common/icon-help.svg);
+}

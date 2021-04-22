@@ -1,0 +1,333 @@
+@import 'variables-base';
+
+
+// @function maxHeight($target, $context:'100') {
+//   @return calc($context - $target)
+// }
+
+
+
+
+@mixin text-dotted($lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+$smallMobileWidth: '320px';
+
+@mixin smallMobile {
+  @media (max-width: #{$smallMobileWidth}) {
+    @content;
+  }
+}
+
+// All Colors
+$primaryColor: #067dfe;
+$secondaryColor: #1268b3;
+$primaryGrayColor: #202020;
+$primaryGrayColorLink: #C5C5C5;
+$whiteColor: #fff;
+$blackColor: #000;
+$pinkColor: #d03b63;
+$planCardTitel:#194C79;
+// $headingColor: #1268b3;
+$headingColor: #1268B3;
+$headingColor2:#4A97C6 ;
+
+$lightPinkColor: #ff3eb9;
+$secondaryGrayColor: #969696;
+$darkGrayColor: #666666;
+$lightGreen: #02b55c;
+$upcomingText:#969696;
+$lightblue:#4A97C6;
+$blueText:#00A4FF;
+$darkGrayColorbg:#9d9d9d;
+$lightGray:#C5C5C5;
+$lightGraytext: #757575;
+
+$markColor: $secondaryGrayColor;
+
+
+
+$colorBlue: #5451ba;
+$colorBlueLight: #067dfe;
+$colorBlueLight2: #1AAFFA;
+$inputFocusColor: hsl(208, 82%, 39%);
+$borderLigthBlue: #9da8b1;
+$borderLigthBlue2: #eee;
+$navigator: $primaryGrayColor;
+$linkColor: $primaryColor;
+$linkColorHover: #1268b3;
+$grayPageBg: #edecec;
+
+$forms-border-color: #cbcbcb;
+
+// Overlay
+$overlayColor: rgba(0, 0, 0, 0.75);
+
+// Notes
+$uploadedFileCard: #f2f6f9;
+$dateColor: $secondaryGrayColor;
+
+// Add Note
+$buttonBg: #eee;
+
+
+// Progress Nav
+$indicatorColor: #32a188;
+
+// Font Families
+$familyPrimary: 'Lato', sans-serif;
+$familySecondary: 'Montserrat', sans-serif;
+$bodyFontSize: 1rem;
+
+// Font Weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+// Themes coors
+$themeBlue: #1268b3;
+$themeBlueGradient: linear-gradient(180deg, #61c7fc 0%, #61c7fc 100%);
+
+$themeGreen: #069d8c;
+$themeOrange: #f88016;
+$themePurple: #d03b63;
+
+$themeMagenta: Magenta;
+$themeYellow: yellow;
+
+// blue theme ! default theme
+$defaultTheme: #1268b3;
+$defaultThemeBg: #003a67;
+$defaultTheme-text-color: $whiteColor;
+$defaultTheme-header-text-color: $whiteColor;
+$defaultTheme-first-panel: #1268b3;
+$defaultTheme-second-panel: #004e8b;
+$defaultTheme-third-panel: #004579;
+$defaultTheme-actions-color: $whiteColor;
+
+// green theme
+$greenTheme: #069d8c;
+$greenThemeBg: #035e54;
+$greenTheme-text-color: $whiteColor;
+$greenTheme-header-text-color: $whiteColor;
+$greenTheme-first-panel: $greenTheme;
+$greenTheme-second-panel: #047d70;
+$greenTheme-third-panel: #046d61;
+$greenTheme-actions-color: $whiteColor;
+
+// orange theme
+$orangeTheme: #f88016;
+$orangeThemeBg: #944c0d;
+$orangeTheme-text-color: $whiteColor;
+$orangeTheme-header-text-color: $whiteColor;
+$orangeTheme-first-panel: $orangeTheme;
+$orangeTheme-second-panel: #c66611;
+$orangeTheme-third-panel: #ad590f;
+$orangeTheme-actions-color: $whiteColor;
+
+// Yellow theme
+$yellowTheme: #ffc001;
+$yellowThemeBg: #997300;
+$yellowTheme-text-color: $whiteColor;
+$yellowTheme-header-text-color: $whiteColor;
+$yellowTheme-first-panel: $yellowTheme;
+$yellowTheme-second-panel: #cc9900;
+$yellowTheme-third-panel: #b28600;
+$yellowTheme-actions-color: $whiteColor;
+
+// pink theme
+$pinkTheme: #d03b63;
+$pinkThemeBg: #7c233b;
+$pinkTheme-text-color: $whiteColor;
+$pinkTheme-header-text-color: $whiteColor;
+$pinkTheme-first-panel: $pinkTheme;
+$pinkTheme-second-panel: #a62f4f;
+$pinkTheme-third-panel: #912945;
+$pinkTheme-actions-color: $whiteColor;
+
+// themes1 color
+$theme1: #7c243b;
+$theme1-text-color: $whiteColor;
+$theme1-header: #d03b63;
+$theme1-header-text-color: $whiteColor;
+$theme1-first-panel: #d03b63;
+$theme1-second-panel: #a62f50;
+$theme1-third-panel: #9a2646;
+$theme1-actions-color: $whiteColor;
+$theme1-pageWrapperBg: #1268b3;
+
+// themes2 color
+$theme2: #035e54;
+$theme2-text-color: $whiteColor;
+$theme2-header: #069d8c;
+$theme2-header-text-color: $whiteColor;
+$theme2-first-panel: #069d8c;
+$theme2-second-panel: #037d70;
+$theme2-third-panel: #046d61;
+$theme2-actions-color: $whiteColor;
+
+// theme3 color
+$theme3: #fff;
+$theme3-text-color: $primaryGrayColor;
+$theme3-header: #eee;
+$theme3-header-text-color: $primaryGrayColor;
+$theme3-first-panel: #eee;
+$theme3-second-panel: #ccc;
+$theme3-third-panel: #ccc;
+$theme3-actions-color: $primaryGrayColor;
+
+//video player color
+$video-progres-color: #6ac7f9;
+$video-time-tooltip: #ffffff;
+$video-hd-btn-bg-color: #4796cc;
+$video-hd-btn-gradeint-top: #67c3f5;
+$video-hd-btn-gradeint-bottom: #3278b0;
+
+//Forms color
+$form-border-color: #d5d2d2;
+$form-bg-color: #f9f9f9;
+
+//questiions
+$quest-box-color: #fffef7;
+$quest-num-color: #624d46;
+
+//custum-radio
+$custum-active-color: #806f68;
+$custum-bg-color: #e0dad3;
+
+//carusel-buttons
+$carousel-btn-color: #eee;
+$carousel-btn-active-color: #64C6FD;
+
+//summary-details
+$summary-details-link-color: #151515;
+
+// Buttons coors
+$outline-secondary: rgba(152,152,152,0.9);
+$outline-secondary-hover: #989898;
+// ToolTip Colors
+$tooltip-bor-color: #4A97C6;
+$tooltip-bg-color: #F0FBFF;
+
+// Browse Book and assignment
+$pageBg: #eee;
+$pageBgblue:#e8f7ff;
+$cardMeta: $upcomingText;
+$form-field-border: #C7C7C7;
+$form-field-border-focus: #64C6FD;
+$form-field-color-focus: #30BEF6;
+$form-field-bg-focus: #F9FDFF;
+
+$form-field-border-invalid: $lightPinkColor;
+$form-field-color-invalid: $lightPinkColor;
+$form-field-color-invalid-bg: #FFF4FB;
+
+$purpleText: #9491f9;
+$portionListBorder: #A2A3A4;
+$megaFooter: #4A97C6;
+
+// Steps info screen
+$textColor: #b8b8b8;
+$guidlineText: #1268B3;
+$guidlineToggleText:#969696;
+$stepCompleted:#64C6FD;
+$progressNavPints:#64C6FD;
+// Progress Nav
+$inProgressColor: #64C6FD;
+
+
+
+
+
+
+// Calendar
+$cDropdown: #cacaca;
+$cDayText: #999;
+// studyPlan
+$studyPlanRingBg: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0) 0%,
+  rgba(2, 2, 2, 0.5) 100%
+);
+
+$progressbg:#64C6FD;
+
+
+// studyPlan Calendar
+$dayText: #969696;
+$dayBorder: #DEDEDE;
+
+// studyPlan Calendar
+$dayText: #bdbdbd;
+$dayBorder: #ececec;
+$dayBackground: rgba(243,249,255,0.5);
+$daySelectionColor: rgba(100,198,253,0.2);
+$daySelectedBorder: #64C6FD;
+$daySelectedText:#64C6FD;
+$daySelectedColor: linear-gradient(180deg, #f8f8f8 0%, #eeeeee 100%);
+$lastDayText: #64C6FD;
+$card-item-bor: #e1e1e1;
+
+// Onboarding
+$onboardingPage: #00A6FA;
+$loginBroder: #bfbfbf;
+
+$boxBorder:#DCDCDC;
+$botBorder:#eee;
+
+$colorBlueBtn:#1268B3;
+$colorBlueBtnBg:#f1f6fb;
+$colorBlueBtnBgH:#e2edf5;
+$colorBlueBtnBor:rgba(18,104,179,0.3);
+
+$addBtn:#00A4FF;
+$intentLinks:#434343;
+
+$notRecommended:#FF43BD;
+$navigatorBg:#636363;
+
+$errorText: #FF45BB;
+
+// onBoaridng packages
+
+$package-header: #E5E5E5;
+$package-card: #F6F6F6;
+$packageText: #969696;
+
+$highlight-package-header:#E8D6F3;
+$highlight-package-card:#F6EFFB;
+
+$order-border:#969696;
+$errorText: #FF45BB;
+
+// onBoaridng packages
+$package-header: #E5E5E5;
+$package-card: #F6F6F6;
+$packageText: #969696;
+$highlight-package-header:#E8D6F3;
+$highlight-package-card:#1AAFFA;
+$user-text-card:#1AAFFA;
+$login-button:#1AAFFA;
+
+
+$option-bor:#c7c7c7;
+$option-select:#64c6fd;
+
+$attachment-deleted-heading:#333;
+$attachment-deleted-border:#e8e8e8;
+
+$progressIndicator:#1AAFFA;
+
+$toast-border-color:#0073C1;
+$toastBor:#0073C1;
+
+
+$addnoteButtonBg: #EDF9FF;
+$addnoteButtonBor: #C9DEE9;

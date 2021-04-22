@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280px" height="64px" viewBox="0 0 1280 64" version="1.1">
+    <title>93D7F238-D28A-4B29-BE29-E7222559AF6F</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1280" height="64"/>
+    </defs>
+    <g id="Today--------------------------------------------" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A---Listing-Page---Type-1" transform="translate(0.000000, -100.000000)">
+            <g id="Header-Background" transform="translate(0.000000, 100.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"/>
+                </mask>
+                <use id="Select-Colour" fill="none" xlink:href="#path-1" style="/* fill: #6d6c6c; */"/>
+                <g id="Elements/Header/BG/" mask="url(#mask-2)">
+                    <g id="Pattern" transform="translate(640.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-640.000000, -32.000000) translate(608.000000, -608.000000)">
+                        <polygon id="Fill-22" fill-opacity="0.02" fill="#000000" points="0.615385 912.5 63.3846158 493.90146 63.3846158 426.5 0.615385 664.178832"/>
+                        <polygon id="Fill-45" fill-opacity="0.03" fill="#FFFFFF" points="5.25505039e-12 448 9.84615385 231.20461 0.114994462 228"/>
+                        <polygon id="Fill-46" fill-opacity="0.03" fill="#000000" points="0 449 62.7692308 427.655738 10.0430769 232"/>
+                        <polygon id="Fill-46" fill-opacity="0.01" fill="#000000" points="0 666 62.7692308 427 0 448.402985"/>
+                        <polygon id="Fill-50" fill-opacity="0.01" fill="#000000" points="9.84615385 230.901948 62.7692308 427 62.7692308 86"/>
+                        <polygon id="Fill-58" fill-opacity="0.04" fill="#000000" points="0 -1.11111953e-11 -1.73507212e-12 113.723077 10.0430769 231 62.7692308 0"/>
+                        <polygon id="Fill-63" fill-opacity="0.07" fill="#FFFFFF" points="26.2307692 746.5 63.1538462 746.5 63.1538462 493.5"/>
+                        <polygon id="Fill-44" fill-opacity="0.04" fill="#FFFFFF" points="0.615384615 206.681818 10.4615385 231.5 0.615384615 114.5"/>
+                        <polygon id="Fill-66" fill-opacity="0.06" fill="#FFFFFF" points="10.1548035 1180 40.6153846 998.379021 2.7977768e-12 977 2.79953838e-12 1073.16413"/>
+                        <polygon id="Fill-66" fill-opacity="0.07" fill="#FFFFFF" transform="translate(36.923077, 1023.500000) scale(-1, -1) translate(-36.923077, -1023.500000) " points="63.3846154 867.5 33.1428571 867.5 10.4615385 910.045455 10.4615385 1034.13636 10.4615385 1179.5"/>
+                        <polygon id="Fill-67" fill-opacity="0.04" fill="#FFFFFF" points="25.1076923 746 1.67688086e-12 913.478873 1.67688086e-12 977.619718 40.1685206 999 62.7692308 867.15493"/>
+                        <polygon id="Fill-42" fill-opacity="0.07" fill="#FFFFFF" transform="translate(52.692308, 1158.000000) scale(1, -1) translate(-52.692308, -1158.000000) " points="63.7692308 1137 41.6153846 1137 63.7692308 1179"/>
+                        <polygon id="Fill-42" fill-opacity="0.09" fill="#FFFFFF" transform="translate(36.923077, 1229.500000) scale(-1, 1) translate(-36.923077, -1229.500000) " points="10.4615385 1279.5 63.3846154 1179.5 10.4615385 1179.5"/>
+                        <polygon id="Fill-42" fill-opacity="0.11" fill="#FFFFFF" points="0.615384615 1279.5 63.3846154 1279.5 10.6584615 1179.5"/>
+                        <polygon id="Fill-42" fill-opacity="0.06" fill="#FFFFFF" points="1.11821663e-12 1278 9.84615385 1178.55172 1.11821663e-12 1072"/>
+                        <polygon id="Fill-42" fill-opacity="0.06" fill="#FFFFFF" transform="translate(44.307692, 806.000000) scale(-1, 1) translate(-44.307692, -806.000000) " points="25.8461538 866 62.7692308 746 25.8461538 746"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>30103E73-6B73-427A-B4F8-81B1D28A0EF6</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-368.000000, -1933.000000)">
+            <g id="CONFIDENCE-LEVELS" transform="translate(40.000000, 1541.000000)">
+                <g id="Elements/Icons/LessonTypes/Big-Idea/EVS" transform="translate(328.000000, 392.000000)">
+                    <g id="Status/NotStudied" transform="translate(2.000000, 2.000000)">
+                        <use id="BlackBorder" stroke-opacity="0.8" stroke="#989898" mask="url(#mask-2)" stroke-width="1.2" stroke-linejoin="bevel" stroke-dasharray="2,2" xlink:href="#path-1"></use>
+                        <g id="Group" transform="translate(6.000000, 6.000000)" fill="#989898" fill-opacity="0.8">
+                            <path d="M0.518858923,0.441935846 C0.663052508,0.297742262 0.8968365,0.297742262 1.04103008,0.441935846 L1.04103008,0.441935846 L3.99971373,3.40079066 L6.95896992,0.441935846 C7.1031635,0.297742262 7.33694749,0.297742262 7.48114108,0.441935846 C7.62533466,0.586129431 7.62533466,0.819913423 7.48114108,0.964107008 L4.52171373,3.92279066 L7.48114108,6.88204684 C7.60473558,7.00564134 7.62239194,7.19505736 7.53411015,7.33745802 L7.48114108,7.404218 C7.33694749,7.54841158 7.1031635,7.54841158 6.95896992,7.404218 L6.95896992,7.404218 L3.99971373,4.44479066 L1.04103008,7.404218 C0.8968365,7.54841158 0.663052508,7.54841158 0.518858923,7.404218 C0.374665339,7.26002442 0.374665339,7.02624042 0.518858923,6.88204684 L3.47771373,3.92279066 L0.518858923,0.964107008 C0.395264422,0.840512507 0.377608065,0.651096482 0.465889851,0.508695831 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BFC3FE7A-1BB9-46DB-8056-C44CA2AF3E86</title>
+    <defs>
+        <filter x="-4.2%" y="-2.7%" width="108.4%" height="105.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.251393138 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="A-:-Browse-Books" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="G-04-ST-Highlight-HighConfidenceUnselected" transform="translate(-42.000000, -487.000000)" fill="#FFFFFF" stroke="#202020">
+            <g id="Compounds/Highlight/Expanded" filter="url(#filter-1)" transform="translate(34.000000, 135.000000)">
+                <g id="Elements/Highlight/Expanded-Copy-4" transform="translate(8.000000, 352.000000)">
+                    <g id="Elements/Graphics/Style3/Oral/Black">
+                        <g id="Purple/High">
+                            <g id="Rectangle-Copy-6">
+                                <rect x="4.5" y="4.5" width="15" height="15" rx="7.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

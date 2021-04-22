@@ -1,0 +1,426 @@
+.show-more-btn-sec {
+  padding: size(10) size(18) 0;
+  // margin-right: size(16);
+}
+
+.show-more-btn-sec2 {
+  padding: size(0) size(18) size(20);
+  margin-right: size(0);
+}
+
+.cmn-today-cards {
+  padding: size(0);
+  .show-more-btn-sec {
+    // padding: size(10) 0 size(2);
+  }
+
+  .heading2 {
+    // @include heading2(primary);
+    margin: 0 0 size(6);
+    text-transform: capitalize;
+    color: $headingColor;
+  }
+
+  .head {
+    margin: 0 0 size(16);
+    padding: size(30) size(18) size(0);
+  }
+
+  .com-card::before {
+    display: none;
+  }
+
+  .com-card {
+    //  padding: 0;
+    //  box-shadow: size(0) size(2) size(4) size(0) rgba(0, 0, 0, 0.5);
+    //  margin-bottom: size(10);
+    //  border-radius: size(5);
+    border-left: 6px solid;
+
+    //  .info .info-detail .detail {
+    //    margin: 0;
+    //  }
+
+    .img {
+      width: size(68);
+      min-width: size(66);
+
+      p {
+        text-transform: uppercase;
+      }
+    }
+    &.card-active-theme,
+    &.primary {
+      border-radius: 6px;
+      margin: size(30) size(16) size(30);
+      // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+      width: calc(100% - 32px);
+      border:0;
+      padding: size(5) size(10) size(5) size(5);
+      min-height: size(85);
+
+
+      .img {
+        width: size(76);
+        min-width: size(76);
+        margin: 0 size(6) 0 0;
+        padding: size(5) 0 0;
+
+
+        &.progress-indicator-img{
+          padding: 0;
+        }
+
+        svg {
+          transform: scale(1);
+          transform-origin: top;
+          // @include media-breakpoint-down(md) {
+          //   transform: scale(1);
+          // }
+        }
+        .progress-graph-bg{ background:rgb(255 255 255 / 30%); }
+        // .progress-indicator{transform: scale(1.6);}
+        // .progress-graph-bg{
+        //   max-width: size(48);
+        //   height: size(48);
+        // }
+        .circle-progress  svg {
+            transform-origin: center;
+            transform: scale(1);
+            max-width: size(48);
+          }
+         .circle-progress .circle-bg {
+            fill:none;
+        }
+        .subjec-name {
+          padding: size(6) 0 0;
+        }
+      }
+
+      .info .info-detail .detail,
+      .info .info-detail .title,
+      .info .info-detail .item {
+        color: $whiteColor;
+      }
+      .info .meta svg circle{ fill:$whiteColor ;}
+
+      .info {
+        width: calc(100% - 90px);
+        .school-tag { 
+          right: size(5);
+          background: $whiteColor; 
+          color: $colorBlueLight2;
+        }
+        .right { padding: 0 0 size(3); }
+        .info-detail {
+          padding: size(6) 0 0;
+          width: calc(100% - 30px);
+          .title {
+            margin: size(7) 0;
+            font-weight: $semibold;
+            letter-spacing: -0.3px;
+            font-size: size(18);
+
+            
+
+          }
+        }
+		.status-icon{
+    	// transform: scale(1.6);
+      .check-svg{
+        path{ stroke: $whiteColor; }
+      }
+    }
+    
+
+      }
+      .duedate{ 
+        background-color:$whiteColor; 
+        border-radius: size(20);
+        padding: size(1) size(5);
+        margin: 0 0 0 size(5);
+    }
+    }
+  }
+
+
+  > div:last-child{
+    .com-card.primary{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.primary-card {
+  //  padding: size(5) size(16);
+
+  .com-card::before {
+    display: none;
+  }
+
+  //    .info {
+  //      background-color: $whiteColor;
+  //      margin: size(3) size(3) size(3) size(0);
+  //      border-radius: size(4) size(4) size(4) size(4);
+  //      z-index: 10;
+
+  //    }
+
+  .com-card {
+    box-shadow: size(0) size(2) size(4) size(0) rgba(0, 0, 0, 0.5);
+    margin-bottom: size(15);
+    border-radius: 10px;
+
+    .img {
+      p {
+      }
+    }
+    &.card-active-theme,
+    &.primary {
+      border-radius: 6px;
+      margin: size(10) size(16) size(20);
+      box-shadow:none;
+      width: calc(100% - 32px);
+      border:0;
+      padding: size(5) size(10) size(5) size(5);
+      min-height: size(85);
+      .img {
+        width: size(76);
+        min-width: size(76);
+
+        svg {
+          transform: scale(1);
+          transform-origin: top;
+          // @include media-breakpoint-down(md) {
+          //   transform: scale(1);
+          // }
+        }
+        .circle-progress{
+          svg {
+            transform-origin: center;
+          }
+        }
+        .subjec-name {
+          padding: size(6) 0 0;
+        }
+      }
+      .info .info-detail .detail,
+      .info .info-detail .title,
+      .info .info-detail .item {
+        color: $whiteColor;
+      }
+      .info {
+        padding: size(6) 0 0;
+        width: calc(100% - 90px);
+        .info-detail {
+          
+            width: calc(100% - 30px);
+          .title {
+            margin: size(7) 0;
+            font-size: size(18);
+
+          }
+        }
+		.status-icon{
+    		transform: scale(1.6);
+		}
+      
+    .duedate{ 
+      background-color:$whiteColor; 
+      border-radius: size(20);
+      padding: size(1) size(5);
+      margin: 0 0 0 size(5);
+  }
+  }
+    }
+  }
+}
+
+.cmn-upcoming-cards {
+  .show-more-btn-sec {
+    margin-bottom: size(-10);
+  }
+  .heading2 {
+    @include heading3(primary);
+    text-transform: capitalize;
+    color: $headingColor2;
+  }
+
+  .head {
+    padding: size(57) size(18) size(16);
+    @include media-breakpoint-down(md){
+      padding-top: size(22);
+    
+    }
+    margin: 0;
+
+    .body-bold-light {
+      margin: size(4) 0 0;
+    }
+  }
+
+  .odd {
+    .asn-card {
+      background: rgba(0, 0, 0, 0.02);
+    }
+  }
+
+  .com-card {
+    .img {
+      //    border-right: size(1) solid #E1E1E1;
+      span {
+        svg {
+          g {
+            fill: $upcomingText;
+          }
+          path {
+            fill: $upcomingText;
+          }
+          circle {
+            fill: $upcomingText;
+          }
+        }
+      }
+      .task {
+        svg {
+          g {
+            stroke: $upcomingText;
+          }
+        }
+      }
+      .revise {
+        ellipse {
+          fill: transparent;
+          stroke: $upcomingText;
+        }
+      }
+      .subjec-name {
+        color: $upcomingText;
+      }
+
+      p {
+        padding: 0 size(3);
+        text-transform: uppercase;
+      }
+
+      .icon {
+        filter: invert(1);
+      }
+    }
+    .info {
+      .info-detail {
+        .title {
+			    @include heading5;
+          font-weight: $medium;
+          letter-spacing: -0.2px;
+          margin: size(3) 0;
+        }
+      }
+    }
+
+    .right {
+      button {
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+.schedule-listing-section{
+	.upcoming-schedule{
+	  .com-card {
+    .img {
+      //    border-right: size(1) solid #E1E1E1;
+      span {
+        svg {
+          g {
+            fill: $upcomingText;
+          }
+          path {
+            fill: $upcomingText;
+          }
+          circle {
+            fill: $upcomingText;
+          }
+        }
+      }
+      .task {
+        svg {
+          g {
+            stroke: $upcomingText;
+          }
+        }
+      }
+      .revise {
+        circle {
+          fill: transparent;
+          stroke: $upcomingText;
+        }
+		ellipse{
+    fill: transparent;
+    stroke: #969696;
+}
+      }
+      .subjec-name {
+        color: $upcomingText;
+      }
+
+      p {
+        padding: 0 size(3);
+        text-transform: uppercase;
+      }
+
+      .icon {
+        filter: invert(1);
+      }
+    }
+    .info {
+      .info-detail {
+        .title {
+          font-weight: $regular;
+          font-family: $familyPrimary;
+          font-size: size(14);
+        }
+      }
+    }
+
+    .right {
+      button {
+        align-items: flex-end;
+      }
+    }
+  }
+  }
+	
+}
+
+//  .item-border {
+//    .img,
+//    .info {
+//      border-bottom: size(1) solid $card-item-bor;
+//    }
+//  }
+.cmn-today-cards .com-card.card-active-theme {
+  background: #1AAFFA;
+  color: $whiteColor;
+  border: none;
+  .progress-indicator,
+  .small-text {
+    color: $whiteColor;
+  }
+  .circle-progress .circle {
+    stroke: $whiteColor;
+  }
+  .circle-progress .circle-bg {
+    fill: rgb(255 255 255 / 24%);
+  }
+}
+
+
+.my-study-plans-list{
+  .cmn-today-cards .com-card.card-active-theme .info .info-detail, 
+  .cmn-today-cards .com-card.primary .info .info-detail {
+      width: calc(100% - 40px);
+  }
+}

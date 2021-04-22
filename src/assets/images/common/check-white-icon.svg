@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>69E8FD13-A5E9-4CE1-82FC-16C85FE839DD</title>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <filter x="-33.3%" y="-27.8%" width="177.8%" height="177.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-593.000000, -3711.000000)">
+            <g id="Group-10" transform="translate(40.000000, 1260.000000)">
+                <g id="Group-5" transform="translate(0.000000, 2412.000000)">
+                    <g id="Completed" transform="translate(553.000000, 39.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <circle stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="square" fill="#00B951" fill-rule="evenodd" cx="9" cy="9" r="8.3"></circle>
+                        </g>
+                        <g transform="translate(3.750000, 4.500000)" fill="#FFFFFF" id="Path" stroke="#FFFFFF" stroke-width="0.8">
+                            <path d="M9.49107692,0.808615385 L4.17103846,6.79361538 L0.966,4.22965385 C0.817153846,4.11023077 0.598730769,4.13480769 0.479653846,4.28365385 C0.360230769,4.43319231 0.384461538,4.65092308 0.533653846,4.77034615 L3.99519231,7.53957692 C4.05888462,7.59046154 4.13538462,7.61538462 4.21153846,7.61538462 C4.30707692,7.61538462 4.40226923,7.57592308 4.47046154,7.49907692 L10.0089231,1.26830769 C10.1359615,1.12569231 10.1231538,0.906576923 9.98019231,0.779884615 C9.83688462,0.6525 9.61846154,0.665307692 9.49107692,0.808615385 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FileFormat/Video/Colour</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements/Graphics/Style3/Video/Colour">
+            <g id="video-camera" transform="translate(0.000000, 5.000000)">
+                <path d="M22.650566,13.3258868 L16.9861132,7.91275472 C16.6709434,7.59441509 16.6786415,7.07637736 17.0033208,6.768 L22.6677736,1.53962264 C23.1722264,1.0605283 24,1.42143396 24,2.12060377 L24,7.33132075 L24,12.7621132 C24,13.4726038 23.1486792,13.8280755 22.650566,13.3258868 Z" id="Path" fill="#EFCE4A" fill-rule="nonzero"></path>
+                <path d="M15.770717,14.2641509 L1.71667925,14.2641509 C0.76845283,14.2641509 0,13.4956981 0,12.5474717 L0,2.01237736 C0,1.03018868 0.803773585,0.226415094 1.78596226,0.226415094 L15.8744151,0.226415094 C16.8606792,0.226415094 17.6603774,1.02611321 17.6603774,2.01237736 L17.6603774,12.3744906 C17.6603774,13.4137358 16.8099623,14.2641509 15.770717,14.2641509 Z" id="Path" fill="#363E4B" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#EFCE4A" fill-rule="nonzero" cx="5.20754717" cy="5.43396226" r="2.49056604"></circle>
+                <line x1="5.88679245" y1="5.66037736" x2="8.1509434" y2="7.9245283" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

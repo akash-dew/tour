@@ -1,0 +1,76 @@
+{
+  "1": [
+    {
+      "stepId": 1,
+      "label": "Step 1 of 3",
+      "mLabel": "Select Subject",
+      "instruction": "Let's tap on a subject to select chapters from it.",
+      "component": "",
+      "isMaximized": true,
+      "stepData": [],
+      "prevStep":false
+    },
+    {
+      "stepId": 2,
+      "label": "Step 2 of 3",
+      "mLabel": "Select Chapters and Topics",
+      "instruction": "Select chapters and topics from different chapters",
+      "component": "",
+      "isMaximized": true,
+      "stepData": [],
+      "btnLabel": "Next",
+      "nextStep": true,
+      "prevStep":true
+    },
+    {
+      "component": "test-setting",
+      "instruction": "Let's fill up the test details",
+      "isMaximized": true,
+      "label": "Step 3 of 3",
+      "mLabel": "Enter Test Settings",
+      "btnLabel": "Assign",
+      "oralBtnLabel":"Start Test Now",
+      "nextStep": true,
+      "prevStep":true,
+      "stepData": [],
+      "stepId": 3
+    }
+  ],
+  "2": [
+    {
+      "stepId": 1,
+      "label": "Step 1 of 3",
+      "mLabel": "Select Subject",
+      "instruction": "Let's tap on a subject to select chapters from it.",
+      "component": "",
+      "isMaximized": true,
+      "stepData": [],
+      "prevStep":false
+    },
+    {
+      "stepId": 2,
+      "label": "Step 2 of 3",
+      "mLabel": "Select Chapters and Topics",
+      "instruction": "Select chapters and topics from different chapters",
+      "component": "",
+      "isMaximized": true,
+      "stepData": [],
+      "btnLabel": "Next",
+      "nextStep": true,
+      "prevStep":true
+    },
+    {
+      "component": "test-setting",
+      "instruction": "Let's fill up the test details",
+      "isMaximized": true,
+      "label": "Step 3 of 3",
+      "mLabel": "Enter Test Settings",
+      "btnLabel": "Assign",
+      "oralBtnLabel":"Start Test Now",
+      "nextStep": true,
+      "prevStep":true,
+      "stepData": [],
+      "stepId": 3
+    }
+  ]
+}

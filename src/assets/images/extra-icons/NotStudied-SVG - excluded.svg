@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <circle id="path-1" fill="none" cx="10" cy="10" r="10"></circle>
+    <g id="Syllabus-D" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+       <use id="BlackBorder" stroke-opacity="0.8" stroke="#989898" mask="url(#mask-2)" stroke-width="1.2" stroke-linejoin="bevel" stroke-dasharray="2,2" xlink:href="#path-1"></use>
+        <g id="Group" transform="translate(6.000000, 5.000000)" fill="#989898" fill-opacity="0.8">
+            <path d="M4.37692308,-0.0461538462 C4.5808436,-0.0461538462 4.74615385,0.1191564 4.74615385,0.323076923 L4.74615385,9.43076923 C4.74615385,9.63468975 4.5808436,9.8 4.37692308,9.8 C4.17300255,9.8 4.00769231,9.63468975 4.00769231,9.43076923 L4.00769231,0.323076923 C4.00769231,0.1191564 4.17300255,-0.0461538462 4.37692308,-0.0461538462 Z" id="Rectangle" transform="translate(4.376923, 4.876923) rotate(45.000000) translate(-4.376923, -4.876923) "></path>
+            <path d="M4.43846154,-0.230769231 C4.64238206,-0.230769231 4.80769231,-0.0654589846 4.80769231,0.138461538 L4.80769231,9.24615385 C4.80769231,9.45007437 4.64238206,9.61538462 4.43846154,9.61538462 C4.23454102,9.61538462 4.06923077,9.45007437 4.06923077,9.24615385 L4.06923077,0.138461538 C4.06923077,-0.0654589846 4.23454102,-0.230769231 4.43846154,-0.230769231 Z" id="Rectangle" transform="translate(4.438462, 4.692308) scale(-1, 1) rotate(45.000000) translate(-4.438462, -4.692308) "></path>
+        </g>
+    </g>
+</svg>

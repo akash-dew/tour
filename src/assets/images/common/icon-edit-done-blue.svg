@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="PROFILE-EDIT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="F-02.4-Profile-Edit" transform="translate(-858.000000, -230.000000)" fill="#1268B3">
+            <g id="Title" transform="translate(543.000000, 200.000000)">
+                <g id="Group" transform="translate(0.000000, 30.000000)">
+                    <g id="Done-Blue" transform="translate(315.000000, 0.000000)">
+                        <g id="Done/Colour" transform="translate(4.000000, 4.000000)">
+                            <circle id="Oval" fill-opacity="0.06" cx="16" cy="16" r="16"></circle>
+                            <path d="M23.8758522,10.2162984 L13.996091,21.3309495 L8.04406359,16.5694561 C7.76764369,16.3476773 7.36201357,16.3933188 7.14087766,16.6697387 C6.9190989,16.9474442 6.96409749,17.3517887 7.24116022,17.5735674 L13.6695298,22.7162631 C13.7878118,22.8107601 13.9298788,22.8570444 14.0713029,22.8570444 C14.2487259,22.8570444 14.4255061,22.783761 14.552145,22.6410512 L24.8375363,11.0699859 C25.0734575,10.8051371 25.0496725,10.3982213 24.7841809,10.1629429 C24.5180464,9.92637895 24.1124163,9.95016391 23.8758522,10.2162984 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

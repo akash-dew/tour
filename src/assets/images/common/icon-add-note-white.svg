@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EEBC8A78-8B8D-40FD-A634-BD84F35C3B9F</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-03-SC-VideoPlayer" transform="translate(-907.000000, -164.000000)">
+            <g id="Templates/Revise/VideoView/Desktop" transform="translate(0.000000, 64.000000)">
+                <g id="VideoPlayer" transform="translate(18.000000, 72.000000)">
+                    <g id="Interface" transform="translate(0.000000, 28.000000)">
+                        <g id="Add-a-Note" transform="translate(889.000000, 0.833333)">
+                            <g id="Elements/Graphics/Style3/Photos/Black">
+                                <g id="Group-2">
+                                    <g id="Group">
+                                        <circle id="Oval" fill-opacity="0.3" fill="#000000" cx="12" cy="12" r="12"></circle>
+                                        <circle id="Oval" stroke="#FFFFFF" stroke-width="0.5" cx="15.826087" cy="15.826087" r="3.50724638"></circle>
+                                        <rect id="Rectangle" fill="#FFFFFF" x="13.5942029" y="15.5072464" width="4.46376812" height="1"></rect>
+                                        <polygon id="Rectangle" fill="#FFFFFF" transform="translate(15.826087, 15.826087) rotate(90.000000) translate(-15.826087, -15.826087) " points="13.5942029 15.5072464 18.057971 15.5072464 18.057971 16.1449275 13.5942029 16.1449275"></polygon>
+                                        <path d="M18.0869376,5 L18.0865605,11.8225874 C17.875035,11.7478434 17.6568548,11.687189 17.4331476,11.6417517 L17.4325907,5.65434688 L5.65434688,5.65434688 L5.65434688,16.123897 L5.66050778,16.2517001 C5.71756451,16.8404055 6.16467352,17.3149545 6.74017883,17.4136909 L6.86537129,17.4290011 L6.96304064,17.4325907 L11.6417517,17.4331476 C11.687189,17.6568548 11.7478434,17.875035 11.8225874,18.0865605 L6.96304064,18.0869376 C5.87888323,18.0869376 5,17.2080544 5,16.123897 L5,5 L18.0869376,5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

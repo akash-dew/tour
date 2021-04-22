@@ -1,0 +1,244 @@
+{
+  "event": {
+    "onOptClick": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": ""
+        }
+      ]
+    },
+    "resetQuestion": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "disable"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol_C"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol_W"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQFb_W"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showSolButton"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "restrictopt"
+        }
+      ]
+    },
+    "USER_ATTEMPT_UPDATED": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol_C"
+        }
+      ]
+    },
+    "loadQuestion": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "disable"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol_C"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQSol_W"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showQFb_W"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "showSolButton"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "restrictopt"
+        }
+      ]
+    },
+    "attemptFb": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQFb_W"
+        }
+      ]
+    },
+    "qValidation": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "disable"
+        }
+      ]
+    },
+    "maxAttemptFb": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol_W"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showSolButton"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "missed"
+        }
+      ]
+    },
+    "correctAttemptFb": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "instantFeedback"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol"
+        },
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "showQSol_C"
+        }
+      ]
+    },
+    "iDontKnow": {
+      "actions": [
+        {
+          "value": "showPrefix",
+          "type": "execute",
+          "data": "i_dont_know"
+        }
+      ]
+    },
+    "optionRestriction": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "applyClass",
+          "data": "restrictopt"
+        }
+      ]
+    },
+    "optionActivation": {
+      "actions": [
+        {
+          "value": "styleAttempt",
+          "type": "removeClass",
+          "data": "restrictopt"
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "maxAttempt": 2,
+    "allOption": 1,
+    "qCompletion": "Q_Fb"
+  },
+  "msgRule": [
+    { "rule": "1_1_0", "value": ["c_1"], "label": "correct" },
+    { "rule": "1_1_1", "value": ["c_1"], "label": "correct" },
+    { "rule": "1_1_2", "value": ["c_1"], "label": "correct" },
+    { "rule": "1_0_0", "value": ["m_1"], "label": "missed" },
+    { "rule": "1_0_1", "value": ["m_1"], "label": "missed" },
+    { "rule": "1_0_2", "value": ["m_1"], "label": "missed" },
+    { "rule": "0_1_0", "value": ["w_1"], "label": "incorrect" },
+    { "rule": "0_1_1", "value": ["w_1"], "label": "incorrect" },
+    { "rule": "0_1_2", "value": ["w_1"], "label": "incorrect" },
+    {
+      "rule": "Q_0_0_2",
+      "value": ["q_w_retry1"],
+      "label": "incorrect last attempt"
+    },
+    {
+      "rule": "Q_0_0_1",
+      "value": ["q_w1"],
+      "label": "incorrect last attempt"
+    },
+    {
+      "rule": "Q_1_0_2",
+      "value": ["q_partial_retry1"],
+      "label": "incorrect last attempt"
+    },
+    { "rule": "Q_2_0_2", "value": ["q_c1"], "label": "correct last attempt" },
+    { "rule": "Q_2_0_1", "value": ["q_c1"], "label": "correct last attempt" },
+    { "rule": "Q_0_1_2", "value": ["q_w1"], "label": "incorrect last attempt" },
+    { "rule": "Q_1_1_2", "value": ["q_w1"], "label": "partial; first attempt" },
+    { "rule": "Q_2_1_2", "value": ["q_c2"], "label": "correct last attempt" }
+  ]
+}
