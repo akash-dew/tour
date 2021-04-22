@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/scss/style.scss",
+              "node_modules/swiper/css/swiper.css",
+              "node_modules/intro.js/introjs.css"
             ],
             "scripts": []
           },

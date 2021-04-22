@@ -3981,3 +3981,11 @@ body{
  .icon-back-black2 {
 	background-image: url(../images/tour/back-black-icon2.svg);
   }
+
+.modal{
+	z-index: 999999999999999 !important;
+}
+
+.modal-backdrop{
+	z-index: 999999999999998 !important;
+}
