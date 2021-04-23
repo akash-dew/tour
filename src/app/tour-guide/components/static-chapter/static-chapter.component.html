@@ -1847,3 +1847,37 @@
 	</div>
 	<div class="modal-footer"></div>
 </ng-template>
+
+<ng-template class="hello" #alert let-modal>
+	<div ngbAutofocus class="tour-body-outer" >
+	  <div class="tour-body">
+		<div class="text">
+		  <h4 class="heading">
+			<span (click)="backtoIntro()" class="icon icon-back-black2 icon-lg"></span>
+			
+			
+			Thank you!</h4>
+		  <p>I hope you enjoyed my tour of Studi.</p>
+		  <p>If you want to evaluate it yourself, I recommend you <b>sign-up for the 15-day free trial</b> on offer at the moment.</p>
+		</div>
+
+
+
+		<div class="user-img text-center">
+
+		<div class="mb-10">
+		  <button
+			type="button"
+			(click)="signUpRedirect()"
+			class="btn btn-outline-primary btn-blue"
+		  >
+		  Sign me up!
+		  </button>
+		</div>
+		<button class="btn btn-lg btn-link p-0" (click)="closeEndTourModal()">
+		  I'll think about it
+		</button>
+	</div>
+	  </div>
+	</div>
+</ng-template>

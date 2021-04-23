@@ -59,7 +59,7 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
           element: '#step7',
           step: 7,
           title: "<span id='studyPlanBackButton' class='icon icon-back-black2 icon-lg'></span>Studi Plan",
-          intro: " <p>Let me tell you about my favourite feature of Studi.</p><p>Ever since I've started studying from the Studi Plan, I've not had a single disagreement with my parents about what, when and how much I study everyday at home.</p><p><button id='studyPlanModalOpen' class='btn btn-outline-primary btn-blue'>What is a Studi plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='studyPlanNextButton'>How does a study plan work?</button></p>",
+          intro: " <p>Let me tell you about my favourite feature of Studi.</p><p>Ever since I've started studying from the Studi Plan, I've not had a single disagreement with my parents about what, when and how much I study everyday at home.</p><p><button id='studyPlanModalOpen' class='btn btn-outline-primary btn-blue'>What is a Studi plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='studyPlanNextButton'>What next?</button></p>",
           position: 'left'
         }
     ],
@@ -69,6 +69,8 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
   step;
   helpVideoUrl;
   videoModalRef;
+  closeTourModalRef;
+  @ViewChild('alert') alert: ElementRef;
   @ViewChild('content') content: ElementRef;
   constructor(private router: Router, private route: ActivatedRoute, private modalService: NgbModal, private sanitizer: DomSanitizer) { }
 
@@ -154,10 +156,6 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
               document.querySelector('#digitalTestNextButton').addEventListener('click', () => {
                 this.introJs.goToStep(7)
               })
-              // document.querySelector('#chapterDoneButton').addEventListener('click', () => {
-              //   localStorage.removeItem('tourGuideCurrentScreen');
-              //   this.router.navigate(['/tour/menu']);
-              // })
               break;
           case "step7": 
               console.log("step7");
@@ -169,13 +167,37 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
                   this.openVideoInModal();
               }) 
               document.querySelector('#studyPlanNextButton').addEventListener('click', () => {
-                  localStorage.removeItem('tourGuideCurrentScreen');
-                  this.router.navigate(['/tour/menu']);
+                this.openCloseTourModal();
               })
               break;
       }
     },500);
     });
+  }
+
+  openCloseTourModal() {
+    this.closeTourModalRef = this.modalService.open(this.alert, 
+      {size: 'md',
+      centered: true,
+      scrollable: true, 
+      backdrop: 'static',
+      keyboard: false, 
+      windowClass: 'mobile-center tour-modal' });
+  }
+
+  backtoIntro(){
+    this.modalService.dismissAll();
+  }
+
+  closeEndTourModal() {
+    this.introJs.exit();
+    this.modalService.dismissAll();
+  }
+
+  signUpRedirect(){
+    this.introJs.exit();
+    this.modalService.dismissAll();
+    this.router.navigate(['/authentication/register/child-details']);
   }
 
   openVideoInModal() {

@@ -133,7 +133,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
         backdrop: 'static',
         keyboard: false, 
         windowClass: 'mobile-center tour-modal' });
-    },2000);
+    },1000);
   }
 
   startTour(){
