@@ -65,15 +65,18 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    if(localStorage.getItem('tourGuideCurrentScreen') && localStorage.getItem('tourGuideCurrentScreen')=='subject'){
-      setTimeout(() => {
-        this.introJs.start().goToStep(3);
-      },500);
-      localStorage.setItem('tourGuideCurrentScreen','menu');
-    } else {
-      this.showInitmodalTour();
-      localStorage.setItem('tourGuideCurrentScreen','menu');
-    }
+    this.showInitmodalTour();
+    localStorage.setItem('tourGuideCurrentScreen','menu');
+
+    // if(localStorage.getItem('tourGuideCurrentScreen') && localStorage.getItem('tourGuideCurrentScreen')=='subject'){
+    //   setTimeout(() => {
+    //     this.introJs.start().goToStep(3);
+    //   },500);
+    //   localStorage.setItem('tourGuideCurrentScreen','menu');
+    // } else {
+    //   this.showInitmodalTour();
+    //   localStorage.setItem('tourGuideCurrentScreen','menu');
+    // }
     
     this.introJs.onafterchange((targetElement)=>{
       setTimeout(()=> {
@@ -134,10 +137,13 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   }
 
   startTour(){
-    setTimeout(()=>{
-      this.introJs.start();
-    }, 1000)
     this.modalRef.close();
+    this.router.navigate(['/tour/subject']);
+    // setTimeout(()=>{
+    //   this.introJs.start();
+    //   this.router.navigate(['/tour/subject']);
+    // }, 1000)
+    
   }
 
   closePopUp(){
