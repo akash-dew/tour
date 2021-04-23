@@ -52,7 +52,14 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
           element: '#step6',
           step: 6,
           title: "<span id='digitalTestBackButton' class='icon icon-back-black2 icon-lg'></span>Digital Test",
-          intro: " <p>My dad loves the Digital Test feature.</p><p>Now, even when he is not at home, he can <b>easily assign a test on the topics </b>I have completed. He feels that surprise tests like these will keep me on my toes.</p><p><button id='digitalTestModalOpen' class='btn btn-outline-primary btn-blue'>Tell me more about Digital Test.</button></p><p><button class='btn btn-link btn-lg p-0' id='chapterDoneButton'>Anything else?</button></p>",
+          intro: " <p>My dad loves the Digital Test feature.</p><p>Now, even when he is not at home, he can <b>easily assign a test on the topics </b>I have completed. He feels that surprise tests like these will keep me on my toes.</p><p><button id='digitalTestModalOpen' class='btn btn-outline-primary btn-blue'>Tell me more about Digital Test.</button></p><p><button class='btn btn-link btn-lg p-0' id='digitalTestNextButton'>Anything else?</button></p>",
+          position: 'left'
+        },
+        {
+          element: '#step7',
+          step: 7,
+          title: "<span id='studyPlanBackButton' class='icon icon-back-black2 icon-lg'></span>Studi Plan",
+          intro: " <p>Let me tell you about my favourite feature of Studi.</p><p>Ever since I've started studying from the Studi Plan, I've not had a single disagreement with my parents about what, when and how much I study everyday at home.</p><p><button id='studyPlanModalOpen' class='btn btn-outline-primary btn-blue'>What is a Studi plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='studyPlanNextButton'>How does a study plan work?</button></p>",
           position: 'left'
         }
     ],
@@ -143,10 +150,27 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
               document.querySelector('#digitalTestModalOpen').addEventListener('click', () => {
                   this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
                   this.openVideoInModal();
+              }) 
+              document.querySelector('#digitalTestNextButton').addEventListener('click', () => {
+                this.introJs.goToStep(7)
               })
-              document.querySelector('#chapterDoneButton').addEventListener('click', () => {
-                localStorage.removeItem('tourGuideCurrentScreen');
-                this.router.navigate(['/tour/menu']);
+              // document.querySelector('#chapterDoneButton').addEventListener('click', () => {
+              //   localStorage.removeItem('tourGuideCurrentScreen');
+              //   this.router.navigate(['/tour/menu']);
+              // })
+              break;
+          case "step7": 
+              console.log("step7");
+              document.querySelector('#studyPlanBackButton').addEventListener('click', () => {
+                this.introJs.goToStep(6)
+              })  
+              document.querySelector('#studyPlanModalOpen').addEventListener('click', () => {
+                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
+                  this.openVideoInModal();
+              }) 
+              document.querySelector('#studyPlanNextButton').addEventListener('click', () => {
+                  localStorage.removeItem('tourGuideCurrentScreen');
+                  this.router.navigate(['/tour/menu']);
               })
               break;
       }
