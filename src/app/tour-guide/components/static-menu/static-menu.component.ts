@@ -110,6 +110,10 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
               console.log("step4"); 
               document.querySelector('#assignmentBackButton').addEventListener('click', () => {
                 this.introJs.goToStep(3);
+              })  
+              document.querySelector('#assignmentNextButton').addEventListener('click', () => {
+                localStorage.removeItem('tourGuideCurrentScreen');
+                this.router.navigate(['/tour/menu']);
               })
               break;
         }

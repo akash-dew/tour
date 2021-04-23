@@ -14,14 +14,14 @@ export class StaticSubjectComponent implements OnInit, OnDestroy {
           element: '#step1',
           step: 1,
           title: "<span id='subjectBackButton' class='icon icon-back-black2 icon-lg'></span>Subjects",
-          intro: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p class='guidline-text'>Scroll to see all subjects</p><button class='btn btn-outline-primary btn-blue' id='ringStep'>What do those rings represent?</button>",
+          intro: "<p>My Studi subscription came with all the core CBSE subjects including <b>Math, Science, Social Studies, English and Hindi Literature</b> and even <b>Sanskrit</p><p>Even though I go for Hindi and Math tutions, I sometimes use Studi to practice these subjects at home.</p><p class='guidline-text'>Scroll to see all subjects.</p><button class='btn btn-outline-primary btn-blue' id='ringStep'>What do those rings represent?</button>",
           position: 'right'
         },
         {
           element: '#step2',
           step: 2,
           title: "<span id='confidenceBackButton' class='icon icon-back-black2 icon-lg'></span>Confidence Rings",
-          intro: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><button id='goToChaptersButton' class='btn btn-outline-primary btn-blue'>Tell me more about Chapters</button>",
+          intro: "<p>Those issues that you see under each subject represent my confidence level in each chapter of the book. They are updated everytime I complete a practice or test on Studi. They <b>reflect my current understanding of the chapter.</b></p><p>These rings constantly remind me about chapters and topics that require extra attention.</p><p class='guidline-text'>Scroll to see all subjects.</p><button id='goToChaptersButton' class='btn btn-outline-primary btn-blue'>Tell me more about subjects.</button>",
           position: 'right'
         }
     ],

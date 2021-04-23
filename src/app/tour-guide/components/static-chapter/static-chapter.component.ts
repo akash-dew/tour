@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./static-chapter.component.scss']
 })
 export class StaticChapterComponent implements OnInit, OnDestroy {
-  accordionClick = true;
+  accordionClick = false;
   introJs = introJs().setOptions({
     showBullets: false,
     steps: [
@@ -17,28 +17,42 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
           element: '#step1',
           step: 1,
           title: "<span id='syllabusBackButton' class='icon icon-back-black2 icon-lg'></span>Syllabus",
-          intro: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p class='guidline-text'>Scroll to see all subjects</p><button class='btn btn-outline-primary btn-blue' id='studyMaterialButton'>Tell me more about study materials</button>",
+          intro: "<p>In Studi, we always study from the prescribed syllabus. This means that all the study material in Studi is organized around books prescribed by the school.</p><p>So, <b>I'm always focussed and only studying what I am supposed to.</b></p><p class='guidline-text'>Scroll to see full Mathematics syllabus.</p><button class='btn btn-outline-primary btn-blue' id='syllabusNextButton'>Tell me more about study material.</button>",
           position: 'right'
         },
         {
           element: '#step2',
           step: 2,
           title: "<span id='bigIdeaBackButton' class='icon icon-back-black2 icon-lg'></span>Big Idea",
-          intro: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p class='guidline-text'>Scroll to see all subjects</p><p><button id='bigIdeaModalOpen' class='btn btn-outline-primary btn-blue'>Show me a Big idea</button></p><p><button class='btn btn-link btn-lg p-0' id='oralTestButton'>Tell me more about other resources.</button></p>",
+          intro: "<p>I really like the way Studi's <b>Big Idea helps me understand what the chapter is all about.</b></p><p>It reminds me of my favorite teacher, who used to start any topic with trivia about what we are about to learn.</p><p><button id='bigIdeaModalOpen' class='btn btn-outline-primary btn-blue'>Show me a Big Idea</button></p><p><button class='btn btn-link btn-lg p-0' id='bigIdeaNextButton'>Tell me more about other resources.</button></p>",
           position: 'right'
         },
         {
           element: '#step3',
           step: 3,
-          title: "<span id='oralTestBackButton' class='icon icon-back-black2 icon-lg'></span>Oral Test",
-          intro: "  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p class='guidline-text'>Scroll to see all subjects</p><p><button id='oralTestModalOpen' class='btn btn-outline-primary btn-blue'>How to create Oral Test</button></p><p><button class='btn btn-link btn-lg p-0' id='digitalTestButton'>Tell me more about other resources.</button></p>",
-          position: 'left'
+          title: "<span id='reviseBackButton' class='icon icon-back-black2 icon-lg'></span>Revise a topic",
+          intro: "<p><button id='reviseModalOpen' class='btn btn-outline-primary btn-blue'>Tell me how it works.</button></p><button class='btn btn-link btn-lg p-0' id='reviseModalNextButton'>Got it! Anything else?</button>",
+          position: 'right'
         },
         {
           element: '#step4',
           step: 4,
+          title: "<span id='practiceBackButton' class='icon icon-back-black2 icon-lg'></span>Practice a topic",
+          intro: "<p><button id='practiceModalOpen' class='btn btn-outline-primary btn-blue'>Tell me how it works.</button></p><button class='btn btn-link btn-lg p-0' id='practiceModalNextButton'>Got it! Anything else?</button>",
+          position: 'right'
+        },
+        {
+          element: '#step5',
+          step: 5,
+          title: "<span id='oralTestBackButton' class='icon icon-back-black2 icon-lg'></span>Oral Test",
+          intro: "  <p>With the Oral Test feature, my mom can now <b>create an instant quiz on any topic </b>to check if I've studied properly or not.</p><p>I hate Oral Test! :-(</p><p><button id='oralTestModalOpen' class='btn btn-outline-primary btn-blue'>Tell me how it works.</button></p><p><button class='btn btn-link btn-lg p-0' id='oralTestNextButton'>Got it! Anything else?</button></p>",
+          position: 'left'
+        },
+        {
+          element: '#step6',
+          step: 6,
           title: "<span id='digitalTestBackButton' class='icon icon-back-black2 icon-lg'></span>Digital Test",
-          intro: " <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p class='guidline-text'>Scroll to see all subjects</p><p><button id='digitalTestModalOpen' class='btn btn-outline-primary btn-blue'>How to create Digital Test</button></p><p><button class='btn btn-link btn-lg p-0' id='nextIntroButton'>Done with the tour</button></p>",
+          intro: " <p>My dad loves the Digital Test feature.</p><p>Now, even when he is not at home, he can <b>easily assign a test on the topics </b>I have completed. He feels that surprise tests like these will keep me on my toes.</p><p><button id='digitalTestModalOpen' class='btn btn-outline-primary btn-blue'>Tell me more about Digital Test.</button></p><p><button class='btn btn-link btn-lg p-0' id='chapterDoneButton'>Anything else?</button></p>",
           position: 'left'
         }
     ],
@@ -62,7 +76,7 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
         { 
           case "step1": 
               console.log("step1"); 
-              document.querySelector('#studyMaterialButton').addEventListener('click', () => {
+              document.querySelector('#syllabusNextButton').addEventListener('click', () => {
                 this.introJs.goToStep(2)
               }) 
               document.querySelector('#syllabusBackButton').addEventListener('click', () => {
@@ -71,7 +85,7 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
               break; 
           case "step2": 
               console.log("step2");
-              document.querySelector('#oralTestButton').addEventListener('click', () => {
+              document.querySelector('#bigIdeaNextButton').addEventListener('click', () => {
                 this.introJs.goToStep(3)
               })
               document.querySelector('#bigIdeaBackButton').addEventListener('click', () => {
@@ -84,25 +98,55 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
               break;
           case "step3": 
               console.log("step3");
-              document.querySelector('#digitalTestButton').addEventListener('click', () => {
+              document.querySelector('#reviseModalNextButton').addEventListener('click', () => {
                 this.introJs.goToStep(4)
               })
-              document.querySelector('#oralTestBackButton').addEventListener('click', () => {
+              document.querySelector('#reviseBackButton').addEventListener('click', () => {
                 this.introJs.goToStep(2)
+              })
+              document.querySelector('#reviseModalOpen').addEventListener('click', () => {
+                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
+                  this.openVideoInModal();
+              })
+              break;
+          case "step4": 
+              console.log("step4");
+              document.querySelector('#practiceModalNextButton').addEventListener('click', () => {
+                this.introJs.goToStep(5)
+              })
+              document.querySelector('#practiceBackButton').addEventListener('click', () => {
+                this.introJs.goToStep(3)
+              })
+              document.querySelector('#practiceModalOpen').addEventListener('click', () => {
+                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
+                  this.openVideoInModal();
+              })
+              break;
+          case "step5": 
+              console.log("step5");
+              document.querySelector('#oralTestNextButton').addEventListener('click', () => {
+                this.introJs.goToStep(6)
+              })
+              document.querySelector('#oralTestBackButton').addEventListener('click', () => {
+                this.introJs.goToStep(4)
               })
               document.querySelector('#oralTestModalOpen').addEventListener('click', () => {
                   this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
                   this.openVideoInModal();
               })
               break; 
-          case "step4": 
-              console.log("step4");
+          case "step6": 
+              console.log("step6");
               document.querySelector('#digitalTestBackButton').addEventListener('click', () => {
-                this.introJs.goToStep(3)
-              })
+                this.introJs.goToStep(5)
+              })  
               document.querySelector('#digitalTestModalOpen').addEventListener('click', () => {
                   this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
                   this.openVideoInModal();
+              })
+              document.querySelector('#chapterDoneButton').addEventListener('click', () => {
+                localStorage.removeItem('tourGuideCurrentScreen');
+                this.router.navigate(['/tour/menu']);
               })
               break;
       }
@@ -114,21 +158,17 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
     if(!this.videoModalRef){
       this.videoModalRef = this.modalService.open(this.content, {
         windowClass: 'modal-no-bg',
+        backdrop: 'static',
+        keyboard: false,
         size: 'xl',
         centered: true
-      });
+      })
     }
   }
 
   closeVideoModal() {
-    this.videoModalRef.close();
     this.videoModalRef = '';
-    if(this.step>=4){
-      localStorage.removeItem('tourGuideCurrentScreen');
-      this.router.navigate(['/tour/menu']);
-    } else {
-      this.introJs.start().goToStep(this.step);
-    }
+    this.modalService.dismissAll();
   }
 
   videoUrlSecurityByPass(url) {
