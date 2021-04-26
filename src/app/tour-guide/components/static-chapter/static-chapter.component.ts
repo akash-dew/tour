@@ -27,8 +27,8 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
       },500);
       localStorage.setItem('tourGuideCurrentScreen','chapter');
     } else {
-      localStorage.setItem('tourGuideCurrentScreen','chapter');
       setTimeout(()=>this.introJs.start(),500);
+      localStorage.setItem('tourGuideCurrentScreen','chapter');
     }
     this.introJs.onafterchange((targetElement)=>{
       this.step = Number(targetElement.id.replace("step",""));

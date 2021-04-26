@@ -19,7 +19,7 @@ export class StaticSubjectComponent implements OnInit, OnDestroy {
       },500);
       localStorage.setItem('tourGuideCurrentScreen','subject');
     } else {
-      setTimeout(()=>this.introJs.start(),500);;
+      setTimeout(()=>this.introJs.start(),500);
       localStorage.setItem('tourGuideCurrentScreen','subject');
     }
     

@@ -98,6 +98,5 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    localStorage.removeItem('tourGuideCurrentScreen');
   }
 }
