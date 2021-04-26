@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { StaticMenuComponent } from './components/static-menu/static-menu.component';
 import { StaticSubjectComponent } from './components/static-subject/static-subject.component';
 import { StaticChapterComponent } from './components/static-chapter/static-chapter.component';
+import { StaticMylessonComponent } from './components/static-mylesson/static-mylesson.component';
 const routes: Routes = [
   {
     path: "",
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
       path: "subject",
       component: StaticSubjectComponent,
+  },
+  {
+      path: "mylesson",
+      component: StaticMylessonComponent,
   }
 ];
 

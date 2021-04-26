@@ -6,9 +6,10 @@ import { StaticChapterComponent } from './components/static-chapter/static-chapt
 import { TourGuideRoutingModule } from './tour-guide-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { StaticMylessonComponent } from './components/static-mylesson/static-mylesson.component';
 
 @NgModule({
-  declarations: [StaticMenuComponent, StaticSubjectComponent, StaticChapterComponent],
+  declarations: [StaticMenuComponent, StaticSubjectComponent, StaticChapterComponent, StaticMylessonComponent],
   imports: [
     TourGuideRoutingModule,
     NgbModule,

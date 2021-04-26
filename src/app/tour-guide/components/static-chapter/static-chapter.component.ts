@@ -15,8 +15,6 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
   step;
   helpVideoUrl;
   videoModalRef;
-  closeTourModalRef;
-  @ViewChild('alert') alert: ElementRef;
   @ViewChild('content') content: ElementRef;
   constructor(private tourGuideService: TourGuideService,private router: Router, private route: ActivatedRoute, private modalService: NgbModal, private sanitizer: DomSanitizer) { }
 
@@ -107,32 +105,6 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
       }
     },500);
     });
-  }
-
-  openCloseTourModal() {
-    this.closeTourModalRef = this.modalService.open(this.alert, 
-      {size: 'md',
-      centered: true,
-      scrollable: true, 
-      backdrop: 'static',
-      keyboard: false, 
-      windowClass: 'mobile-center tour-modal' });
-  }
-
-  backtoIntro(){
-    this.introJs.goToStep(7);
-    this.modalService.dismissAll();
-  }
-
-  closeEndTourModal() {
-    this.introJs.exit();
-    this.modalService.dismissAll();
-  }
-
-  signUpRedirect(){
-    this.introJs.exit();
-    this.modalService.dismissAll();
-    this.router.navigate(['/authentication/register/child-details']);
   }
 
   openVideoInModal() {

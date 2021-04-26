@@ -13,12 +13,13 @@ export class StaticMylessonComponent implements OnInit, OnDestroy {
   videoModalRef;
   helpVideoUrl;
   introJs = introJs().setOptions(this.tourGuideService.getIntroSchemeByScreen('mylesson'));
-  modalRef;
+  closeTourModalRef;
   @ViewChild('alert') alert: ElementRef;
   @ViewChild('content') content: ElementRef;
   constructor(private tourGuideService: TourGuideService,private sanitizer: DomSanitizer, private router: Router, private modalService: NgbModal) { }
 
   ngOnInit(): void {
+    localStorage.setItem('tourGuideCurrentScreen','mylesson');
     setTimeout(()=>this.introJs.start(),500);
     this.introJs.onafterchange((targetElement)=>{
       setTimeout(()=> {
@@ -36,24 +37,26 @@ export class StaticMylessonComponent implements OnInit, OnDestroy {
         { 
           case "step1": 
               console.log("step1");
-              // if(document.querySelector('#'+targetElement.id+'NavigationBackButton')){
-              //   document.querySelector('#'+targetElement.id+'NavigationBackButton').addEventListener('click', () => {
-              //     localStorage.setItem('tourGuideCurrentScreen','menu');
-              //     this.router.navigate(['/tour/chapter']);
-              //   });
-              // }
-              // if(document.querySelector('#studyPlanModalOpen')){
-              //   document.querySelector('#studyPlanModalOpen').addEventListener('click', () => {
-              //     this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
-              //     this.openVideoInModal();
-              //   })
-              // }
-              // if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
-              //   document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
-              //     this.router.navigate(['/tour/mylesson'])
-              //   });
-              // }
+              if(document.querySelector('#'+targetElement.id+'NavigationBackButton')){
+                document.querySelector('#'+targetElement.id+'NavigationBackButton').addEventListener('click', () => {
+                  this.router.navigate(['/tour/menu']);
+                });
+              }  
+              if(document.querySelector('#dailyPlanModalOpen')){
+                document.querySelector('#dailyPlanModalOpen').addEventListener('click', () => {
+                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
+                  this.openVideoInModal();
+                })
+              }
               break; 
+          case "step2": 
+          console.log("step2");
+          if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
+            document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
+              this.openCloseTourModal();
+            });
+          } 
+          break; 
         }
       },500)
     });
@@ -71,6 +74,16 @@ export class StaticMylessonComponent implements OnInit, OnDestroy {
     }
   }
 
+  openCloseTourModal() {
+    this.closeTourModalRef = this.modalService.open(this.alert, 
+      {size: 'md',
+      centered: true,
+      scrollable: true, 
+      backdrop: 'static',
+      keyboard: false, 
+      windowClass: 'mobile-center tour-modal' });
+  }
+
   closeVideoModal() {
     this.videoModalRef = '';
     this.modalService.dismissAll();
@@ -82,6 +95,23 @@ export class StaticMylessonComponent implements OnInit, OnDestroy {
       url = `https://www.youtube.com/embed/` + videoid[1];
     }
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
+  backtoIntro(){
+    this.introJs.goToStep(2);
+    this.modalService.dismissAll();
+  }
+
+  closeEndTourModal() {
+    this.introJs.exit();
+    this.modalService.dismissAll();
+    window.location.href = "https://tatastudi.com/";
+  }
+
+  signUpRedirect(){
+    this.introJs.exit();
+    this.modalService.dismissAll();
+    window.location.href = "https://learn.tatastudi.com/authentication/register/child-details";
   }
 
   ngOnDestroy(): void {

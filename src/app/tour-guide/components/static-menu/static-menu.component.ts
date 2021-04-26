@@ -35,7 +35,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    if(localStorage.getItem('tourGuideCurrentScreen')=='menuLaunchStudyPlan'){
+    if(localStorage.getItem('tourGuideCurrentScreen')=='menuLaunchStudyPlan' || localStorage.getItem('tourGuideCurrentScreen')=='mylesson'){
       setTimeout(()=>this.introJs.start(),500);
     } else {
       localStorage.setItem('tourGuideCurrentScreen','menu');
