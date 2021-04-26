@@ -4,6 +4,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 import * as introJs from 'intro.js/intro.js';
 import { TourGuideService } from '../../tour-guide.service';
+import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'nx-afs-static-menu',
   templateUrl: './static-menu.component.html',
@@ -24,10 +25,13 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
       disableOnInteraction: false
     }
   };
+  videoModalRef;
+  helpVideoUrl;
   introJs = introJs().setOptions(this.tourGuideService.getIntroSchemeByScreen('menu'));
   modalRef;
   @ViewChild('alert') alert: ElementRef;
-  constructor(private tourGuideService: TourGuideService,private router: Router, private modalService: NgbModal) {
+  @ViewChild('content') content: ElementRef;
+  constructor(private tourGuideService: TourGuideService,private sanitizer: DomSanitizer, private router: Router, private modalService: NgbModal) {
   }
 
   ngOnInit(): void {
@@ -60,6 +64,12 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
                   this.router.navigate(['/tour/chapter']);
                 });
               }
+              if(document.querySelector('#studyPlanModalOpen')){
+                document.querySelector('#studyPlanModalOpen').addEventListener('click', () => {
+                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
+                  this.openVideoInModal();
+                })
+              }
               if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
                 document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
                   alert("Go to next screen");
@@ -86,6 +96,31 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   startTour(){
     this.modalRef.close();
     this.router.navigate(['/tour/subject']);
+  }
+
+  openVideoInModal() {
+    if(!this.videoModalRef){
+      this.videoModalRef = this.modalService.open(this.content, {
+        windowClass: 'modal-no-bg',
+        backdrop: 'static',
+        keyboard: false,
+        size: 'xl',
+        centered: true
+      })
+    }
+  }
+
+  closeVideoModal() {
+    this.videoModalRef = '';
+    this.modalService.dismissAll();
+  }
+
+  videoUrlSecurityByPass(url) {
+    let videoid = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
+    if (videoid !== null) {
+      url = `https://www.youtube.com/embed/` + videoid[1];
+    }
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
   closePopUp(){
