@@ -105,12 +105,14 @@ export class StaticMylessonComponent implements OnInit, OnDestroy {
   closeEndTourModal() {
     this.introJs.exit();
     this.modalService.dismissAll();
+    localStorage.removeItem('tourGuideCurrentScreen');
     window.location.href = "https://tatastudi.com/";
   }
 
   signUpRedirect(){
     this.introJs.exit();
     this.modalService.dismissAll();
+    localStorage.removeItem('tourGuideCurrentScreen');
     window.location.href = "https://learn.tatastudi.com/authentication/register/child-details";
   }
 

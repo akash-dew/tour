@@ -35,7 +35,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    if(localStorage.getItem('tourGuideCurrentScreen')=='menuLaunchStudyPlan' || localStorage.getItem('tourGuideCurrentScreen')=='mylesson'){
+    if(localStorage.getItem('tourGuideCurrentScreen') && (localStorage.getItem('tourGuideCurrentScreen')=='menuLaunchStudyPlan' || localStorage.getItem('tourGuideCurrentScreen')=='mylesson')){
       setTimeout(()=>this.introJs.start(),500);
     } else {
       localStorage.setItem('tourGuideCurrentScreen','menu');
@@ -129,6 +129,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
 
   laterButton(){
     this.modalRef.close();
+    localStorage.removeItem('tourGuideCurrentScreen');
     window.location.href = "https://tatastudi.com/";
   }
 
