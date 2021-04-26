@@ -105,8 +105,15 @@ export class TourGuideService {
           {
             element: '#step1',
             step: 1,
-            title: "<span id='step1NavigationBackButton' class='icon icon-back-black2 icon-lg'></span>Studi Plan",
-            intro: "<p>This is my favourite feature of Studi. Once I decide what portion I want to complete and by when, <b>Studi creates a day-wise plan that helps me complete the portion in the available days.</b></p><p>Ever since I've started using the Studi Plan, I've not had a single disagreement with my parents about what, when and how much I study every day at home.</p><p><button id='step1NavigationNextButton' class='btn btn-outline-primary btn-blue'>How do you study from this plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='studyPlanModalOpen'>Show me how a plan is created?</button></p>",
+            title: "<span id='step1NavigationBackButton' class='icon icon-back-black2 icon-lg'></span>Daily Plan",
+            intro: "<p>Studi's daily plan <b>tells me exactly what I have to study every day to complete my portion by the deadline I have set.</b></p><p>It <b>includes multiple rounds of practice on topics </b>that I completed earlier.</p><p><button id='step1NextButton' class='btn btn-outline-primary btn-blue'>How do you keep track of your plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='dailyPlanModalOpen'>What else does a daily plan contain?</button></p>",
+            position: 'left'
+          },
+          {
+            element: '#step2',
+            step: 2,
+            title: "<span id='step2BackButton' class='icon icon-back-black2 icon-lg'></span>Daily Progress",
+            intro: "<p>My daily progress chart <b>tracks exactly how long I've studied, how much I have completed, and how well I have studied.</b></p><p>Now whenever my parents ask me to prove that I have completed my studies, I just send them this chart using the instant share button.</p><p>That's it! No more fights about studies.</p><p><button id='step2NavigationNextButton' class='btn btn-outline-primary btn-blue'>I've seen enough, thanks.</button></p>",
             position: 'left'
           }
       ],
