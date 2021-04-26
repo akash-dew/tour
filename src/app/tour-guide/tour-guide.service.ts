@@ -114,7 +114,7 @@ export class TourGuideService {
             step: 2,
             title: "<span id='step2BackButton' class='icon icon-back-black2 icon-lg'></span>Daily Progress",
             intro: "<p>My daily progress chart <b>tracks exactly how long I've studied, how much I have completed, and how well I have studied.</b></p><p>Now whenever my parents ask me to prove that I have completed my studies, I just send them this chart using the instant share button.</p><p>That's it! No more fights about studies.</p><p><button id='step2NavigationNextButton' class='btn btn-outline-primary btn-blue'>I've seen enough, thanks.</button></p>",
-            position: 'left'
+            position: 'right'
           }
       ],
       showStepNumbers:false,
