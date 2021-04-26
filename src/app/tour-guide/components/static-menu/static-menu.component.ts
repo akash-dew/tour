@@ -72,7 +72,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
               }
               if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
                 document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
-                  alert("Go to next screen");
+                  this.router.navigate(['/tour/mylesson'])
                 });
               }
               break; 
