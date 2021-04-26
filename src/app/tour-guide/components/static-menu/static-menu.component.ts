@@ -27,6 +27,7 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
   };
   videoModalRef;
   helpVideoUrl;
+  debugger
   introJs = introJs().setOptions(this.tourGuideService.getIntroSchemeByScreen('menu'));
   modalRef;
   @ViewChild('alert') alert: ElementRef;
