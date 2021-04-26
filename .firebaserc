@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tour-84f2d"
+  },
+  "targets": {
+    "tour-84f2d": {
+      "hosting": {
+        "tour": [
+          "tour-84f2d"
+        ]
+      }
+    }
+  }
+}
