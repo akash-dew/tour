@@ -21,9 +21,15 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
   constructor(private tourGuideService: TourGuideService,private router: Router, private route: ActivatedRoute, private modalService: NgbModal, private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
-    localStorage.setItem('tourGuideCurrentScreen','chapter');
-    setTimeout(()=>this.introJs.start(),500);
-    
+    if(localStorage.getItem('tourGuideCurrentScreen')=='menu'){
+      setTimeout(() => {
+        this.introJs.start().goToStep(6);
+      },500);
+      localStorage.setItem('tourGuideCurrentScreen','chapter');
+    } else {
+      localStorage.setItem('tourGuideCurrentScreen','chapter');
+      setTimeout(()=>this.introJs.start(),500);
+    }
     this.introJs.onafterchange((targetElement)=>{
       this.step = Number(targetElement.id.replace("step",""));
       setTimeout(()=> {
@@ -93,7 +99,8 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
               }
               if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
                 document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
-                  
+                  localStorage.setItem('tourGuideCurrentScreen','menuLaunchStudyPlan');
+                  this.router.navigate(['/tour/menu']);
                 })
               }
               break;

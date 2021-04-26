@@ -10,6 +10,18 @@ export class TourGuideService {
   getIntroSchemeByScreen(screen){
     let tourSchema = {
       menu: {
+        steps: [
+          {
+            element: '#step1',
+            step: 1,
+            title: "<span id='step1NavigationBackButton' class='icon icon-back-black2 icon-lg'></span>Studi Plan",
+            intro: "<p>This is my favourite feature of Studi. Once I decide what portion I want to complete and by when, <b>Studi creates a day-wise plan that helps me complete the portion in the available days.</b></p><p>Ever since I've started using the Studi Plan, I've not had a single disagreement with my parents about what, when and how much I study every day at home.</p><p><button id='step1NavigationNextButton' class='btn btn-outline-primary btn-blue'>How do you study from this plan?</button></p><p><button class='btn btn-link btn-lg p-0' id='studyPlanModalOpen'>Show me how a plan is created?</button></p>",
+            position: 'left'
+          }
+      ],
+      showStepNumbers:false,
+      showButtons: false,
+      showBullets: false
       },
       subject: {
         steps: [
