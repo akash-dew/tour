@@ -53,9 +53,9 @@ export class StaticMenuComponent implements OnInit, OnDestroy {
     this.modalRef.close();
   }
 
-  signUpRedirect(){
+  laterButton(){
     this.modalRef.close();
-    this.router.navigate(['/authentication/register/child-details']);
+    window.location.href = "https://tatastudi.com/";
   }
 
   ngOnDestroy(): void {

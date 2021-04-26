@@ -15,7 +15,7 @@ export class StaticSubjectComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     if(localStorage.getItem('tourGuideCurrentScreen') && localStorage.getItem('tourGuideCurrentScreen')=='chapter'){
       setTimeout(() => {
-        this.introJs.start().goToStep(2);
+        this.introJs.start().goToStep(3);
       },500);
       localStorage.setItem('tourGuideCurrentScreen','subject');
     } else {
@@ -47,6 +47,9 @@ export class StaticSubjectComponent implements OnInit, OnDestroy {
               break; 
           case "step2": 
               console.log("step2");
+              break;
+          case "step3": 
+              console.log("step3");
               if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
                 document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
                   this.router.navigate(['/tour/chapter']);

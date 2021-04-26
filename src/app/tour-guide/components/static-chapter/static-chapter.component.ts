@@ -91,18 +91,9 @@ export class StaticChapterComponent implements OnInit, OnDestroy {
                   this.openVideoInModal();
                 }) 
               }
-              break;
-          case "step7": 
-              console.log("step7"); 
-              if(document.querySelector('#studyPlanModalOpen')){
-                document.querySelector('#studyPlanModalOpen').addEventListener('click', () => {
-                  this.helpVideoUrl = this.videoUrlSecurityByPass('https://www.youtube.com/watch?v=mtoKA1-Kcr0');
-                  this.openVideoInModal();
-                }) 
-              }
-              if(document.querySelector('#'+targetElement.id+'NextButton')){
-                document.querySelector('#'+targetElement.id+'NextButton').addEventListener('click', () => {
-                  this.openCloseTourModal();
+              if(document.querySelector('#'+targetElement.id+'NavigationNextButton')){
+                document.querySelector('#'+targetElement.id+'NavigationNextButton').addEventListener('click', () => {
+                  
                 })
               }
               break;
