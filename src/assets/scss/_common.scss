@@ -3306,7 +3306,18 @@ ngx-skeleton-loader .loader {
 }
 
 .subjects-list { 
-	min-height: calc(100vh - 306px);
+		min-height: calc(100vh - 306px);
+		padding: 0 0 4.3333333333rem;
+		max-height: calc(100vh - 250px);
+		overflow: auto;
+
+		@include media-breakpoint-down(md) {
+			min-height: auto;
+			max-height: 28vh;
+		}
+
+
+
 	.lib-subject-card {
 		.subj-card {
 			transition: all 0.5s;
@@ -3872,16 +3883,23 @@ body{
 
 @include media-breakpoint-up(md) {
 	.introjs-tooltip{      
-		 min-width: 460px;
-		 max-width: 460px;
+		 min-width: 400px;
+		 max-width: 400px;
 		 border-radius: 25px;
 		 padding:size(25);
+		 box-sizing: border-box;
+
 	 }
 }
 @include media-breakpoint-down(md) {
 	.introjs-tooltip{      
-		min-width: 96vw;
-		
+		min-width: 90vw;
+		min-width: 90vw;
+		padding:size(15);
+		margin: 0 5vw;
+		left: 0!important;
+		box-sizing: border-box;
+
 	}
 }
 	 .introjs-arrow.right {
@@ -3921,6 +3939,12 @@ body{
 	 .guidline-text,
 	 .introjs-tooltiptext{
 		 font-size: size(18);
+
+		 @include media-breakpoint-down(md) {
+			font-size: size(14);
+			
+		}
+
 	 }
 	 .introjs-tooltiptext,
 	 .introjs-tooltip-header{
@@ -3929,10 +3953,14 @@ body{
 
 	 .introjs-tooltip-title{
 		@include heading2();
-		font-size: size(40);
+		font-size: size(38);
 		color: #707070;
 		padding: 0 0 size(20);
 		font-weight: $regular;
+		@include media-breakpoint-down(md) {
+			font-size: size(26);
+			
+		}
 	 }
 
 	 .introjs-tooltipbuttons{
@@ -3970,6 +3998,10 @@ body{
 		background: url(../images/tour/user.png) no-repeat 0 bottom;
 		padding: 70px 0 50px;
 		margin: 0 -25px -40px;
+		border-radius: 0 0 0 25px;
+
+		
+
 	}
 	.icon-back-black2 {
 		transform: scale(1.2);
@@ -3996,4 +4028,28 @@ body{
 
 button.underline{
 	text-decoration: underline;
+}
+
+
+@include media-breakpoint-down(md) {
+	.tour-modal{
+
+		.user-img{
+			background-size: 100px;
+			padding: size(20) 0 size(50);
+		}
+	}
+}
+
+
+.chapters-list-height {
+	padding:0;
+	max-height: calc(100vh - 350px);
+	overflow: auto;
+  }
+
+@include media-breakpoint-down(md) {
+	.chapters-list-height{
+		max-height: 20vh;
+	}
 }

@@ -737,7 +737,8 @@ li.chapter-notes{
 
 @include media-breakpoint-down(md) {
   .slider-wrapper {
-    position: fixed;
+    // position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     z-index: 999;

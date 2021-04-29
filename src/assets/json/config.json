@@ -97,7 +97,7 @@
           "step": 1,
           "title": "<span id='step1NavigationBackButton' class='icon icon-back-black2 icon-lg'></span>Daily Plan",
           "intro": "<p>Studi's daily plan <b>tells me exactly what I have to study every day to complete my portion by the deadline I have set.</b></p><p>It <b>includes multiple rounds of practice on topics </b>that I completed earlier.</p><p><button id='step1NextButton' class='btn btn-outline-primary btn-blue'>How do you keep track of your plan?</button></p><p><button class='btn btn-link btn-lg p-0 underline' id='dailyPlanModalOpen'>What else does a daily plan contain?</button></p>",
-          "position": "left"
+          "position": "right"
         },
         {
           "element": "#step2",
